@@ -1,0 +1,24 @@
+User
+Information
+Pick
+Website
+Feedback
+Admin
+Dashboard
+System
+Developer
+CenterInformation
+Center
+Superuser
+RecyclingfacilityRepresentative
+Representative
+Recyclingfacility
+Access
+Display
+Employee
+Executive
+HRDepartment
+Company
+CompanyAccountant
+
+Total classes: 22

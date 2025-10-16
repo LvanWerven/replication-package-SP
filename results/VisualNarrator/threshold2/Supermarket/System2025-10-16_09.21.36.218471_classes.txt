@@ -1,0 +1,18 @@
+Customer
+Newsletter
+Discount
+Product
+DeliveryService
+Service
+Delivery
+Recipe
+CustomerService
+Stock
+Store
+System
+Time
+Employee
+DeliveryTime
+Notification
+
+Total classes: 16

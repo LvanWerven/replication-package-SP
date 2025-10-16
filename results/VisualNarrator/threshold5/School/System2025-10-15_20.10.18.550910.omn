@@ -1,0 +1,93 @@
+# Generated with Visual Narrator
+Prefix: : <http://fakesite.org/system.owl#>
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+Prefix: dc: <http://purl.org/dc/elements/1.1/>
+Prefix: onto: <http://fakesite.org/system.owl#>
+
+Ontology: <:>
+
+Annotations:
+	dc:title "System",
+	dc:creator "Visual Narrator",
+	rdfs:comment "Generated with Visual Narrator"
+
+AnnotationProperty: dc:creator
+
+AnnotationProperty: dc:title
+
+
+# Relationships
+ObjectProperty: :canTeacher
+	Domain: :Student
+	Range: :Insight
+
+ObjectProperty: :canCangain1
+	Domain: :Teacher
+	Range: :Insight
+
+ObjectProperty: :canCangain2
+	Domain: :Administrator
+	Range: :Insight
+
+ObjectProperty: :canMessage
+	Domain: :Teacher
+	Range: :Student
+
+ObjectProperty: :canGain1
+	Domain: :Student
+	Range: :Insight
+
+ObjectProperty: :canGain2
+	Domain: :Teacher
+	Range: :Insight
+
+ObjectProperty: :canGain3
+	Domain: :Administrator
+	Range: :Insight
+
+ObjectProperty: :canGather
+	Domain: :Administrator
+	Range: :Insight
+
+ObjectProperty: :canReceive1
+	Domain: :Student
+	Range: :Notification
+
+ObjectProperty: :canReceive2
+	Domain: :Teacher
+	Range: :Notification
+
+ObjectProperty: :canReceive3
+	Domain: :Administrator
+	Range: :Notification
+
+# Classes
+Class: :Student
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Notification
+
+
+Class: :Insight
+
+
+Class: :Teacher
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Administrator
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Guardian
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :User
+	Annotations:
+		rdfs:comment "Functional Role"
+

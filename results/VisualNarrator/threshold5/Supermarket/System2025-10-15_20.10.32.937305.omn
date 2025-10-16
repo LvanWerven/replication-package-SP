@@ -1,0 +1,89 @@
+# Generated with Visual Narrator
+Prefix: : <http://fakesite.org/system.owl#>
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+Prefix: dc: <http://purl.org/dc/elements/1.1/>
+Prefix: onto: <http://fakesite.org/system.owl#>
+
+Ontology: <:>
+
+Annotations:
+	dc:title "System",
+	dc:creator "Visual Narrator",
+	rdfs:comment "Generated with Visual Narrator"
+
+AnnotationProperty: dc:creator
+
+AnnotationProperty: dc:title
+
+
+# Relationships
+ObjectProperty: :canHave
+	Domain: :Customer
+	Range: :Product
+
+ObjectProperty: :canOrder
+	Domain: :Customer
+	Range: :Product
+
+ObjectProperty: :canPurchase
+	Domain: :Customer
+	Range: :Product
+
+ObjectProperty: :canProvide
+	Domain: :Employee
+	Range: :Customer
+
+ObjectProperty: :canContact
+	Domain: :Employee
+	Range: :Customer
+
+ObjectProperty: :canSeeOut
+	Domain: :Customer
+	Range: :System
+
+ObjectProperty: :canAdd
+	Domain: :Customer
+	Range: :Product
+
+ObjectProperty: :canNotify
+	Domain: :Employee
+	Range: :Customer
+
+ObjectProperty: :canFilter
+	Domain: :Customer
+	Range: :Product
+
+ObjectProperty: :canSearchFor
+	Domain: :Customer
+	Range: :Product
+
+ObjectProperty: :canFind
+	Domain: :Customer
+	Range: :Product
+
+ObjectProperty: :canScan
+	Domain: :Customer
+	Range: :Product
+
+ObjectProperty: :canKnow
+	Domain: :Customer
+	Range: :Product
+
+# Classes
+Class: :Customer
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Product
+
+
+Class: :System
+
+
+Class: :Employee
+	Annotations:
+		rdfs:comment "Functional Role"
+

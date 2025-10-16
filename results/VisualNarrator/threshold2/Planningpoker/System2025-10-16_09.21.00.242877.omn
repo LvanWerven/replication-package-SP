@@ -1,0 +1,220 @@
+# Generated with Visual Narrator
+Prefix: : <http://fakesite.org/system.owl#>
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+Prefix: dc: <http://purl.org/dc/elements/1.1/>
+Prefix: onto: <http://fakesite.org/system.owl#>
+
+Ontology: <:>
+
+Annotations:
+	dc:title "System",
+	dc:creator "Visual Narrator",
+	rdfs:comment "Generated with Visual Narrator"
+
+AnnotationProperty: dc:creator
+
+AnnotationProperty: dc:title
+
+
+# Relationships
+ObjectProperty: :canExport
+	Domain: :Moderator
+	Range: :Transcript
+
+ObjectProperty: :canEdit
+	Domain: :Moderator
+	Range: :Item
+
+ObjectProperty: :canTrust
+	Domain: :User
+	Range: :System
+
+ObjectProperty: :canSelect1
+	Domain: :Moderator
+	Range: :Item
+
+ObjectProperty: :canSelect2
+	Domain: :Moderator
+	Range: :Estimate
+
+ObjectProperty: :canStart1
+	Domain: :Moderator
+	Range: :Estimator
+
+ObjectProperty: :canStart2
+	Domain: :Moderator
+	Range: :Application
+
+ObjectProperty: :canShow1
+	Domain: :Moderator
+	Range: :Estimate
+
+ObjectProperty: :canShow2
+	Domain: :Participant
+	Range: :Estimate
+
+ObjectProperty: :canSave
+	Domain: :Moderator
+	Range: :Item
+
+ObjectProperty: :canDecide
+	Domain: :Moderator
+	Range: :Estimate
+
+ObjectProperty: :canEnter
+	Domain: :Moderator
+	Range: :Estimate
+
+ObjectProperty: :canJoin
+	Domain: :Estimator
+	Range: :Game
+
+ObjectProperty: :canGet
+	Domain: :Moderator
+	Range: :Application
+
+ObjectProperty: :canSee1
+	Domain: :Moderator
+	Range: :Item
+
+ObjectProperty: :canSee2
+	Domain: :Estimator
+	Range: :System
+
+ObjectProperty: :canSee3
+	Domain: :Estimator
+	Range: :Item
+
+ObjectProperty: :canSee4
+	Domain: :Participant
+	Range: :Estimator
+
+ObjectProperty: :canSee5
+	Domain: :Participant
+	Range: :Estimate
+
+ObjectProperty: :canEstimate
+	Domain: :Moderator
+	Range: :Item
+
+ObjectProperty: :canAdd
+	Domain: :Moderator
+	Range: :Item
+
+ObjectProperty: :canDelete1
+	Domain: :Moderator
+	Range: :Item
+
+ObjectProperty: :canDelete2
+	Domain: :Moderator
+	Range: :Game
+
+ObjectProperty: :canDelete3
+	Domain: :Moderator
+	Range: :Account
+
+ObjectProperty: :canProcess
+	Domain: :Moderator
+	Range: :Item
+
+ObjectProperty: :canCreate1
+	Domain: :Moderator
+	Range: :Game
+
+ObjectProperty: :canCreate2
+	Domain: :Moderator
+	Range: :Account
+
+ObjectProperty: :canImport
+	Domain: :Moderator
+	Range: :Item
+
+ObjectProperty: :canScrollThroughFrom
+	Domain: :Participant
+	Range: :Item
+
+ObjectProperty: :canBe
+	Domain: :Estimate
+	Range: :Estimate
+
+ObjectProperty: :canKnow
+	Domain: :Participant
+	Range: :Estimate
+
+ObjectProperty: :canChange
+	Domain: :Participant
+	Range: :Estimate
+
+ObjectProperty: :canHave
+	Domain: :Moderator
+	Range: :Item
+
+ObjectProperty: :canStore
+	Domain: :Item
+	Range: :Game
+
+ObjectProperty: :canBrowseThrough
+	Domain: :Moderator
+	Range: :Game
+
+ObjectProperty: :canInvite
+	Domain: :Moderator
+	Range: :Estimator
+
+ObjectProperty: :canView
+	Domain: :Moderator
+	Range: :Transcript
+
+# Classes
+Class: :Moderator
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Game
+
+
+Class: :Estimator
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Item
+
+
+Class: :Estimate
+
+
+Class: :Transcript
+
+
+Class: :Account
+
+
+Class: :Application
+
+
+Class: :System
+
+
+Class: :Participant
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :User
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Developer
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Researcher
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Mike
+	Annotations:
+		rdfs:comment "Functional Role"
+

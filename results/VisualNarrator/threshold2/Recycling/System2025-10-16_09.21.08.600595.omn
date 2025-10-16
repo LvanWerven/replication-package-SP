@@ -1,0 +1,194 @@
+# Generated with Visual Narrator
+Prefix: : <http://fakesite.org/system.owl#>
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+Prefix: dc: <http://purl.org/dc/elements/1.1/>
+Prefix: onto: <http://fakesite.org/system.owl#>
+
+Ontology: <:>
+
+Annotations:
+	dc:title "System",
+	dc:creator "Visual Narrator",
+	rdfs:comment "Generated with Visual Narrator"
+
+AnnotationProperty: dc:creator
+
+AnnotationProperty: dc:title
+
+
+# Relationships
+ObjectProperty: :canBlock
+	Domain: :Admin
+	Range: :User
+
+ObjectProperty: :hasInformation
+	Domain: :Center
+	Range: :CenterInformation
+
+ObjectProperty: :canAdd1
+	Domain: :Admin
+	Range: :Information
+
+ObjectProperty: :canAdd2
+	Domain: :Admin
+	Range: :CenterInformation
+
+ObjectProperty: :canUpdate1
+	Domain: :Superuser
+	Range: :CenterInformation
+
+ObjectProperty: :canUpdate2
+	Domain: :RecyclingfacilityRepresentative
+	Range: :Information
+
+ObjectProperty: :canViewIn
+	Domain: :Superuser
+	Range: :CenterInformation
+
+ObjectProperty: :canGive
+	Domain: :User
+	Range: :Feedback
+
+ObjectProperty: :hasRepresentative
+	Domain: :Recyclingfacility
+	Range: :RecyclingfacilityRepresentative
+
+ObjectProperty: :canRead
+	Domain: :Admin
+	Range: :Feedback
+
+ObjectProperty: :canProvide
+	Domain: :Superuser
+	Range: :Information
+
+ObjectProperty: :canView1
+	Domain: :User
+	Range: :Information
+
+ObjectProperty: :canView2
+	Domain: :Admin
+	Range: :Dashboard
+
+ObjectProperty: :canChoose
+	Domain: :User
+	Range: :Pick
+
+ObjectProperty: :canDesign
+	Domain: :Developer
+	Range: :Website
+
+ObjectProperty: :canUse
+	Domain: :User
+	Range: :Website
+
+ObjectProperty: :canGet1
+	Domain: :User
+	Range: :Feedback
+
+ObjectProperty: :canGet2
+	Domain: :User
+	Range: :Information
+
+ObjectProperty: :canHave1
+	Domain: :User
+	Range: :Pick
+
+ObjectProperty: :canHave2
+	Domain: :Admin
+	Range: :System
+
+ObjectProperty: :canHave3
+	Domain: :Admin
+	Range: :Dashboard
+
+ObjectProperty: :canHave4
+	Domain: :RecyclingfacilityRepresentative
+	Range: :Access
+
+# Classes
+Class: :User
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Information
+
+
+Class: :Pick
+
+
+Class: :Website
+
+
+Class: :Feedback
+
+
+Class: :Admin
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Dashboard
+
+
+Class: :System
+
+
+Class: :Developer
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :CenterInformation
+	SubClassOf: :Information
+	Annotations:
+		rdfs:label "Center Information"
+
+Class: :Center
+
+
+Class: :Superuser
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :RecyclingfacilityRepresentative
+	SubClassOf: :Representative
+	Annotations:
+		rdfs:label "Recyclingfacility Representative",
+		rdfs:comment "Functional Role"
+
+Class: :Representative
+
+
+Class: :Recyclingfacility
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Access
+
+
+Class: :Display
+
+
+Class: :Employee
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Executive
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :HRDepartment
+	Annotations:
+		rdfs:label "HR Department",
+		rdfs:comment "Functional Role"
+
+Class: :Company
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :CompanyAccountant
+	Annotations:
+		rdfs:label "Company Accountant",
+		rdfs:comment "Functional Role"
+

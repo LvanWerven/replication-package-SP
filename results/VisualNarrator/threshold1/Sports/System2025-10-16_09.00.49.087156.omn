@@ -1,0 +1,424 @@
+# Generated with Visual Narrator
+Prefix: : <http://fakesite.org/system.owl#>
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+Prefix: dc: <http://purl.org/dc/elements/1.1/>
+Prefix: onto: <http://fakesite.org/system.owl#>
+
+Ontology: <:>
+
+Annotations:
+	dc:title "System",
+	dc:creator "Visual Narrator",
+	rdfs:comment "Generated with Visual Narrator"
+
+AnnotationProperty: dc:creator
+
+AnnotationProperty: dc:title
+
+
+# Relationships
+ObjectProperty: :canShowIn
+	Domain: :Customer
+	Range: :It
+
+ObjectProperty: :canChange1
+	Domain: :Customer
+	Range: :Detail
+
+ObjectProperty: :canChange2
+	Domain: :Trainer
+	Range: :Room
+
+ObjectProperty: :canUse1
+	Domain: :Customer
+	Range: :Information
+
+ObjectProperty: :canUse2
+	Domain: :User
+	Range: :System
+
+ObjectProperty: :canBook
+	Domain: :Customer
+	Range: :Spot
+
+ObjectProperty: :canConfirm
+	Domain: :Customer
+	Range: :System
+
+ObjectProperty: :canUnsubscribe
+	Domain: :Customer
+	Range: :System
+
+ObjectProperty: :canReceive
+	Domain: :Customer
+	Range: :Notification
+
+ObjectProperty: :canSee1
+	Domain: :Customer
+	Range: :Membership
+
+ObjectProperty: :canSee2
+	Domain: :Customer
+	Range: :Overview
+
+ObjectProperty: :canSee3
+	Domain: :Customer
+	Range: :Lesson
+
+ObjectProperty: :canSee4
+	Domain: :Customer
+	Range: :Record
+
+ObjectProperty: :canSee5
+	Domain: :Customer
+	Range: :Timeslot
+
+ObjectProperty: :canSee6
+	Domain: :Trainer
+	Range: :Timeslot
+
+ObjectProperty: :canSee7
+	Domain: :Trainer
+	Range: :System
+
+ObjectProperty: :canSee8
+	Domain: :Admin
+	Range: :Session
+
+ObjectProperty: :canSee9
+	Domain: :Admin
+	Range: :Time
+
+ObjectProperty: :canSee10
+	Domain: :Customer
+	Range: :Information
+
+ObjectProperty: :canSee11
+	Domain: :Trainer
+	Range: :Information
+
+ObjectProperty: :canSee12
+	Domain: :Admin
+	Range: :Subscription
+
+ObjectProperty: :canSee13
+	Domain: :Admin
+	Range: :Booking
+
+ObjectProperty: :canOpen
+	Domain: :Customer
+	Range: :Account
+
+ObjectProperty: :canNotify
+	Domain: :Customer
+	Range: :Session
+
+ObjectProperty: :canReset
+	Domain: :Customer
+	Range: :Password
+
+ObjectProperty: :canChoose1
+	Domain: :Customer
+	Range: :MembershipType
+
+ObjectProperty: :canChoose2
+	Domain: :Customer
+	Range: :What
+
+ObjectProperty: :canExtend
+	Domain: :Customer
+	Range: :Subscription
+
+ObjectProperty: :canCall1
+	Domain: :Customer
+	Range: :Gym
+
+ObjectProperty: :canCall2
+	Domain: :Admin
+	Range: :They
+
+ObjectProperty: :canAccess
+	Domain: :They
+	Range: :System
+
+ObjectProperty: :canOrganize
+	Domain: :Trainer
+	Range: :Lesson
+
+ObjectProperty: :canStart
+	Domain: :Customer
+	Range: :DailySports
+
+ObjectProperty: :canKnow1
+	Domain: :Customer
+	Range: :System
+
+ObjectProperty: :canKnow2
+	Domain: :Customer
+	Range: :It
+
+ObjectProperty: :canKnow3
+	Domain: :Customer
+	Range: :DailySports
+
+ObjectProperty: :canKnow4
+	Domain: :Customer
+	Range: :What
+
+ObjectProperty: :canKnow5
+	Domain: :Admin
+	Range: :Which
+
+ObjectProperty: :canHave1
+	Domain: :Customer
+	Range: :Application
+
+ObjectProperty: :canHave2
+	Domain: :Admin
+	Range: :System
+
+ObjectProperty: :canHave3
+	Domain: :Admin
+	Range: :Fine
+
+ObjectProperty: :canHave4
+	Domain: :Customer
+	Range: :Method
+
+ObjectProperty: :canAdd1
+	Domain: :Customer
+	Range: :Information
+
+ObjectProperty: :canAdd2
+	Domain: :Customer
+	Range: :Person
+
+ObjectProperty: :canAdd3
+	Domain: :Trainer
+	Range: :Lesson
+
+ObjectProperty: :canAdd4
+	Domain: :Admin
+	Range: :Trainer
+
+ObjectProperty: :canAdd5
+	Domain: :Admin
+	Range: :Admin
+
+ObjectProperty: :hasType
+	Domain: :Membership
+	Range: :MembershipType
+
+ObjectProperty: :canUtilize
+	Domain: :Customer
+	Range: :It
+
+ObjectProperty: :canLogTo
+	Domain: :User
+	Range: :System
+
+ObjectProperty: :canRemove1
+	Domain: :Customer
+	Range: :Person
+
+ObjectProperty: :canRemove2
+	Domain: :Admin
+	Range: :Trainer
+
+ObjectProperty: :canCancel1
+	Domain: :Trainer
+	Range: :Lesson
+
+ObjectProperty: :canCancel2
+	Domain: :Admin
+	Range: :Lesson
+
+ObjectProperty: :canCansee
+	Domain: :Customer
+	Range: :They
+
+ObjectProperty: :canSet1
+	Domain: :Trainer
+	Range: :Time
+
+ObjectProperty: :canSet2
+	Domain: :Trainer
+	Range: :Description
+
+ObjectProperty: :canSet3
+	Domain: :Trainer
+	Range: :Room
+
+ObjectProperty: :canSet4
+	Domain: :Trainer
+	Range: :Type
+
+ObjectProperty: :canSet5
+	Domain: :Trainer
+	Range: :Number
+
+ObjectProperty: :canManage
+	Domain: :Customer
+	Range: :Time
+
+ObjectProperty: :canMove
+	Domain: :Trainer
+	Range: :Lesson
+
+ObjectProperty: :canGoToFor
+	Domain: :Customer
+	Range: :DailySports
+
+ObjectProperty: :canCorrect
+	Domain: :It
+	Range: :Lesson
+
+ObjectProperty: :canEdit1
+	Domain: :Trainer
+	Range: :Lesson
+
+ObjectProperty: :canEdit2
+	Domain: :Trainer
+	Range: :Time
+
+ObjectProperty: :canEdit3
+	Domain: :Trainer
+	Range: :Description
+
+ObjectProperty: :canEdit4
+	Domain: :Trainer
+	Range: :Number
+
+ObjectProperty: :canEdit5
+	Domain: :Admin
+	Range: :Lesson
+
+ObjectProperty: :canPayFor
+	Domain: :Customer
+	Range: :Subscription
+
+# Classes
+Class: :Customer
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Account
+
+
+Class: :DailySports
+	Annotations:
+		rdfs:label "Daily Sports"
+
+Class: :Information
+
+
+Class: :Subscription
+
+
+Class: :MembershipType
+	SubClassOf: :Type
+	Annotations:
+		rdfs:label "Membership Type"
+
+Class: :Type
+
+
+Class: :Membership
+
+
+Class: :System
+
+
+Class: :It
+
+
+Class: :Password
+
+
+Class: :Detail
+
+
+Class: :Person
+
+
+Class: :Overview
+
+
+Class: :Lesson
+
+
+Class: :Time
+
+
+Class: :Record
+
+
+Class: :Gym
+
+
+Class: :Application
+
+
+Class: :Spot
+
+
+Class: :Timeslot
+
+
+Class: :Trainer
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Description
+
+
+Class: :Room
+
+
+Class: :Number
+
+
+Class: :What
+
+
+Class: :Admin
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Notification
+
+
+Class: :Session
+
+
+Class: :Fine
+
+
+Class: :They
+
+
+Class: :User
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Which
+
+
+Class: :Method
+
+
+Class: :Booking
+
+
+Class: :Daily
+
+
+Class: :Sports
+
+
+Class: :Show
+
+

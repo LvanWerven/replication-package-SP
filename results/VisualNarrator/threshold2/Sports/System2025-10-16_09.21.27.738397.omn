@@ -1,0 +1,289 @@
+# Generated with Visual Narrator
+Prefix: : <http://fakesite.org/system.owl#>
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+Prefix: dc: <http://purl.org/dc/elements/1.1/>
+Prefix: onto: <http://fakesite.org/system.owl#>
+
+Ontology: <:>
+
+Annotations:
+	dc:title "System",
+	dc:creator "Visual Narrator",
+	rdfs:comment "Generated with Visual Narrator"
+
+AnnotationProperty: dc:creator
+
+AnnotationProperty: dc:title
+
+
+# Relationships
+ObjectProperty: :canUnsubscribe
+	Domain: :Customer
+	Range: :System
+
+ObjectProperty: :canCancel1
+	Domain: :Trainer
+	Range: :Lesson
+
+ObjectProperty: :canCancel2
+	Domain: :Admin
+	Range: :Lesson
+
+ObjectProperty: :canKnow1
+	Domain: :Customer
+	Range: :System
+
+ObjectProperty: :canKnow2
+	Domain: :Customer
+	Range: :It
+
+ObjectProperty: :canCorrect
+	Domain: :It
+	Range: :Lesson
+
+ObjectProperty: :canRemove1
+	Domain: :Customer
+	Range: :Person
+
+ObjectProperty: :canRemove2
+	Domain: :Admin
+	Range: :Trainer
+
+ObjectProperty: :canNotify
+	Domain: :Customer
+	Range: :Session
+
+ObjectProperty: :canUse
+	Domain: :Customer
+	Range: :Information
+
+ObjectProperty: :canChange1
+	Domain: :Customer
+	Range: :Detail
+
+ObjectProperty: :canChange2
+	Domain: :Trainer
+	Range: :Room
+
+ObjectProperty: :canSee1
+	Domain: :Customer
+	Range: :Overview
+
+ObjectProperty: :canSee2
+	Domain: :Customer
+	Range: :Lesson
+
+ObjectProperty: :canSee3
+	Domain: :Customer
+	Range: :Timeslot
+
+ObjectProperty: :canSee4
+	Domain: :Trainer
+	Range: :Timeslot
+
+ObjectProperty: :canSee5
+	Domain: :Trainer
+	Range: :System
+
+ObjectProperty: :canSee6
+	Domain: :Admin
+	Range: :Session
+
+ObjectProperty: :canSee7
+	Domain: :Admin
+	Range: :Time
+
+ObjectProperty: :canSee8
+	Domain: :Customer
+	Range: :Information
+
+ObjectProperty: :canSee9
+	Domain: :Trainer
+	Range: :Information
+
+ObjectProperty: :canSee10
+	Domain: :Admin
+	Range: :Subscription
+
+ObjectProperty: :canReceive
+	Domain: :Customer
+	Range: :Notification
+
+ObjectProperty: :canOrganize
+	Domain: :Trainer
+	Range: :Lesson
+
+ObjectProperty: :canUtilize
+	Domain: :Customer
+	Range: :It
+
+ObjectProperty: :canConfirm
+	Domain: :Customer
+	Range: :System
+
+ObjectProperty: :canEdit1
+	Domain: :Trainer
+	Range: :Lesson
+
+ObjectProperty: :canEdit2
+	Domain: :Trainer
+	Range: :Time
+
+ObjectProperty: :canEdit3
+	Domain: :Trainer
+	Range: :Description
+
+ObjectProperty: :canEdit4
+	Domain: :Trainer
+	Range: :Number
+
+ObjectProperty: :canEdit5
+	Domain: :Admin
+	Range: :Lesson
+
+ObjectProperty: :canPayFor
+	Domain: :Customer
+	Range: :Subscription
+
+ObjectProperty: :canCall
+	Domain: :Customer
+	Range: :Gym
+
+ObjectProperty: :canHave1
+	Domain: :Customer
+	Range: :Application
+
+ObjectProperty: :canHave2
+	Domain: :Admin
+	Range: :System
+
+ObjectProperty: :canExtend
+	Domain: :Customer
+	Range: :Subscription
+
+ObjectProperty: :canShowIn
+	Domain: :Customer
+	Range: :It
+
+ObjectProperty: :canAdd1
+	Domain: :Customer
+	Range: :Information
+
+ObjectProperty: :canAdd2
+	Domain: :Customer
+	Range: :Person
+
+ObjectProperty: :canAdd3
+	Domain: :Trainer
+	Range: :Lesson
+
+ObjectProperty: :canAdd4
+	Domain: :Admin
+	Range: :Trainer
+
+ObjectProperty: :canAdd5
+	Domain: :Admin
+	Range: :Admin
+
+ObjectProperty: :canSet1
+	Domain: :Trainer
+	Range: :Time
+
+ObjectProperty: :canSet2
+	Domain: :Trainer
+	Range: :Description
+
+ObjectProperty: :canSet3
+	Domain: :Trainer
+	Range: :Room
+
+ObjectProperty: :canSet4
+	Domain: :Trainer
+	Range: :Type
+
+ObjectProperty: :canSet5
+	Domain: :Trainer
+	Range: :Number
+
+ObjectProperty: :canMove
+	Domain: :Trainer
+	Range: :Lesson
+
+ObjectProperty: :canManage
+	Domain: :Customer
+	Range: :Time
+
+# Classes
+Class: :Customer
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Information
+
+
+Class: :Subscription
+
+
+Class: :System
+
+
+Class: :It
+
+
+Class: :Detail
+
+
+Class: :Person
+
+
+Class: :Overview
+
+
+Class: :Lesson
+
+
+Class: :Time
+
+
+Class: :Gym
+
+
+Class: :Application
+
+
+Class: :Timeslot
+
+
+Class: :Trainer
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Description
+
+
+Class: :Room
+
+
+Class: :Type
+
+
+Class: :Number
+
+
+Class: :Admin
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Notification
+
+
+Class: :Session
+
+
+Class: :User
+	Annotations:
+		rdfs:comment "Functional Role"
+

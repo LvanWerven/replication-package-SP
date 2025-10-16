@@ -1,0 +1,219 @@
+# Generated with Visual Narrator
+Prefix: : <http://fakesite.org/system.owl#>
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+Prefix: dc: <http://purl.org/dc/elements/1.1/>
+Prefix: onto: <http://fakesite.org/system.owl#>
+
+Ontology: <:>
+
+Annotations:
+	dc:title "System",
+	dc:creator "Visual Narrator",
+	rdfs:comment "Generated with Visual Narrator"
+
+AnnotationProperty: dc:creator
+
+AnnotationProperty: dc:title
+
+
+# Relationships
+ObjectProperty: :canContact
+	Domain: :Manager
+	Range: :Employee
+
+ObjectProperty: :canNavigateThrough
+	Domain: :Employee
+	Range: :Application
+
+ObjectProperty: :canAutomate
+	Domain: :Manager
+	Range: :PaymentSystem
+
+ObjectProperty: :hasSystem
+	Domain: :Payment
+	Range: :PaymentSystem
+
+ObjectProperty: :canStayWith
+	Domain: :Employee
+	Range: :Date
+
+ObjectProperty: :canUpTo
+	Domain: :Manager
+	Range: :Date
+
+ObjectProperty: :hasEmployee
+	Domain: :Office
+	Range: :OfficeEmployee
+
+ObjectProperty: :canSee
+	Domain: :Employee
+	Range: :Schedule
+
+ObjectProperty: :canView1
+	Domain: :Employee
+	Range: :Schedule
+
+ObjectProperty: :canView2
+	Domain: :Manager
+	Range: :Schedule
+
+ObjectProperty: :canView3
+	Domain: :OfficeEmployee
+	Range: :Complaint
+
+ObjectProperty: :canView4
+	Domain: :Manager
+	Range: :Complaint
+
+ObjectProperty: :canView5
+	Domain: :Manager
+	Range: :Contract
+
+ObjectProperty: :canView6
+	Domain: :Employee
+	Range: :Statement
+
+ObjectProperty: :canView7
+	Domain: :Employee
+	Range: :Contract
+
+ObjectProperty: :canChooseBetween1
+	Domain: :Employee
+	Range: :Notification
+
+ObjectProperty: :canChooseBetween2
+	Domain: :Employee
+	Range: :Payment
+
+ObjectProperty: :canHelp
+	Domain: :OfficeEmployee
+	Range: :Employee
+
+ObjectProperty: :canEvaluate
+	Domain: :Manager
+	Range: :Employee
+
+ObjectProperty: :canFile1
+	Domain: :Employee
+	Range: :Complaint
+
+ObjectProperty: :canFile2
+	Domain: :Manager
+	Range: :Complaint
+
+ObjectProperty: :canRespondTo
+	Domain: :OfficeEmployee
+	Range: :Complaint
+
+ObjectProperty: :canPrioritize
+	Domain: :OfficeEmployee
+	Range: :Complaint
+
+ObjectProperty: :canHire
+	Domain: :Manager
+	Range: :Employee
+
+ObjectProperty: :canReceive
+	Domain: :Employee
+	Range: :Notification
+
+ObjectProperty: :canAuthorize
+	Domain: :Manager
+	Range: :Schedule
+
+ObjectProperty: :canNotify1
+	Domain: :Manager
+	Range: :System
+
+ObjectProperty: :canNotify2
+	Domain: :Manager
+	Range: :Employee
+
+ObjectProperty: :canHave1
+	Domain: :Employee
+	Range: :Overview
+
+ObjectProperty: :canHave2
+	Domain: :OfficeEmployee
+	Range: :Overview
+
+ObjectProperty: :canHave3
+	Domain: :Manager
+	Range: :Overview
+
+ObjectProperty: :canHave4
+	Domain: :Manager
+	Range: :System
+
+ObjectProperty: :canHave5
+	Domain: :Employee
+	Range: :Application
+
+ObjectProperty: :canCategorize
+	Domain: :OfficeEmployee
+	Range: :Complaint
+
+ObjectProperty: :canUse
+	Domain: :Employee
+	Range: :System
+
+# Classes
+Class: :Employee
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Overview
+
+
+Class: :PaymentSystem
+	SubClassOf: :System
+	Annotations:
+		rdfs:label "Payment System"
+
+Class: :System
+
+
+Class: :Payment
+
+
+Class: :Manager
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Notification
+
+
+Class: :Date
+
+
+Class: :Schedule
+
+
+Class: :Complaint
+
+
+Class: :OfficeEmployee
+	SubClassOf: :Employee
+	Annotations:
+		rdfs:label "Office Employee",
+		rdfs:comment "Functional Role"
+
+Class: :Office
+
+
+Class: :Contract
+
+
+Class: :Application
+
+
+Class: :Statement
+
+
+Class: :Applicant
+	Annotations:
+		rdfs:comment "Functional Role"
+

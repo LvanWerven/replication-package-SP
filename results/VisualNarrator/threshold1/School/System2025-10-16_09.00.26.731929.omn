@@ -1,0 +1,533 @@
+# Generated with Visual Narrator
+Prefix: : <http://fakesite.org/system.owl#>
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+Prefix: dc: <http://purl.org/dc/elements/1.1/>
+Prefix: onto: <http://fakesite.org/system.owl#>
+
+Ontology: <:>
+
+Annotations:
+	dc:title "System",
+	dc:creator "Visual Narrator",
+	rdfs:comment "Generated with Visual Narrator"
+
+AnnotationProperty: dc:creator
+
+AnnotationProperty: dc:title
+
+
+# Relationships
+ObjectProperty: :canAlways
+	Domain: :Student
+	Range: :Date
+
+ObjectProperty: :canContact1
+	Domain: :Guardian
+	Range: :They
+
+ObjectProperty: :canContact2
+	Domain: :Administrator
+	Range: :They
+
+ObjectProperty: :hasGrade
+	Domain: :Attendance
+	Range: :AttendanceGrade
+
+ObjectProperty: :canHave1
+	Domain: :Guardian
+	Range: :Message
+
+ObjectProperty: :canHave2
+	Domain: :Student
+	Range: :Access
+
+ObjectProperty: :canHave3
+	Domain: :Student
+	Range: :Message
+
+ObjectProperty: :canHave4
+	Domain: :Teacher
+	Range: :Work
+
+ObjectProperty: :canHave5
+	Domain: :Teacher
+	Range: :DLM
+
+ObjectProperty: :canHave6
+	Domain: :Teacher
+	Range: :Message
+
+ObjectProperty: :canHave7
+	Domain: :Administrator
+	Range: :Message
+
+ObjectProperty: :canUseWithin
+	Domain: :Material
+	Range: :DLM
+
+ObjectProperty: :canSet1
+	Domain: :Teacher
+	Range: :Date
+
+ObjectProperty: :canSet2
+	Domain: :Administrator
+	Range: :Role
+
+ObjectProperty: :canTeacher
+	Domain: :Student
+	Range: :Insight
+
+ObjectProperty: :canMessage1
+	Domain: :Guardian
+	Range: :Teacher
+
+ObjectProperty: :canMessage2
+	Domain: :Student
+	Range: :Any
+
+ObjectProperty: :canMessage3
+	Domain: :Student
+	Range: :Mentor
+
+ObjectProperty: :canMessage4
+	Domain: :Teacher
+	Range: :Student
+
+ObjectProperty: :canGrade
+	Domain: :Teacher
+	Range: :DLMSubmission
+
+ObjectProperty: :canRecord1
+	Domain: :Teacher
+	Range: :Action
+
+ObjectProperty: :canRecord2
+	Domain: :Teacher
+	Range: :Behavior
+
+ObjectProperty: :canRecord3
+	Domain: :Teacher
+	Range: :Grade
+
+ObjectProperty: :canRecord4
+	Domain: :Teacher
+	Range: :Attendance
+
+ObjectProperty: :canCanupload
+	Domain: :Teacher
+	Range: :Material
+
+ObjectProperty: :canEdit1
+	Domain: :Teacher
+	Range: :Page
+
+ObjectProperty: :canEdit2
+	Domain: :Administrator
+	Range: :Datum
+
+ObjectProperty: :hasGuardian
+	Domain: :Student
+	Range: :StudentGuardian
+
+ObjectProperty: :canFill
+	Domain: :Guardian
+	Range: :Absence
+
+ObjectProperty: :canDownload
+	Domain: :Student
+	Range: :File
+
+ObjectProperty: :canSend
+	Domain: :Administrator
+	Range: :Message
+
+ObjectProperty: :hasElement
+	Domain: :Submission
+	Range: :SubmissionElement
+
+ObjectProperty: :canAssign1
+	Domain: :Teacher
+	Range: :DLM
+
+ObjectProperty: :canAssign2
+	Domain: :Teacher
+	Range: :Date
+
+ObjectProperty: :canAssign3
+	Domain: :Administrator
+	Range: :Schedule
+
+ObjectProperty: :canSee1
+	Domain: :Teacher
+	Range: :Answer
+
+ObjectProperty: :canSee2
+	Domain: :Teacher
+	Range: :That
+
+ObjectProperty: :canSee3
+	Domain: :Teacher
+	Range: :Progress
+
+ObjectProperty: :hasInformation
+	Domain: :Contact
+	Range: :ContactInformation
+
+ObjectProperty: :canAccess
+	Domain: :Student
+	Range: :File
+
+ObjectProperty: :canCanworkWith
+	Domain: :Student
+	Range: :Material
+
+ObjectProperty: :canRegister1
+	Domain: :Administrator
+	Range: :Change
+
+ObjectProperty: :canRegister2
+	Domain: :Administrator
+	Range: :Absence
+
+ObjectProperty: :canFacilitate
+	Domain: :Administrator
+	Range: :Access
+
+ObjectProperty: :canView1
+	Domain: :Guardian
+	Range: :Information
+
+ObjectProperty: :canView2
+	Domain: :Student
+	Range: :Information
+
+ObjectProperty: :canView3
+	Domain: :Student
+	Range: :ContactInformation
+
+ObjectProperty: :canView4
+	Domain: :Teacher
+	Range: :AttendanceGrade
+
+ObjectProperty: :canView5
+	Domain: :Teacher
+	Range: :Class
+
+ObjectProperty: :canView6
+	Domain: :Administrator
+	Range: :Detail
+
+ObjectProperty: :canView7
+	Domain: :Administrator
+	Range: :Statistic
+
+ObjectProperty: :canCommunicateWith
+	Domain: :Student
+	Range: :They
+
+ObjectProperty: :canReset
+	Domain: :User
+	Range: :Password
+
+ObjectProperty: :canMake1
+	Domain: :Teacher
+	Range: :SubmissionElement
+
+ObjectProperty: :canMake2
+	Domain: :Administrator
+	Range: :Use
+
+ObjectProperty: :canDo
+	Domain: :Student
+	Range: :Work
+
+ObjectProperty: :canLinkTo
+	Domain: :Information
+	Range: :Account
+
+ObjectProperty: :canInformAbout
+	Domain: :Teacher
+	Range: :Behavior
+
+ObjectProperty: :canReceive1
+	Domain: :Guardian
+	Range: :Notification
+
+ObjectProperty: :canReceive2
+	Domain: :Student
+	Range: :Notification
+
+ObjectProperty: :canReceive3
+	Domain: :Teacher
+	Range: :Notification
+
+ObjectProperty: :canReceive4
+	Domain: :Teacher
+	Range: :Confirmation
+
+ObjectProperty: :canReceive5
+	Domain: :Administrator
+	Range: :Notification
+
+ObjectProperty: :canNotifyOf1
+	Domain: :Student
+	Range: :Change
+
+ObjectProperty: :canNotifyOf2
+	Domain: :Teacher
+	Range: :Change
+
+ObjectProperty: :canNotifyOf3
+	Domain: :User
+	Range: :Absence
+
+ObjectProperty: :canUpload1
+	Domain: :Teacher
+	Range: :File
+
+ObjectProperty: :canUpload2
+	Domain: :Administrator
+	Range: :Schedule
+
+ObjectProperty: :canChange
+	Domain: :Student
+	Range: :Preference
+
+ObjectProperty: :canCangain1
+	Domain: :Teacher
+	Range: :Insight
+
+ObjectProperty: :canCangain2
+	Domain: :Administrator
+	Range: :Insight
+
+ObjectProperty: :canCanhave
+	Domain: :Teacher
+	Range: :Contact
+
+ObjectProperty: :canAdd1
+	Domain: :Teacher
+	Range: :Page
+
+ObjectProperty: :canAdd2
+	Domain: :Teacher
+	Range: :Answer
+
+ObjectProperty: :hasSubmission
+	Domain: :DLM
+	Range: :DLMSubmission
+
+ObjectProperty: :canDetect
+	Domain: :Student
+	Range: :Class
+
+ObjectProperty: :canCreate
+	Domain: :Administrator
+	Range: :Account
+
+ObjectProperty: :canGather
+	Domain: :Administrator
+	Range: :Insight
+
+ObjectProperty: :canHand
+	Domain: :Student
+	Range: :Homework
+
+ObjectProperty: :canGain1
+	Domain: :Guardian
+	Range: :Insight
+
+ObjectProperty: :canGain2
+	Domain: :Student
+	Range: :Insight
+
+ObjectProperty: :canGain3
+	Domain: :Teacher
+	Range: :Insight
+
+ObjectProperty: :canGain4
+	Domain: :User
+	Range: :Insight
+
+ObjectProperty: :canGain5
+	Domain: :Administrator
+	Range: :Insight
+
+ObjectProperty: :canBe1
+	Domain: :Teacher
+	Range: :Work
+
+ObjectProperty: :canBe2
+	Domain: :DLM
+	Range: :User
+
+ObjectProperty: :canInform
+	Domain: :Student
+	Range: :DLM
+
+# Classes
+Class: :Guardian
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Teacher
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :They
+
+
+Class: :Absence
+
+
+Class: :Notification
+
+
+Class: :Message
+
+
+Class: :Information
+
+
+Class: :Insight
+
+
+Class: :Student
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :File
+
+
+Class: :Material
+
+
+Class: :Any
+
+
+Class: :Mentor
+
+
+Class: :Homework
+
+
+Class: :Work
+
+
+Class: :Access
+
+
+Class: :Date
+
+
+Class: :Change
+
+
+Class: :ContactInformation
+	SubClassOf: :Information
+	Annotations:
+		rdfs:label "Contact Information"
+
+Class: :Contact
+
+
+Class: :Preference
+
+
+Class: :Page
+
+
+Class: :DLM
+
+
+Class: :User
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :DLMSubmission
+	SubClassOf: :Submission
+	Annotations:
+		rdfs:label "DLM Submission"
+
+Class: :Submission
+
+
+Class: :SubmissionElement
+	SubClassOf: :Element
+	Annotations:
+		rdfs:label "Submission Element"
+
+Class: :Element
+
+
+Class: :Answer
+
+
+Class: :Confirmation
+
+
+Class: :Behavior
+
+
+Class: :Action
+
+
+Class: :Grade
+
+
+Class: :Attendance
+
+
+Class: :Class
+
+
+Class: :That
+
+
+Class: :Progress
+
+
+Class: :AttendanceGrade
+	SubClassOf: :Grade
+	Annotations:
+		rdfs:label "Attendance Grade"
+
+Class: :Password
+
+
+Class: :Administrator
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Schedule
+
+
+Class: :Account
+
+
+Class: :Datum
+
+
+Class: :Use
+
+
+Class: :StudentGuardian
+	SubClassOf: :Guardian
+	Annotations:
+		rdfs:label "Student Guardian"
+
+Class: :Role
+
+
+Class: :Detail
+
+
+Class: :Statistic
+
+
+Class: :Module
+
+

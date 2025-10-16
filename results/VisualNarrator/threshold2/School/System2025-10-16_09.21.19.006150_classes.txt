@@ -1,0 +1,22 @@
+Guardian
+Teacher
+Absence
+Notification
+Message
+Information
+Insight
+Student
+File
+Access
+Date
+Change
+Page
+DLM
+Answer
+Grade
+Administrator
+Schedule
+StudentGuardian
+User
+
+Total classes: 20

@@ -1,0 +1,15 @@
+User
+Information
+Admin
+System
+Executive
+Employee
+HRDepartment
+Developer
+Company
+CompanyAccountant
+Superuser
+RecyclingfacilityRepresentative
+Recyclingfacility
+
+Total classes: 13

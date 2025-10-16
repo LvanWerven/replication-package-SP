@@ -1,0 +1,490 @@
+# Generated with Visual Narrator
+Prefix: : <http://fakesite.org/system.owl#>
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+Prefix: dc: <http://purl.org/dc/elements/1.1/>
+Prefix: onto: <http://fakesite.org/system.owl#>
+
+Ontology: <:>
+
+Annotations:
+	dc:title "System",
+	dc:creator "Visual Narrator",
+	rdfs:comment "Generated with Visual Narrator"
+
+AnnotationProperty: dc:creator
+
+AnnotationProperty: dc:title
+
+
+# Relationships
+ObjectProperty: :canSave1
+	Domain: :Customer
+	Range: :Money
+
+ObjectProperty: :canSave2
+	Domain: :Customer
+	Range: :Time
+
+ObjectProperty: :canNeed
+	Domain: :Customer
+	Range: :Store
+
+ObjectProperty: :canActivate
+	Domain: :Customer
+	Range: :PushNotification
+
+ObjectProperty: :canConfirm
+	Domain: :Employee
+	Range: :DeliveryTime
+
+ObjectProperty: :canReset
+	Domain: :Customer
+	Range: :Password
+
+ObjectProperty: :hasService1
+	Domain: :Delivery
+	Range: :DeliveryService
+
+ObjectProperty: :hasService2
+	Domain: :Customer
+	Range: :CustomerService
+
+ObjectProperty: :canMake
+	Domain: :Customer
+	Range: :Delivery
+
+ObjectProperty: :canUnsubscribeFrom
+	Domain: :Customer
+	Range: :Newsletter
+
+ObjectProperty: :canAwareOf
+	Domain: :Customer
+	Range: :Discount
+
+ObjectProperty: :canSee1
+	Domain: :Customer
+	Range: :ProductInformation
+
+ObjectProperty: :canSee2
+	Domain: :Customer
+	Range: :Stock
+
+ObjectProperty: :canSee3
+	Domain: :Customer
+	Range: :Store
+
+ObjectProperty: :canSee4
+	Domain: :Customer
+	Range: :Quantity
+
+ObjectProperty: :canSee5
+	Domain: :Customer
+	Range: :Recipe
+
+ObjectProperty: :canSee6
+	Domain: :Customer
+	Range: :OrderHistory
+
+ObjectProperty: :canDeactivate
+	Domain: :Customer
+	Range: :PushNotification
+
+ObjectProperty: :hasTime
+	Domain: :Delivery
+	Range: :DeliveryTime
+
+ObjectProperty: :canNotifyOf
+	Domain: :Customer
+	Range: :Discount
+
+ObjectProperty: :canGain
+	Domain: :Customer
+	Range: :Discount
+
+ObjectProperty: :canCreate
+	Domain: :Customer
+	Range: :Account
+
+ObjectProperty: :canUpdate
+	Domain: :Employee
+	Range: :Application
+
+ObjectProperty: :canSelect1
+	Domain: :Customer
+	Range: :Date
+
+ObjectProperty: :canSelect2
+	Domain: :Customer
+	Range: :TimeSlot
+
+ObjectProperty: :canHave1
+	Domain: :Customer
+	Range: :DeliveryService
+
+ObjectProperty: :canHave2
+	Domain: :Customer
+	Range: :Product
+
+ObjectProperty: :canHave3
+	Domain: :Customer
+	Range: :I
+
+ObjectProperty: :canHave4
+	Domain: :Customer
+	Range: :Store
+
+ObjectProperty: :canHave5
+	Domain: :Customer
+	Range: :Time
+
+ObjectProperty: :canHave6
+	Domain: :Customer
+	Range: :It
+
+ObjectProperty: :canEndOut
+	Domain: :Customer
+	Range: :Store
+
+ObjectProperty: :canAdd
+	Domain: :Customer
+	Range: :Product
+
+ObjectProperty: :canReceive1
+	Domain: :Customer
+	Range: :Newsletter
+
+ObjectProperty: :canReceive2
+	Domain: :Customer
+	Range: :PushNotification
+
+ObjectProperty: :canReceive3
+	Domain: :Customer
+	Range: :Suggestion
+
+ObjectProperty: :canReceive4
+	Domain: :Customer
+	Range: :Discount
+
+ObjectProperty: :canOrder1
+	Domain: :Customer
+	Range: :Product
+
+ObjectProperty: :canOrder2
+	Domain: :Customer
+	Range: :Grocery
+
+ObjectProperty: :hasIdea
+	Domain: :Recipe
+	Range: :RecipeIdea
+
+ObjectProperty: :canScan1
+	Domain: :Customer
+	Range: :Product
+
+ObjectProperty: :canScan2
+	Domain: :Customer
+	Range: :Barcode
+
+ObjectProperty: :canMissOn
+	Domain: :Customer
+	Range: :It
+
+ObjectProperty: :canUnderstand
+	Domain: :I
+	Range: :App
+
+ObjectProperty: :canFind1
+	Domain: :Customer
+	Range: :Product
+
+ObjectProperty: :canFind2
+	Domain: :Customer
+	Range: :App
+
+ObjectProperty: :canFind3
+	Domain: :Customer
+	Range: :Location
+
+ObjectProperty: :canPayFor
+	Domain: :Customer
+	Range: :Grocery
+
+ObjectProperty: :canProvideWith
+	Domain: :Customer
+	Range: :RecipeIdea
+
+ObjectProperty: :canSeeOut
+	Domain: :Customer
+	Range: :System
+
+ObjectProperty: :canProvide1
+	Domain: :Employee
+	Range: :Customer
+
+ObjectProperty: :canProvide2
+	Domain: :Customer
+	Range: :Date
+
+ObjectProperty: :canPlace
+	Domain: :Customer
+	Range: :Order
+
+ObjectProperty: :canGet1
+	Domain: :Customer
+	Range: :Recipe
+
+ObjectProperty: :canGet2
+	Domain: :Customer
+	Range: :Recommendation
+
+ObjectProperty: :canKnow1
+	Domain: :Customer
+	Range: :Stock
+
+ObjectProperty: :canKnow2
+	Domain: :Customer
+	Range: :It
+
+ObjectProperty: :canKnow3
+	Domain: :Customer
+	Range: :Product
+
+ObjectProperty: :hasNotification
+	Domain: :Push
+	Range: :PushNotification
+
+ObjectProperty: :canChange1
+	Domain: :Customer
+	Range: :Size
+
+ObjectProperty: :canChange2
+	Domain: :Customer
+	Range: :Contrast
+
+ObjectProperty: :canChange3
+	Domain: :Customer
+	Range: :Language
+
+ObjectProperty: :canChange4
+	Domain: :Customer
+	Range: :Selection
+
+ObjectProperty: :canFilter
+	Domain: :Customer
+	Range: :Product
+
+ObjectProperty: :hasInformation
+	Domain: :Product
+	Range: :ProductInformation
+
+ObjectProperty: :canPurchase
+	Domain: :Customer
+	Range: :Product
+
+ObjectProperty: :canSignFor
+	Domain: :Customer
+	Range: :Newsletter
+
+ObjectProperty: :hasHistory
+	Domain: :Order
+	Range: :OrderHistory
+
+ObjectProperty: :canEdit
+	Domain: :Employee
+	Range: :Discount
+
+ObjectProperty: :canContact1
+	Domain: :Customer
+	Range: :CustomerService
+
+ObjectProperty: :canContact2
+	Domain: :Employee
+	Range: :Customer
+
+ObjectProperty: :canRead
+	Domain: :Customer
+	Range: :ProductInformation
+
+ObjectProperty: :canSearchFor
+	Domain: :Customer
+	Range: :Product
+
+ObjectProperty: :canNotify1
+	Domain: :Customer
+	Range: :Sale
+
+ObjectProperty: :canNotify2
+	Domain: :Customer
+	Range: :Stock
+
+ObjectProperty: :canNotify3
+	Domain: :Employee
+	Range: :Customer
+
+ObjectProperty: :hasSlot
+	Domain: :Time
+	Range: :TimeSlot
+
+# Classes
+Class: :Customer
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Account
+
+
+Class: :Newsletter
+
+
+Class: :Discount
+
+
+Class: :PushNotification
+	SubClassOf: :Notification
+	Annotations:
+		rdfs:label "Push Notification"
+
+Class: :Notification
+
+
+Class: :Push
+
+
+Class: :Password
+
+
+Class: :Size
+
+
+Class: :Contrast
+
+
+Class: :Language
+
+
+Class: :I
+
+
+Class: :App
+
+
+Class: :Suggestion
+
+
+Class: :Product
+
+
+Class: :Money
+
+
+Class: :DeliveryService
+	SubClassOf: :Service
+	Annotations:
+		rdfs:label "Delivery Service"
+
+Class: :Service
+
+
+Class: :Delivery
+
+
+Class: :Recipe
+
+
+Class: :CustomerService
+	SubClassOf: :Service
+	Annotations:
+		rdfs:label "Customer Service"
+
+Class: :Stock
+
+
+Class: :Sale
+
+
+Class: :Barcode
+
+
+Class: :ProductInformation
+	SubClassOf: :Information
+	Annotations:
+		rdfs:label "Product Information"
+
+Class: :Information
+
+
+Class: :Store
+
+
+Class: :It
+
+
+Class: :Quantity
+
+
+Class: :System
+
+
+Class: :RecipeIdea
+	SubClassOf: :Idea
+	Annotations:
+		rdfs:label "Recipe Idea"
+
+Class: :Idea
+
+
+Class: :Date
+
+
+Class: :Time
+
+
+Class: :TimeSlot
+	SubClassOf: :Slot
+	Annotations:
+		rdfs:label "Time Slot"
+
+Class: :Slot
+
+
+Class: :OrderHistory
+	SubClassOf: :History
+	Annotations:
+		rdfs:label "Order History"
+
+Class: :History
+
+
+Class: :Order
+
+
+Class: :Grocery
+
+
+Class: :Location
+
+
+Class: :Recommendation
+
+
+Class: :Selection
+
+
+Class: :Employee
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Application
+
+
+Class: :DeliveryTime
+	SubClassOf: :Time
+	Annotations:
+		rdfs:label "Delivery Time"
+
+Class: :Card
+
+

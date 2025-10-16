@@ -1,0 +1,410 @@
+# Generated with Visual Narrator
+Prefix: : <http://fakesite.org/system.owl#>
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+Prefix: dc: <http://purl.org/dc/elements/1.1/>
+Prefix: onto: <http://fakesite.org/system.owl#>
+
+Ontology: <:>
+
+Annotations:
+	dc:title "System",
+	dc:creator "Visual Narrator",
+	rdfs:comment "Generated with Visual Narrator"
+
+AnnotationProperty: dc:creator
+
+AnnotationProperty: dc:title
+
+
+# Relationships
+ObjectProperty: :canSelect1
+	Domain: :Moderator
+	Range: :Item
+
+ObjectProperty: :canSelect2
+	Domain: :Moderator
+	Range: :Estimate
+
+ObjectProperty: :canStart1
+	Domain: :Moderator
+	Range: :Estimator
+
+ObjectProperty: :canStart2
+	Domain: :Moderator
+	Range: :Round
+
+ObjectProperty: :canStart3
+	Domain: :Moderator
+	Range: :Application
+
+ObjectProperty: :canCreate1
+	Domain: :Moderator
+	Range: :Game
+
+ObjectProperty: :canCreate2
+	Domain: :Moderator
+	Range: :Account
+
+ObjectProperty: :canSee1
+	Domain: :Moderator
+	Range: :Item
+
+ObjectProperty: :canSee2
+	Domain: :Moderator
+	Range: :Date
+
+ObjectProperty: :canSee3
+	Domain: :Estimator
+	Range: :System
+
+ObjectProperty: :canSee4
+	Domain: :Estimator
+	Range: :Item
+
+ObjectProperty: :canSee5
+	Domain: :Participant
+	Range: :Estimator
+
+ObjectProperty: :canSee6
+	Domain: :Participant
+	Range: :Estimate
+
+ObjectProperty: :canSee7
+	Domain: :Participant
+	Range: :Question
+
+ObjectProperty: :canSee8
+	Domain: :User
+	Range: :URL
+
+ObjectProperty: :canSee9
+	Domain: :Mike
+	Range: :Metric
+
+ObjectProperty: :canEstimate
+	Domain: :Moderator
+	Range: :Item
+
+ObjectProperty: :canBrowseThrough
+	Domain: :Moderator
+	Range: :Game
+
+ObjectProperty: :canEnter
+	Domain: :Moderator
+	Range: :Estimate
+
+ObjectProperty: :canDecide
+	Domain: :Moderator
+	Range: :Estimate
+
+ObjectProperty: :hasName
+	Domain: :Account
+	Range: :AccountName
+
+ObjectProperty: :hasDetail
+	Domain: :Account
+	Range: :AccountDetail
+
+ObjectProperty: :canBe
+	Domain: :Estimate
+	Range: :Estimate
+
+ObjectProperty: :hasFunction
+	Domain: :Application
+	Range: :ApplicationFunction
+
+ObjectProperty: :canEdit
+	Domain: :Moderator
+	Range: :Item
+
+ObjectProperty: :canLog
+	Domain: :Moderator
+	Range: :AccountName
+
+ObjectProperty: :canScrollThroughFrom
+	Domain: :Participant
+	Range: :Item
+
+ObjectProperty: :canKnow
+	Domain: :Participant
+	Range: :Estimate
+
+ObjectProperty: :canSave
+	Domain: :Moderator
+	Range: :Item
+
+ObjectProperty: :canHave1
+	Domain: :Moderator
+	Range: :Field
+
+ObjectProperty: :canHave2
+	Domain: :Moderator
+	Range: :Item
+
+ObjectProperty: :canHave3
+	Domain: :Participant
+	Range: :Itself
+
+ObjectProperty: :canHave4
+	Domain: :Participant
+	Range: :Card
+
+ObjectProperty: :canHave5
+	Domain: :Developer
+	Range: :List
+
+ObjectProperty: :canHave6
+	Domain: :Developer
+	Range: :ApplicationFunction
+
+ObjectProperty: :canHave7
+	Domain: :User
+	Range: :Action
+
+ObjectProperty: :canHave8
+	Domain: :Researcher
+	Range: :Result
+
+ObjectProperty: :canWrite
+	Domain: :Developer
+	Range: :Site
+
+ObjectProperty: :canProcess
+	Domain: :Moderator
+	Range: :Item
+
+ObjectProperty: :canView
+	Domain: :Moderator
+	Range: :Transcript
+
+ObjectProperty: :canStore
+	Domain: :Item
+	Range: :Game
+
+ObjectProperty: :canImport
+	Domain: :Moderator
+	Range: :Item
+
+ObjectProperty: :canInvite
+	Domain: :Moderator
+	Range: :Estimator
+
+ObjectProperty: :canGet
+	Domain: :Moderator
+	Range: :Application
+
+ObjectProperty: :canAnswer
+	Domain: :Moderator
+	Range: :Question
+
+ObjectProperty: :canShow1
+	Domain: :Moderator
+	Range: :Estimate
+
+ObjectProperty: :canShow2
+	Domain: :Participant
+	Range: :Estimate
+
+ObjectProperty: :canJoin
+	Domain: :Estimator
+	Range: :Game
+
+ObjectProperty: :canTrust
+	Domain: :User
+	Range: :System
+
+ObjectProperty: :canAdd
+	Domain: :Moderator
+	Range: :Item
+
+ObjectProperty: :canUse
+	Domain: :User
+	Range: :Unicode
+
+ObjectProperty: :canChange1
+	Domain: :Moderator
+	Range: :AccountDetail
+
+ObjectProperty: :canChange2
+	Domain: :Participant
+	Range: :Estimate
+
+ObjectProperty: :canChange3
+	Domain: :Participant
+	Range: :Mind
+
+ObjectProperty: :canDelete1
+	Domain: :Moderator
+	Range: :Item
+
+ObjectProperty: :canDelete2
+	Domain: :Moderator
+	Range: :Game
+
+ObjectProperty: :canDelete3
+	Domain: :Moderator
+	Range: :Account
+
+ObjectProperty: :canExport
+	Domain: :Moderator
+	Range: :Transcript
+
+ObjectProperty: :canEasy
+	Domain: :It
+	Range: :Estimate
+
+ObjectProperty: :canKeep
+	Domain: :Moderator
+	Range: :AccountDetail
+
+ObjectProperty: :canAccept1
+	Domain: :Moderator
+	Range: :Average
+
+ObjectProperty: :canAccept2
+	Domain: :Moderator
+	Range: :It
+
+# Classes
+Class: :Moderator
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Game
+
+
+Class: :Estimator
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Round
+
+
+Class: :Item
+
+
+Class: :Question
+
+
+Class: :Estimate
+
+
+Class: :Average
+
+
+Class: :Field
+
+
+Class: :It
+
+
+Class: :Transcript
+
+
+Class: :Account
+
+
+Class: :Application
+
+
+Class: :AccountName
+	SubClassOf: :Name
+	Annotations:
+		rdfs:label "Account Name"
+
+Class: :Name
+
+
+Class: :AccountDetail
+	SubClassOf: :Detail
+	Annotations:
+		rdfs:label "Account Detail"
+
+Class: :Detail
+
+
+Class: :Date
+
+
+Class: :System
+
+
+Class: :Participant
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Mind
+
+
+Class: :Itself
+
+
+Class: :Card
+
+
+Class: :Developer
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Site
+
+
+Class: :List
+
+
+Class: :ApplicationFunction
+	SubClassOf: :Function
+	Annotations:
+		rdfs:label "Application Function"
+
+Class: :Function
+
+
+Class: :User
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Action
+
+
+Class: :Unicode
+
+
+Class: :URL
+
+
+Class: :Researcher
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Result
+
+
+Class: :Mike
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Metric
+
+
+Class: :Reminder
+
+
+Class: :Page
+
+
+Class: :Timer
+
+
+Class: :Photo
+
+
+Class: :Index
+
+
+Class: :Guideline
+
+

@@ -1,0 +1,24 @@
+CampAdministrator
+Administrator
+Camp
+Camper
+Track
+Form
+Activity
+Nametag
+CampWorker
+Worker
+Schedule
+Information
+Parent
+Attendance
+Group
+CampGroup
+Counselor
+Task
+CamperInformation
+CamperActivity
+CamperCounselor
+CampCounselor
+
+Total classes: 22
