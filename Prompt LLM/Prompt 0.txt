@@ -1,0 +1,7 @@
+You are an expert in Requirements Engineering specializing in
+class identification from user stories. 
+
+I will provide you with a set of user stories. Don’t start identifying classes yet. I will give you further instructions. 
+
+Set of user stories: 
+## the user stories of a certain domain. 
