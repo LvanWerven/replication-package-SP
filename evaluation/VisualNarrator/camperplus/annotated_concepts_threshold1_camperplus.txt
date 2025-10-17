@@ -1,0 +1,51 @@
+{'Predicted': 'campadministrator', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'administrator', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'camp', 'Status': 'TP - concept is Should-have'}
+{'Predicted': 'camper', 'Status': 'TP - concept is Must-have'}
+{'Predicted': 'track', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'record', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'camperrecord', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'consentform', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'form', 'Status': 'TP - concept is Must-have'}
+{'Predicted': 'consent', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'activity', 'Status': 'TP - concept is Must-have'}
+{'Predicted': 'nametag', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'reminder', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'position', 'Status': 'TP - concept is Should-have'}
+{'Predicted': 'campworker', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'worker', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'schedule', 'Status': 'TP - concept is Should-have'}
+{'Predicted': 'avenue', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'parent', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'concern', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'information', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'feedback', 'Status': 'TP - concept is Must-have'}
+{'Predicted': 'attendance', 'Status': 'TP - concept is Should-have'}
+{'Predicted': 'group', 'Status': 'TP - concept is Must-have'}
+{'Predicted': 'campgroup', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'counselor', 'Status': 'TP - concept is Should-have'}
+{'Predicted': 'task', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'camperinformation', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'page', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'event', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'camperactivity', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'peace', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'type', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'account', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'kid', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'which', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'campercounselor', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'payment', 'Status': 'TP - concept is Should-have'}
+{'Predicted': 'photo', 'Status': 'TP - concept is Should-have'}
+{'Predicted': 'staff', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'job', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'list', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'repair', 'Status': 'TP - concept is Must-have'}
+{'Predicted': 'campcounselor', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'rule', 'Status': 'TP - concept is Must-have'}
+{'Predicted': 'report', 'Status': 'FP - Not in ground truth'}
+{'GroundTruth': 'behavior', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'camp worker', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'facilities', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'guardians', 'Status': 'FN - concept is ground truth but not detected, type is must-have'}
+{'GroundTruth': 'supplies', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}

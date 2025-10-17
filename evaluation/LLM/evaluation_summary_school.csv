@@ -1,0 +1,12 @@
+Domain,Round,True_Positive,False_Positive,False_Negative,SHOULDHAVE,NOPUNISH,Precision,Recall,F0.5,F1,F2,Missed_Classes,Missed_ShouldHave
+school,Round 1,10.0,9.0,4.0,4.0,0.0,0.5263,0.7143,0.5556,0.6061,0.6667,"administrator, guardian, student, teacher","answer, behavior, material, mentor"
+school,Round 2,12.0,8.0,4.0,2.0,0.0,0.6,0.75,0.625,0.6667,0.7143,"administrator, guardian, student, teacher","material, mentor"
+school,Round 3,10.0,7.0,4.0,4.0,0.0,0.5882,0.7143,0.6098,0.6452,0.6849,"administrator, guardian, student, teacher","answer, behavior, material, mentor"
+school,Round 4,12.0,11.0,3.0,3.0,0.0,0.5217,0.8,0.5607,0.6316,0.7229,"administrator, guardian, teacher","answer, behavior, mentor"
+school,Round 5,11.0,7.0,4.0,3.0,0.0,0.6111,0.7333,0.6322,0.6667,0.7051,"administrator, guardian, student, teacher","behavior, material, mentor"
+school,Round 6,10.0,9.0,4.0,4.0,0.0,0.5263,0.7143,0.5556,0.6061,0.6667,"administrator, guardian, student, teacher","answer, behavior, material, mentor"
+school,Round 7,11.0,9.0,4.0,3.0,0.0,0.55,0.7333,0.5789,0.6286,0.6875,"administrator, guardian, student, teacher","behavior, material, mentor"
+school,Round 8,11.0,10.0,3.0,4.0,0.0,0.5238,0.7857,0.5612,0.6286,0.7143,"administrator, guardian, teacher","answer, behavior, material, mentor"
+school,Round 9,12.0,9.0,4.0,2.0,0.0,0.5714,0.75,0.6,0.6486,0.7059,"administrator, guardian, student, teacher","material, mentor"
+school,Round 10,10.0,7.0,4.0,4.0,0.0,0.5882,0.7143,0.6098,0.6452,0.6849,"administrator, guardian, student, teacher","answer, behavior, material, mentor"
+school,Average,10.9,8.6,3.8,3.3,0.0,0.5607,0.74095,0.58888,0.63734,0.6953199999999999,,

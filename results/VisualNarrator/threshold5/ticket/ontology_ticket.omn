@@ -1,0 +1,184 @@
+# Generated with Visual Narrator
+Prefix: : <http://fakesite.org/system.owl#>
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+Prefix: dc: <http://purl.org/dc/elements/1.1/>
+Prefix: onto: <http://fakesite.org/system.owl#>
+
+Ontology: <:>
+
+Annotations:
+	dc:title "System",
+	dc:creator "Visual Narrator",
+	rdfs:comment "Generated with Visual Narrator"
+
+AnnotationProperty: dc:creator
+
+AnnotationProperty: dc:title
+
+
+# Relationships
+ObjectProperty: :canDecide
+	Domain: :Visitor
+	Range: :Ticket
+
+ObjectProperty: :canSell
+	Domain: :Reseller
+	Range: :Ticket
+
+ObjectProperty: :canUpload
+	Domain: :Reseller
+	Range: :Ticket
+
+ObjectProperty: :canReadAbout1
+	Domain: :Visitor
+	Range: :Event
+
+ObjectProperty: :canReadAbout2
+	Domain: :Visitor
+	Range: :Ticket
+
+ObjectProperty: :canValidate
+	Domain: :Company
+	Range: :Ticket
+
+ObjectProperty: :canEdit
+	Domain: :User
+	Range: :Information
+
+ObjectProperty: :canRetrieve
+	Domain: :User
+	Range: :Ticket
+
+ObjectProperty: :canStay
+	Domain: :Visitor
+	Range: :Event
+
+ObjectProperty: :canProtect
+	Domain: :Company
+	Range: :User
+
+ObjectProperty: :canAdd
+	Domain: :Visitor
+	Range: :Ticket
+
+ObjectProperty: :canBuy
+	Domain: :Visitor
+	Range: :Ticket
+
+ObjectProperty: :canPayFor
+	Domain: :Visitor
+	Range: :Ticket
+
+ObjectProperty: :canFind1
+	Domain: :User
+	Range: :Information
+
+ObjectProperty: :canFind2
+	Domain: :Visitor
+	Range: :Event
+
+ObjectProperty: :canFind3
+	Domain: :Artist
+	Range: :Information
+
+ObjectProperty: :canOffer
+	Domain: :Reseller
+	Range: :User
+
+ObjectProperty: :canClickOn
+	Domain: :Visitor
+	Range: :Event
+
+ObjectProperty: :canSelect
+	Domain: :Visitor
+	Range: :Event
+
+ObjectProperty: :canSee1
+	Domain: :Visitor
+	Range: :Event
+
+ObjectProperty: :canSee2
+	Domain: :Visitor
+	Range: :System
+
+ObjectProperty: :canSee3
+	Domain: :Visitor
+	Range: :Ticket
+
+ObjectProperty: :canResell
+	Domain: :Reseller
+	Range: :Ticket
+
+ObjectProperty: :canStream
+	Domain: :Visitor
+	Range: :Ticket
+
+ObjectProperty: :canSave
+	Domain: :User
+	Range: :Information
+
+ObjectProperty: :canFavorite
+	Domain: :User
+	Range: :Event
+
+ObjectProperty: :canPurchase
+	Domain: :Visitor
+	Range: :Ticket
+
+ObjectProperty: :canHave1
+	Domain: :Visitor
+	Range: :Event
+
+ObjectProperty: :canHave2
+	Domain: :Company
+	Range: :Ticket
+
+ObjectProperty: :canKnow
+	Domain: :User
+	Range: :Ticket
+
+# Classes
+Class: :User
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Information
+
+
+Class: :Ticket
+
+
+Class: :Visitor
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Event
+
+
+Class: :Reseller
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :System
+
+
+Class: :Company
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Artist
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :TimeUser
+	Annotations:
+		rdfs:label "Time User",
+		rdfs:comment "Functional Role"
+
+Class: :Guest
+	Annotations:
+		rdfs:comment "Functional Role"
+

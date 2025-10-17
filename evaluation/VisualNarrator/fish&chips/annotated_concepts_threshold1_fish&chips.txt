@@ -1,0 +1,49 @@
+{'Predicted': 'kitchenemployee', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'employee', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'kitchen', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'order', 'Status': 'TP - concept is Must-have'}
+{'Predicted': 'progress', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'overview', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'product', 'Status': 'TP - concept is Must-have'}
+{'Predicted': 'ordernumber', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'number', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'notification', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'ticketmaster', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'master', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'ticket', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'insight', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'status', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'color', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'ordertype', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'type', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'screen', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'change', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'customer', 'Status': 'TP - concept is Should-have'}
+{'Predicted': 'confirmation', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'cashier', 'Status': 'TP - concept is Must-have'}
+{'Predicted': 'deliveryaddress', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'address', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'delivery', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'phonenumber', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'phone', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'name', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'request', 'Status': 'TP - concept is Should-have'}
+{'Predicted': 'tip', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'coupon', 'Status': 'TP - concept is Should-have'}
+{'Predicted': 'restaurantowner', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'owner', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'restaurant', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'vat', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'question', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'amount', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'cashieraccount', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'account', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'deliveryperson', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'person', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'orderprice', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'price', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'time', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'method', 'Status': 'FP - Not in ground truth'}
+{'GroundTruth': 'cash', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'delivery person', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'payment', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}

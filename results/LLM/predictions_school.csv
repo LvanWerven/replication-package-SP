@@ -1,0 +1,25 @@
+Round 1,Round 2,Round 3,Round 4,Round 5,Round 6,Round 7,Round 8,Round 9,Round 10
+message,Message,message,message,User,message,Message,Message,message,message
+absence,Absence,absence,child,Message,absence,Absence,Absence,absence,absence
+notification,Notification,notification,absence,Absence,notification,Notification,Notification,notification,file
+file,File,digital learning module,notification,Notification,file,File,Child,school,digital learning module
+digital learning module,Digital Learning Module,class,file,File,digital learning module,Digital Learning Module,File,file,class
+class,Class,assignment,digital learning module,Digital Learning Module,class,Learning Management System,Digital Learning Module,Digital Learning Module,homework
+homework,Assignment,schedule,learning management system,Class,homework,Class,Learning Management System,class,schedule
+timetable,Schedule,submission,class,Assignment,timetable,Assignment,Class,assignment,assignment
+assignment,Account,question,homework,Schedule,assignment,Account,Homework,account,submission
+account,Submission,page,timetable,Answer,account,Submission,Timetable,schedule,question
+submission,Page,disciplinary action,assignment,Submission,submission,Question,Account,submission,page
+page,Question,grade,account,Question,page,Answer,Submission,page,disciplinary action
+question,Answer,attendance,submission,Page,question,Disciplinary Action,Page,question,grade
+disciplinary action,Disciplinary Action,account,question,Disciplinary Action,grade,Grade,Question,answer,attendance
+grade,Behavior,subject,disciplinary action,Grade,attendance,Attendance,Disciplinary Action,grade,account
+schedule,Grade,statistic,grade,Attendance,disciplinary action,Schedule,Grade,attendance,subject
+subject,Attendance,file,attendance,Subject,schedule,Subject,Attendance,disciplinary action,statistics
+attendance,Academic Period,,schedule,Statistic,statistic,Statistics,Schedule,behavior,
+school,Statistics,,subject,,school,School,Statistic,period,
+,School,,statistic,,,User,School,subject,
+,,,school,,,,Subject,statistic,
+,,,video,,,,,,
+,,,page,,,,,,
+,,,,,,,,,

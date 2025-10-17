@@ -1,0 +1,31 @@
+Round 1,Round 2,Round 3,Round 4,Round 5,Round 6,Round 7,Round 8,Round 9,Round 10
+Account,Account,Account,Account,Account,Customer,Account,Account,Account,Person
+Gym,Gym,Training,Membership,Gym,Trainer,Gym,Gym,Gym,Account
+Subscription,Subscription,Gym,Lesson,Subscription,Admin,Subscription,Subscription,Subscription,Gym
+Membership,Membership,Personal Information,Session,Membership,Account,Membership,Membership,Membership,PersonalInformation
+Training Session,PaymentInformation,Banking Details,Area,Lesson,Gym,Member,Lesson,Person,PaymentInformation
+Lesson,Lesson,Subscription,Timeslot,Booking,Membership,Session,Session,Lesson,Subscription
+Area,PersonalTrainingSession,Membership,Room,Notification,PaymentMethod,PracticeArea,Notification,Personal Training Session,Membership
+Spot,Booking,Password,Notification,Fine,Lesson,Timeslot,Room,Practice Area,MembershipType
+Timeslot,Timeslot,Payment Information,Fine,Room,PersonalTrainingSession,Room,Timeslot,Timeslot,Lesson
+Room,Room,Family Membership,Booking,Schedule,Booking,Notification,Schedule,Room,TrainingSession
+Schedule,Schedule,Lesson,Payment,Timeslot,FreePracticeArea,Fine,Fine,Schedule,PracticeArea
+Booking,PracticeArea,Record,Attendance,Area,Timeslot,Booking,Booking,Notification,Timeslot
+Notification,Spot,Progress,,CheckIn,Room,CheckIn,Practice Area,Spot,Room
+Fine,Notification,Personal Training Session,,Payment,Schedule,Payment,,Booking,Schedule
+Offense,Fine,Spot,,,Notification,,,Fine,Notification
+Check-in,Offense,Free Practice Area,,,Fine,,,Check-in,Fine
+,CheckIn,Timeslot,,,CheckIn,,,,Booking
+,,Room,,,,,,,CheckIn
+,,Schedule,,,,,,,
+,,Description,,,,,,,
+,,Notification,,,,,,,
+,,Action,,,,,,,
+,,Fine,,,,,,,
+,,Offense,,,,,,,
+,,Method,,,,,,,
+,,Email,,,,,,,
+,,Push Notification,,,,,,,
+,,Booking,,,,,,,
+,,Awareness,,,,,,,
+,,Check-in,,,,,,,

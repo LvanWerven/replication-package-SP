@@ -1,0 +1,21 @@
+{'Predicted': 'student', 'Status': 'TP - concept is Must-have'}
+{'Predicted': 'notification', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'insight', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'teacher', 'Status': 'TP - concept is Must-have'}
+{'Predicted': 'administrator', 'Status': 'TP - concept is Must-have'}
+{'Predicted': 'guardian', 'Status': 'TP - concept is Must-have'}
+{'Predicted': 'user', 'Status': 'FP - Not in ground truth'}
+{'GroundTruth': 'answer', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'assignment', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'attendance', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'behavior', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'class', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'digital learning modules', 'Status': 'FN - concept is ground truth but not detected, type is must-have'}
+{'GroundTruth': 'disciplinary actions', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'grades', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'material', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'mentor', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'message', 'Status': 'FN - concept is ground truth but not detected, type is must-have'}
+{'GroundTruth': 'question', 'Status': 'FN - concept is ground truth but not detected, type is must-have'}
+{'GroundTruth': 'submission', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'timetable', 'Status': 'FN - concept is ground truth but not detected, type is must-have'}

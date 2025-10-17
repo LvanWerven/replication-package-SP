@@ -1,0 +1,12 @@
+Domain,Round,True_Positive,False_Positive,False_Negative,SHOULDHAVE,NOPUNISH,Precision,Recall,F0.5,F1,F2,Missed_Classes,Missed_ShouldHave
+grocery,Round 1,8.0,19.0,1.0,1.0,0.0,0.2963,0.8889,0.3419,0.4444,0.6349,employee,manager
+grocery,Round 2,9.0,15.0,0.0,1.0,0.0,0.375,1.0,0.4286,0.5455,0.75,,manager
+grocery,Round 3,8.0,7.0,1.0,1.0,0.0,0.5333,0.8889,0.5797,0.6667,0.7843,employee,manager
+grocery,Round 4,8.0,6.0,0.0,2.0,0.0,0.5714,1.0,0.625,0.7273,0.8696,,"manager, working hours"
+grocery,Round 5,9.0,19.0,0.0,1.0,0.0,0.3214,1.0,0.3719,0.4865,0.7031,,manager
+grocery,Round 6,8.0,19.0,1.0,1.0,0.0,0.2963,0.8889,0.3419,0.4444,0.6349,employee,manager
+grocery,Round 7,9.0,10.0,0.0,1.0,0.0,0.4737,1.0,0.5294,0.6429,0.8182,,manager
+grocery,Round 8,7.0,6.0,1.0,2.0,0.0,0.5385,0.875,0.5833,0.6667,0.7778,employee,"manager, working hours"
+grocery,Round 9,7.0,8.0,1.0,2.0,0.0,0.4667,0.875,0.5147,0.6087,0.7447,employee,"manager, working hours"
+grocery,Round 10,8.0,9.0,1.0,1.0,0.0,0.4706,0.8889,0.5195,0.6154,0.7547,employee,manager
+grocery,Average,8.1,11.8,0.6,1.3,0.0,0.43431999999999993,0.93056,0.48358999999999996,0.58485,0.74722,,

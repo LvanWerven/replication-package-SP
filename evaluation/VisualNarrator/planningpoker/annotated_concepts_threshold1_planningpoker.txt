@@ -1,0 +1,42 @@
+{'Predicted': 'moderator', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'game', 'Status': 'TP - concept is Must-have'}
+{'Predicted': 'estimator', 'Status': 'TP - concept is Should-have'}
+{'Predicted': 'round', 'Status': 'TP - concept is Should-have'}
+{'Predicted': 'item', 'Status': 'TP - concept is Must-have'}
+{'Predicted': 'question', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'estimate', 'Status': 'TP - concept is Should-have'}
+{'Predicted': 'average', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'field', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'it', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'transcript', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'account', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'application', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'accountname', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'name', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'accountdetail', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'detail', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'date', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'system', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'participant', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'mind', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'itself', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'card', 'Status': 'TP - concept is Should-have'}
+{'Predicted': 'developer', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'site', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'list', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'applicationfunction', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'function', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'user', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'action', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'unicode', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'url', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'researcher', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'result', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'mike', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'metric', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'reminder', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'page', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'timer', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'photo', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'index', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'guideline', 'Status': 'FP - Not in ground truth'}

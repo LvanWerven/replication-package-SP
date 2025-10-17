@@ -1,0 +1,12 @@
+Domain,Round,True_Positive,False_Positive,False_Negative,SHOULDHAVE,NOPUNISH,Precision,Recall,F0.5,F1,F2,Missed_Classes,Missed_ShouldHave
+ticket,Round 1,7.0,11.0,2.0,2.0,0.0,0.3889,0.7778,0.4321,0.5185,0.6481,"reseller, user","event types, payment"
+ticket,Round 2,6.0,5.0,2.0,2.0,0.0,0.5455,0.75,0.5769,0.6316,0.6977,"reseller, user","event types, payment"
+ticket,Round 3,7.0,8.0,1.0,3.0,0.0,0.4667,0.875,0.5147,0.6087,0.7447,reseller,"event types, genre, payment"
+ticket,Round 4,8.0,12.0,2.0,1.0,0.0,0.4,0.8,0.4444,0.5333,0.6667,"reseller, user",payment
+ticket,Round 5,9.0,8.0,1.0,1.0,0.0,0.5294,0.9,0.5769,0.6667,0.7895,reseller,payment
+ticket,Round 6,6.0,25.0,2.0,3.0,0.0,0.1935,0.75,0.2273,0.3077,0.4762,"artists, reseller","event types, genre, payment"
+ticket,Round 7,7.0,7.0,2.0,2.0,0.0,0.5,0.7778,0.5385,0.6087,0.7,"reseller, user","event types, payment"
+ticket,Round 8,7.0,3.0,1.0,3.0,0.0,0.7,0.875,0.7292,0.7778,0.8333,reseller,"event types, genre, payment"
+ticket,Round 9,8.0,14.0,1.0,2.0,0.0,0.3636,0.8889,0.4124,0.5161,0.6897,reseller,"event types, payment"
+ticket,Round 10,8.0,7.0,1.0,2.0,0.0,0.5333,0.8889,0.5797,0.6667,0.7843,reseller,"event types, payment"
+ticket,Average,7.3,10.0,1.5,2.1,0.0,0.46209,0.8283399999999999,0.5032099999999999,0.58358,0.7030200000000001,,

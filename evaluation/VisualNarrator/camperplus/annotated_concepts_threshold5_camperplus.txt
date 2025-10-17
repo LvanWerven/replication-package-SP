@@ -1,0 +1,27 @@
+{'Predicted': 'campadministrator', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'administrator', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'camp', 'Status': 'TP - concept is Should-have'}
+{'Predicted': 'camper', 'Status': 'TP - concept is Must-have'}
+{'Predicted': 'form', 'Status': 'TP - concept is Must-have'}
+{'Predicted': 'campworker', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'worker', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'information', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'parent', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'camperinformation', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'campcounselor', 'Status': 'FP - Not in ground truth'}
+{'GroundTruth': 'activities', 'Status': 'FN - concept is ground truth but not detected, type is must-have'}
+{'GroundTruth': 'attendance', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'behavior', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'camp worker', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'counselor', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'facilities', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'feedback', 'Status': 'FN - concept is ground truth but not detected, type is must-have'}
+{'GroundTruth': 'groups', 'Status': 'FN - concept is ground truth but not detected, type is must-have'}
+{'GroundTruth': 'guardians', 'Status': 'FN - concept is ground truth but not detected, type is must-have'}
+{'GroundTruth': 'payments', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'photos', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'positions', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'repair', 'Status': 'FN - concept is ground truth but not detected, type is must-have'}
+{'GroundTruth': 'rules', 'Status': 'FN - concept is ground truth but not detected, type is must-have'}
+{'GroundTruth': 'schedules', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'supplies', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}

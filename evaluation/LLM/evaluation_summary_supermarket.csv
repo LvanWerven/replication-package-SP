@@ -1,0 +1,12 @@
+Domain,Round,True_Positive,False_Positive,False_Negative,SHOULDHAVE,NOPUNISH,Precision,Recall,F0.5,F1,F2,Missed_Classes,Missed_ShouldHave
+supermarket,Round 1,10.0,8.0,1.0,1.0,0.0,0.5556,0.9091,0.6024,0.6897,0.8065,customer,newsletter
+supermarket,Round 2,11.0,19.0,1.0,0.0,0.0,0.3667,0.9167,0.4167,0.5238,0.7051,customer,
+supermarket,Round 3,11.0,13.0,1.0,0.0,0.0,0.4583,0.9167,0.5093,0.6111,0.7639,customer,
+supermarket,Round 4,11.0,11.0,1.0,0.0,0.0,0.5,0.9167,0.55,0.6471,0.7857,customer,
+supermarket,Round 5,11.0,10.0,1.0,0.0,0.0,0.5238,0.9167,0.5729,0.6667,0.7971,customer,
+supermarket,Round 6,11.0,7.0,1.0,0.0,0.0,0.6111,0.9167,0.6548,0.7333,0.8333,customer,
+supermarket,Round 7,11.0,9.0,1.0,0.0,0.0,0.55,0.9167,0.5978,0.6875,0.8088,customer,
+supermarket,Round 8,11.0,19.0,1.0,0.0,0.0,0.3667,0.9167,0.4167,0.5238,0.7051,customer,
+supermarket,Round 9,11.0,10.0,1.0,0.0,0.0,0.5238,0.9167,0.5729,0.6667,0.7971,customer,
+supermarket,Round 10,11.0,9.0,1.0,0.0,0.0,0.55,0.9167,0.5978,0.6875,0.8088,customer,
+supermarket,Average,10.9,11.5,1.0,0.1,0.0,0.5005999999999999,0.9159400000000002,0.5491300000000001,0.64372,0.7811400000000001,,

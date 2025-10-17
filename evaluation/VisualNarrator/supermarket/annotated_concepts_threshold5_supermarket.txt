@@ -1,0 +1,14 @@
+{'Predicted': 'customer', 'Status': 'TP - concept is Must-have'}
+{'Predicted': 'product', 'Status': 'TP - concept is Must-have'}
+{'Predicted': 'system', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'employee', 'Status': 'FP - Not in ground truth'}
+{'GroundTruth': 'delivery', 'Status': 'FN - concept is ground truth but not detected, type is must-have'}
+{'GroundTruth': 'loyalty card', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'newsletter', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'order', 'Status': 'FN - concept is ground truth but not detected, type is must-have'}
+{'GroundTruth': 'payment', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'personal discount', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'recipes', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'shopping list', 'Status': 'FN - concept is ground truth but not detected, type is must-have'}
+{'GroundTruth': 'store', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'wishlist', 'Status': 'FN - concept is ground truth but not detected, type is must-have'}

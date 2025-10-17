@@ -1,0 +1,12 @@
+Domain,Round,True_Positive,False_Positive,False_Negative,SHOULDHAVE,NOPUNISH,Precision,Recall,F0.5,F1,F2,Missed_Classes,Missed_ShouldHave
+planningpoker,Round 1,4.0,7.0,1.0,1.0,0.0,0.3636,0.8,0.4082,0.5,0.6452,item,estimators
+planningpoker,Round 2,5.0,6.0,0.0,1.0,0.0,0.4545,1.0,0.5102,0.625,0.8065,,estimators
+planningpoker,Round 3,4.0,20.0,1.0,1.0,0.0,0.1667,0.8,0.198,0.2759,0.4545,item,estimators
+planningpoker,Round 4,5.0,8.0,0.0,1.0,0.0,0.3846,1.0,0.4386,0.5556,0.7576,,estimators
+planningpoker,Round 5,4.0,6.0,1.0,1.0,0.0,0.4,0.8,0.4444,0.5333,0.6667,item,estimators
+planningpoker,Round 6,5.0,5.0,0.0,1.0,0.0,0.5,1.0,0.5556,0.6667,0.8333,,estimators
+planningpoker,Round 7,5.0,8.0,0.0,1.0,0.0,0.3846,1.0,0.4386,0.5556,0.7576,,estimators
+planningpoker,Round 8,5.0,5.0,0.0,1.0,0.0,0.5,1.0,0.5556,0.6667,0.8333,,estimators
+planningpoker,Round 9,4.0,7.0,1.0,1.0,0.0,0.3636,0.8,0.4082,0.5,0.6452,item,estimators
+planningpoker,Round 10,5.0,6.0,0.0,1.0,0.0,0.4545,1.0,0.5102,0.625,0.8065,,card
+planningpoker,Average,4.6,7.8,0.4,1.0,0.0,0.39721,0.9200000000000002,0.44676,0.55038,0.72064,,

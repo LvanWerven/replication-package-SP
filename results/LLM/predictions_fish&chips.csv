@@ -1,0 +1,39 @@
+Round 1,Round 2,Round 3,Round 4,Round 5,Round 6,Round 7,Round 8,Round 9,Round 10
+Order,order,Order,Order,Order,Order,Order,Order,Order,Order
+Product,status,Status,Product,Product,Product,Product,Product,Status,Product
+Special Request,product,Product,Special Request,Customer,Special Request,SpecialRequest,Special Request,Product,Special Request
+Notification,special request,Special Request,Notification,Special Request,Order Number,Notification,Notification,Special Request,Notification
+Change,notification,Notification,Change,Notification,Notification,Customer,Payment,Notification,Customer
+Payment,preparation,Customer,Payment,Payment,Change,Payment,Ticket,Ticket,Payment
+Order Type,time,Payment,Incoming Order,Ticket,Time,Ticket,Order Detail,Payment Method,Ticket
+Receipt,screen,Ticket,Current Order,Coupon,Day,Kitchen,Takeaway Order,Coupon,Delivery Address
+Ticket,confirmation,Payment Method,Finished Order,Inventory,Screen,Address,Pickup Time,Inventory,Coupon
+Customer,payment,Tip,Scheduled Order,Account,Ticket,PaymentMethod,Delivery Address,Account,Tax
+Delivery Person,ticket,Coupon,Preparation,Address,Order Detail,Tip,Phone Number,Payment,Inventory
+Address,type,Tax,Requested Time,,Pickup Time,Coupon,Payment Method,Kitchen,Restaurant
+Payment Method,pickup time,Inventory,Order Type,,Kitchen,Inventory,Tip,Restaurant,Account
+Tip,takeaway,Shift,Ordering Process,,Delivery Address,Restaurant,Coupon,Address,
+Coupon,delivery address,Cashier Account,Confirmation of Payment,,Phone Number,Account,VAT,,
+Discount,phone number,Order Type,Physical Ticket,,Payment,Shift,Tax,,
+VAT,name,,Order Detail,,Payment Method,Cash,Inventory,,
+Tax,payment method,,Pickup Time,,Tip,,Revenue,,
+Inventory,tip,,Takeaway Order,,Coupon,,Question,,
+Revenue,coupon,,Digital Ticket,,Discount,,Account,,
+Balance,discount,,Kitchen,,VAT,,Balance,,
+Shift,VAT,,Delivery Address,,Tax,,Shift,,
+,tax,,Phone Number,,Inventory,,Cash,,
+,inventory,,Payment Method,,Revenue,,Home Delivery Order,,
+,price,,Tip,,Balance,,Address,,
+,revenue,,Coupon,,Shift,,Navigation System,,
+,question,,Discount,,Cash,,Area,,
+,restaurant,,VAT,,Expected Revenue,,Label,,
+,amount,,Tax,,Navigation System,,Preparation,,
+,balance,,Sold Product,,Overview,,,,
+,shift,,Inventory,,Progress,,,,
+,cash,,Revenue,,,,,,
+,navigation system,,Question,,,,,,
+,area,,Balance,,,,,,
+,color,,Shift,,,,,,
+,schedule,,Home Delivery Order,,,,,,
+,,,Navigation System,,,,,,
+,,,Area,,,,,,

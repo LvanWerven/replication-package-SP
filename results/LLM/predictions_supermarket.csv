@@ -1,0 +1,31 @@
+Round 1,Round 2,Round 3,Round 4,Round 5,Round 6,Round 7,Round 8,Round 9,Round 10
+Product,product,product,Account,account,Account,Account,product,Account,product
+Recipe,account,account,Newsletter,newsletter,Newsletter,Newsletter,newsletter,Newsletter,account
+Store,newsletter,newsletter,Discount,discount,Discount,Discount,discount,Discount,newsletter
+Shopping list,push notification,discount,Notification,notification,Notification,Notification,notification,Notification,discount
+Wishlist,suggestion,push notification,Language,product,Subscription,Product,recipe,Recommendation,notification
+Inventory,discount,recipe,Recommendation,subscription,Recipe,Subscription,meal,Product,suggestion
+Dietary restriction,subscription,customer service,Product,delivery service,Product,Delivery Service,customer service,Subscription,subscription
+Discount,recipe,store,Subscription,recipe,ShoppingList,Recipe,store,Recipe,recipe
+Notification,customer service,shopping list,Delivery Service,customer service,Wishlist,Store,shopping list,Store,store
+Delivery,shopping list,wishlist,Recipe,store,Stock,Shopping List,wishlist,ShoppingList,shopping list
+Order,wishlist,stock,Support,shopping list,DietaryRestriction,Wishlist,dietary restriction,Wishlist,wishlist
+Shopping cart,stock,dietary restriction,Store,wishlist,Sale,Stock,price,Stock,stock
+Location,dietary restriction,price,Shopping List,stock,Order,Barcode,barcode,DietaryRestriction,dietary restriction
+Loyalty card,sale,barcode,Wishlist,dietary restriction,ShoppingCart,Order,stock,Barcode,sale
+Subscription,barcode,order,Inventory,order,Delivery,Shopping Cart,order,ProductInformation,order
+Payment,product information,shopping cart,Dietary Restriction,shopping cart,Payment,Grocery,grocery,Order,delivery
+Account,order,groceries,Barcode,payment,Store,Payment,delivery,ShoppingCart,order history
+Recommendation,grocery,delivery,Order,location,LoyaltyCard,Location,time slot,Payment,payment
+,delivery,order history,Cart,loyalty card,,Loyalty Card,order history,Location,location
+,order history,payment,Location,recommendation,,Recommendation,payment,LoyaltyCard,loyalty card
+,payment,location,Loyalty Card,delivery slot,,,location,Delivery,
+,store,loyalty card,Payment,,,,loyalty card,,
+,location,subscription,,,,,application,,
+,loyalty card,notification,,,,,recipe idea,,
+,language,,,,,,subscription,,
+,notification,,,,,,suggestion,,
+,time slot,,,,,,language,,
+,express delivery,,,,,,contrast,,
+,default store,,,,,,font size,,
+,nearest store recommendation,,,,,,password,,

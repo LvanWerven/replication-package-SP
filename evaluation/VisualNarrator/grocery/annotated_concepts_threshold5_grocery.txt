@@ -1,0 +1,14 @@
+{'Predicted': 'employee', 'Status': 'TP - concept is Must-have'}
+{'Predicted': 'overview', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'manager', 'Status': 'TP - concept is Should-have'}
+{'Predicted': 'system', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'complaint', 'Status': 'TP - concept is Must-have'}
+{'Predicted': 'officeemployee', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'applicant', 'Status': 'FP - Not in ground truth'}
+{'GroundTruth': 'certificates', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'contracts', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'message', 'Status': 'FN - concept is ground truth but not detected, type is must-have'}
+{'GroundTruth': 'payments', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'salary statement', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'schedule', 'Status': 'FN - concept is ground truth but not detected, type is must-have'}
+{'GroundTruth': 'working hours', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}

@@ -1,0 +1,451 @@
+# Generated with Visual Narrator
+Prefix: : <http://fakesite.org/system.owl#>
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+Prefix: dc: <http://purl.org/dc/elements/1.1/>
+Prefix: onto: <http://fakesite.org/system.owl#>
+
+Ontology: <:>
+
+Annotations:
+	dc:title "System",
+	dc:creator "Visual Narrator",
+	rdfs:comment "Generated with Visual Narrator"
+
+AnnotationProperty: dc:creator
+
+AnnotationProperty: dc:title
+
+
+# Relationships
+ObjectProperty: :canPayFor
+	Domain: :Visitor
+	Range: :Ticket
+
+ObjectProperty: :canFavorite
+	Domain: :User
+	Range: :Event
+
+ObjectProperty: :canKeep
+	Domain: :User
+	Range: :AccountInformation
+
+ObjectProperty: :canOffer
+	Domain: :Reseller
+	Range: :User
+
+ObjectProperty: :canStay
+	Domain: :Visitor
+	Range: :Event
+
+ObjectProperty: :canUpdate
+	Domain: :User
+	Range: :It
+
+ObjectProperty: :canChange
+	Domain: :User
+	Range: :Password
+
+ObjectProperty: :canUse
+	Domain: :Guest
+	Range: :Platform
+
+ObjectProperty: :canFind1
+	Domain: :User
+	Range: :Information
+
+ObjectProperty: :canFind2
+	Domain: :User
+	Range: :List
+
+ObjectProperty: :canFind3
+	Domain: :Visitor
+	Range: :Event
+
+ObjectProperty: :canFind4
+	Domain: :Artist
+	Range: :Information
+
+ObjectProperty: :canFind5
+	Domain: :User
+	Range: :It
+
+ObjectProperty: :canReceive1
+	Domain: :User
+	Range: :Content
+
+ObjectProperty: :canReceive2
+	Domain: :Company
+	Range: :ServiceFee
+
+ObjectProperty: :canSee1
+	Domain: :User
+	Range: :Content
+
+ObjectProperty: :canSee2
+	Domain: :User
+	Range: :Preference
+
+ObjectProperty: :canSee3
+	Domain: :User
+	Range: :History
+
+ObjectProperty: :canSee4
+	Domain: :User
+	Range: :Overview
+
+ObjectProperty: :canSee5
+	Domain: :Visitor
+	Range: :Event
+
+ObjectProperty: :canSee6
+	Domain: :Visitor
+	Range: :Seat
+
+ObjectProperty: :canSee7
+	Domain: :Visitor
+	Range: :Type
+
+ObjectProperty: :canSee8
+	Domain: :Visitor
+	Range: :System
+
+ObjectProperty: :canSee9
+	Domain: :Visitor
+	Range: :List
+
+ObjectProperty: :canSee10
+	Domain: :Visitor
+	Range: :Ticket
+
+ObjectProperty: :canLandOn
+	Domain: :Visitor
+	Range: :EventPage
+
+ObjectProperty: :canStream
+	Domain: :Visitor
+	Range: :Ticket
+
+ObjectProperty: :canKnow
+	Domain: :User
+	Range: :Ticket
+
+ObjectProperty: :canSelect
+	Domain: :Visitor
+	Range: :Event
+
+ObjectProperty: :canVisit
+	Domain: :Visitor
+	Range: :Page
+
+ObjectProperty: :canValidate
+	Domain: :Company
+	Range: :Ticket
+
+ObjectProperty: :canFilter1
+	Domain: :Visitor
+	Range: :Search
+
+ObjectProperty: :canFilter2
+	Domain: :Visitor
+	Range: :SearchResult
+
+ObjectProperty: :canFilter3
+	Domain: :Visitor
+	Range: :List
+
+ObjectProperty: :hasPage
+	Domain: :Event
+	Range: :EventPage
+
+ObjectProperty: :canRetrieve
+	Domain: :User
+	Range: :Ticket
+
+ObjectProperty: :canGet
+	Domain: :Visitor
+	Range: :List
+
+ObjectProperty: :canEdit
+	Domain: :User
+	Range: :Information
+
+ObjectProperty: :hasResult
+	Domain: :Search
+	Range: :SearchResult
+
+ObjectProperty: :canHave1
+	Domain: :User
+	Range: :Process
+
+ObjectProperty: :canHave2
+	Domain: :User
+	Range: :Detail
+
+ObjectProperty: :canHave3
+	Domain: :Visitor
+	Range: :SearchEngine
+
+ObjectProperty: :canHave4
+	Domain: :Visitor
+	Range: :Event
+
+ObjectProperty: :canHave5
+	Domain: :Company
+	Range: :Price
+
+ObjectProperty: :canHave6
+	Domain: :Company
+	Range: :Ticket
+
+ObjectProperty: :canHave7
+	Domain: :Visitor
+	Range: :It
+
+ObjectProperty: :canHave8
+	Domain: :Artist
+	Range: :Link
+
+ObjectProperty: :canHave9
+	Domain: :Artist
+	Range: :Description
+
+ObjectProperty: :canEnsure
+	Domain: :Company
+	Range: :Platform
+
+ObjectProperty: :canProtect
+	Domain: :Company
+	Range: :User
+
+ObjectProperty: :canClickOn
+	Domain: :Visitor
+	Range: :Event
+
+ObjectProperty: :hasFee
+	Domain: :Service
+	Range: :ServiceFee
+
+ObjectProperty: :canAvoid
+	Domain: :Company
+	Range: :Behavior
+
+ObjectProperty: :canSell
+	Domain: :Reseller
+	Range: :Ticket
+
+ObjectProperty: :canBuy
+	Domain: :Visitor
+	Range: :Ticket
+
+ObjectProperty: :canBe
+	Domain: :Process
+	Range: :Account
+
+ObjectProperty: :canChoose
+	Domain: :Visitor
+	Range: :Type
+
+ObjectProperty: :canPurchase
+	Domain: :Visitor
+	Range: :Ticket
+
+ObjectProperty: :hasEngine
+	Domain: :Search
+	Range: :SearchEngine
+
+ObjectProperty: :canAdd1
+	Domain: :Visitor
+	Range: :Ticket
+
+ObjectProperty: :canAdd2
+	Domain: :Reseller
+	Range: :Description
+
+ObjectProperty: :canResell
+	Domain: :Reseller
+	Range: :Ticket
+
+ObjectProperty: :canSave
+	Domain: :User
+	Range: :Information
+
+ObjectProperty: :canUpload
+	Domain: :Reseller
+	Range: :Ticket
+
+ObjectProperty: :canSort
+	Domain: :Visitor
+	Range: :SearchResult
+
+ObjectProperty: :canDecide
+	Domain: :Visitor
+	Range: :Ticket
+
+ObjectProperty: :canSet
+	Domain: :Reseller
+	Range: :Price
+
+ObjectProperty: :canFill1
+	Domain: :User
+	Range: :Survey
+
+ObjectProperty: :canFill2
+	Domain: :Guest
+	Range: :Information
+
+ObjectProperty: :canReadAbout1
+	Domain: :Visitor
+	Range: :Event
+
+ObjectProperty: :canReadAbout2
+	Domain: :Visitor
+	Range: :Ticket
+
+ObjectProperty: :canDeduct
+	Domain: :Company
+	Range: :ServiceFee
+
+# Classes
+Class: :User
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Information
+
+
+Class: :Process
+
+
+Class: :Detail
+
+
+Class: :Survey
+
+
+Class: :Content
+
+
+Class: :Preference
+
+
+Class: :Password
+
+
+Class: :AccountInformation
+	Annotations:
+		rdfs:label "Account Information"
+
+Class: :It
+
+
+Class: :History
+
+
+Class: :Ticket
+
+
+Class: :Overview
+
+
+Class: :List
+
+
+Class: :Visitor
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Event
+
+
+Class: :Reseller
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Account
+
+
+Class: :Guest
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Platform
+
+
+Class: :Seat
+
+
+Class: :Type
+
+
+Class: :System
+
+
+Class: :EventPage
+	SubClassOf: :Page
+	Annotations:
+		rdfs:label "Event Page"
+
+Class: :Page
+
+
+Class: :SearchEngine
+	SubClassOf: :Engine
+	Annotations:
+		rdfs:label "Search Engine"
+
+Class: :Engine
+
+
+Class: :Search
+
+
+Class: :SearchResult
+	SubClassOf: :Result
+	Annotations:
+		rdfs:label "Search Result"
+
+Class: :Result
+
+
+Class: :Company
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Price
+
+
+Class: :ServiceFee
+	SubClassOf: :Fee
+	Annotations:
+		rdfs:label "Service Fee"
+
+Class: :Fee
+
+
+Class: :Service
+
+
+Class: :Behavior
+
+
+Class: :Description
+
+
+Class: :Artist
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Link
+
+
+Class: :Name
+
+
+Class: :TimeUser
+	Annotations:
+		rdfs:label "Time User",
+		rdfs:comment "Functional Role"
+

@@ -1,0 +1,12 @@
+Domain,Round,True_Positive,False_Positive,False_Negative,SHOULDHAVE,NOPUNISH,Precision,Recall,F0.5,F1,F2,Missed_Classes,Missed_ShouldHave
+sports,Round 1,9.0,7.0,3.0,1.0,0.0,0.5625,0.75,0.5921,0.6429,0.7031,"customer, payment information, trainer",person
+sports,Round 2,10.0,6.0,2.0,1.0,1.0,0.625,0.8333,0.6579,0.7143,0.7812,"customer, trainer",person
+sports,Round 3,10.0,19.0,2.0,1.0,1.0,0.3448,0.8333,0.3906,0.4878,0.6494,"customer, trainer",person
+sports,Round 4,6.0,6.0,5.0,2.0,0.0,0.5,0.5455,0.5085,0.5217,0.5357,"customer, payment information, schedule, subscription, trainer","person, spot"
+sports,Round 5,7.0,7.0,4.0,2.0,0.0,0.5,0.6364,0.5224,0.56,0.6034,"customer, payment information, trainer, training sessions","person, spot"
+sports,Round 6,9.0,8.0,2.0,2.0,0.0,0.5294,0.8182,0.5696,0.6429,0.7377,"payment information, subscription","person, spot"
+sports,Round 7,6.0,7.0,5.0,2.0,1.0,0.4615,0.5455,0.4762,0.5,0.5263,"customer, lessons, payment information, schedule, trainer","person, spot"
+sports,Round 8,8.0,4.0,3.0,2.0,1.0,0.6667,0.7273,0.678,0.6957,0.7143,"customer, payment information, trainer","person, spot"
+sports,Round 9,10.0,5.0,3.0,0.0,1.0,0.6667,0.7692,0.6849,0.7143,0.7463,"customer, payment information, trainer",
+sports,Round 10,10.0,7.0,2.0,1.0,1.0,0.5882,0.8333,0.625,0.6897,0.7692,"customer, trainer",spot
+sports,Average,8.5,7.6,3.1,1.4,0.6,0.5444799999999999,0.7292000000000001,0.5705199999999999,0.61693,0.6766599999999998,,

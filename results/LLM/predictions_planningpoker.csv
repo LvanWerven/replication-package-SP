@@ -1,0 +1,25 @@
+Round 1,Round 2,Round 3,Round 4,Round 5,Round 6,Round 7,Round 8,Round 9,Round 10
+Game,Game,Game,User,Game,Game,Game,Game,Game,Game
+Round,Item,Round,Game,Round,Item,Item,Item,Round,Item
+Team,Estimate,Estimate,Item,Backlog Item,Estimate,Round,Estimate,Estimate,Round
+Card,Round,Card,Round,Estimate,Round,Estimate,Round,Card,Estimate
+Estimate,Card,EstimationSequence,Estimate,Card,UserAccount,Card,Card,Timer,Participant
+Spreadsheet,EstimationScale,Transcript,Transcript,Team,Transcript,Team,Deck,Transcript,Account
+Transcript,Account,Account,Spreadsheet,Transcript,Card,User,User,Account,Estimation Scale
+Account,Transcript,PasswordReminder,Timer,Estimation Scale,EstimationScale,Account,Account,Sequence,Transcript
+Countdown timer,Metric,Timezone,Card,Countdown Timer,Timer,Transcript,Transcript,Spreadsheet,Timer
+Photo,Timer,Email,EstimationScale,Metric,Invitation,Spreadsheet,Timer,Metric,Metric
+Result,Photo,Name,Metric,,,Timer,,Team,Result
+,,Username,Result,,,Scale,,,
+,,URL,Photo,,,Metric,,,
+,,Spreadsheet,,,,,,,
+,,CSVFile,,,,,,,
+,,HTMLFile,,,,,,,
+,,Result,,,,,,,
+,,Data,,,,,,,
+,,Metric,,,,,,,
+,,Average,,,,,,,
+,,List,,,,,,,
+,,Question,,,,,,,
+,,CountdownTimer,,,,,,,
+,,Information,,,,,,,

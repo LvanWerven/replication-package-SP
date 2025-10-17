@@ -1,0 +1,35 @@
+{'Predicted': 'salarystatement', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'statement', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'salary', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'employee', 'Status': 'TP - concept is Must-have'}
+{'Predicted': 'overview', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'manager', 'Status': 'TP - concept is Should-have'}
+{'Predicted': 'option', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'paymentsystem', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'system', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'payment', 'Status': 'TP - concept is Should-have'}
+{'Predicted': 'part', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'notification', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'date', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'ability', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'operation', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'schedule', 'Status': 'TP - concept is Must-have'}
+{'Predicted': 'hour', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'track', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'complaint', 'Status': 'TP - concept is Must-have'}
+{'Predicted': 'officeemployee', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'office', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'applicant', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'account', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'contract', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'certificate', 'Status': 'TP - concept is Should-have'}
+{'Predicted': 'management', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'message', 'Status': 'TP - concept is Must-have'}
+{'Predicted': 'inbox', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'password', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'application', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'information', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'process', 'Status': 'FP - Not in ground truth'}
+{'GroundTruth': 'contracts', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'salary statement', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'working hours', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}

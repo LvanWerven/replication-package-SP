@@ -1,0 +1,32 @@
+Round 1,Round 2,Round 3,Round 4,Round 5,Round 6,Round 7,Round 8,Round 9,Round 10
+Profile,PersonalInformation,User,Preference,User,User,Event,User,User,User
+Preference,Preference,PaymentDetail,Genre,Profile,Personal Information,Ticket,Ticket,Profile,Preference
+Ticket,Ticket,Preference,EventType,Preference,Payment Details,Seat,Event,Ticket,Ticket
+TicketOrder,PaymentDetails,Order,Profile,PaymentDetail,Survey,Venue,Artist,Event,Order
+PaymentInfo,Order,Ticket,Order,Survey,Preference,Genre,Venue,Artist,Event
+Survey,Event,Event,Artist,Genre,Content,Artist,Seat,Payment Detail,Venue
+Genre,Genre,Location,Location,EventType,Profile,Preference,Order,Order,Artist
+Event,Artist,Artist,Ticket,Event,Ticket Order,Survey,Shopping Cart,Shopping Cart,PaymentMethod
+Artist,Venue,Seat,Event,Ticket,Event,Order,Payment Method,Seat,BankAccount
+Location,BankAccount,Venue,Venue,Order,Ticket,Favorite,Resale Listing,Venue,Genre
+Venue,Profile,TicketType,Price,Artist,Platform,Shopping Cart,,Ticket Type,Seat
+Seat,,Cart,ServiceFee,Seat,Price,Payment Method,,Search Result,TicketType
+TicketType,,PaymentMethod,BankAccount,Venue,Venue,Bank Account,,Price,ShoppingCart
+ShoppingCart,,BankAccount,ShoppingCart,TicketType,Service Fee,Profile,,Genre,Favorite
+PaymentMethod,,Fee,PaymentMethod,ShoppingCart,Digital Ticket,,,Bank Account,Listing
+ServiceFee,,,PaymentDetail,PaymentMethod,Fraud,,,Service Fee,
+BankAccount,,,Seat,BankAccount,Bank Account,,,Digital Ticket,
+Favorite,,,TicketType,,Calendar View,,,Music Platform,
+,,,Favorite,,Homepage,,,Website,
+,,,Recommendation,,Website,,,Social Media,
+,,,,,Social Media,,,Calendar View,
+,,,,,Description,,,Location,
+,,,,,Tour,,,,
+,,,,,Music Platform,,,,
+,,,,,Seat,,,,
+,,,,,Seat Map,,,,
+,,,,,Ticket Type,,,,
+,,,,,Shopping Cart,,,,
+,,,,,Order Summary,,,,
+,,,,,Payment Method,,,,
+,,,,,Event Page,,,,

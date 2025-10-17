@@ -1,0 +1,12 @@
+Domain,Round,True_Positive,False_Positive,False_Negative,SHOULDHAVE,NOPUNISH,Precision,Recall,F0.5,F1,F2,Missed_Classes,Missed_ShouldHave
+camperplus,Round 1,13.0,6.0,0.0,6.0,2.0,0.6842,1.0,0.7303,0.8125,0.9155,,"behavior, camp, camp worker, counselor, positions, schedules"
+camperplus,Round 2,15.0,7.0,0.0,4.0,1.0,0.6818,1.0,0.7282,0.8108,0.9146,,"behavior, camp worker, counselor, positions"
+camperplus,Round 3,13.0,5.0,2.0,4.0,2.0,0.7222,0.8667,0.7471,0.7879,0.8333,"repair, rules","behavior, counselor, photos, positions"
+camperplus,Round 4,14.0,5.0,1.0,4.0,0.0,0.7368,0.9333,0.7692,0.8235,0.8861,repair,"behavior, camp, counselor, positions"
+camperplus,Round 5,11.0,3.0,2.0,6.0,3.0,0.7857,0.8462,0.7971,0.8148,0.8333,"repair, rules","attendance, behavior, camp, counselor, positions, supplies"
+camperplus,Round 6,15.0,7.0,0.0,4.0,1.0,0.6818,1.0,0.7282,0.8108,0.9146,,"behavior, camp worker, counselor, positions"
+camperplus,Round 7,15.0,6.0,0.0,4.0,0.0,0.7143,1.0,0.7576,0.8333,0.9259,,"behavior, camp worker, counselor, positions"
+camperplus,Round 8,16.0,7.0,0.0,3.0,2.0,0.6957,1.0,0.7407,0.8205,0.9195,,"behavior, camp, counselor"
+camperplus,Round 9,14.0,7.0,0.0,5.0,0.0,0.6667,1.0,0.7143,0.8,0.9091,,"behavior, camp, camp worker, counselor, positions"
+camperplus,Round 10,13.0,8.0,1.0,5.0,0.0,0.619,0.9286,0.6633,0.7429,0.8442,repair,"behavior, camp, camp worker, counselor, positions"
+camperplus,Average,13.9,6.1,0.6,4.5,1.1,0.69882,0.95748,0.7375999999999999,0.8057000000000001,0.88961,,

@@ -1,0 +1,47 @@
+{'Predicted': 'user', 'Status': 'TP - concept is Must-have'}
+{'Predicted': 'information', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'process', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'detail', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'survey', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'content', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'preference', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'password', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'accountinformation', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'it', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'history', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'ticket', 'Status': 'TP - concept is Must-have'}
+{'Predicted': 'overview', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'list', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'visitor', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'event', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'reseller', 'Status': 'TP - concept is Must-have'}
+{'Predicted': 'account', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'guest', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'platform', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'seat', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'type', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'system', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'eventpage', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'page', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'searchengine', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'engine', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'search', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'searchresult', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'result', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'company', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'price', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'servicefee', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'fee', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'service', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'behavior', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'description', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'artist', 'Status': 'TP - concept is Must-have'}
+{'Predicted': 'link', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'name', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'timeuser', 'Status': 'FP - Not in ground truth'}
+{'GroundTruth': 'event types', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'events', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'genre', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'order', 'Status': 'FN - concept is ground truth but not detected, type is must-have'}
+{'GroundTruth': 'payment', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'venue', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}

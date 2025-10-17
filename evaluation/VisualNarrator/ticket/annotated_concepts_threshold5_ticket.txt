@@ -1,0 +1,17 @@
+{'Predicted': 'user', 'Status': 'TP - concept is Must-have'}
+{'Predicted': 'information', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'ticket', 'Status': 'TP - concept is Must-have'}
+{'Predicted': 'visitor', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'event', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'reseller', 'Status': 'TP - concept is Must-have'}
+{'Predicted': 'system', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'company', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'artist', 'Status': 'TP - concept is Must-have'}
+{'Predicted': 'timeuser', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'guest', 'Status': 'FP - Not in ground truth'}
+{'GroundTruth': 'event types', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'events', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'genre', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'order', 'Status': 'FN - concept is ground truth but not detected, type is must-have'}
+{'GroundTruth': 'payment', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'venue', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}

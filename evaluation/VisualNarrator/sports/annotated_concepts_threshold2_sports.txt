@@ -1,0 +1,28 @@
+{'Predicted': 'customer', 'Status': 'TP - concept is Must-have'}
+{'Predicted': 'information', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'subscription', 'Status': 'TP - concept is Must-have'}
+{'Predicted': 'system', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'it', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'detail', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'person', 'Status': 'TP - concept is Should-have'}
+{'Predicted': 'overview', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'lesson', 'Status': 'TP - concept is Must-have'}
+{'Predicted': 'time', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'gym', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'application', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'timeslot', 'Status': 'TP - concept is Should-have'}
+{'Predicted': 'trainer', 'Status': 'TP - concept is Must-have'}
+{'Predicted': 'description', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'room', 'Status': 'TP - concept is Should-have'}
+{'Predicted': 'type', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'number', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'admin', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'notification', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'session', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'user', 'Status': 'FP - Not in ground truth'}
+{'GroundTruth': 'booking', 'Status': 'FN - concept is ground truth but not detected, type is must-have'}
+{'GroundTruth': 'family membership', 'Status': 'FN - concept is ground truth but not detected, type is must-have'}
+{'GroundTruth': 'Payment information', 'Status': 'FN - concept is ground truth but not detected, type is must-have'}
+{'GroundTruth': 'schedule', 'Status': 'FN - concept is ground truth but not detected, type is must-have'}
+{'GroundTruth': 'spot', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'training sessions', 'Status': 'FN - concept is ground truth but not detected, type is must-have'}
