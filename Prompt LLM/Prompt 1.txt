@@ -1,0 +1,6 @@
+1. Extract Nouns (or Compound Nouns): List all nouns mentioned in the user stories. These can include:
+- Physical entities: e.g., houses, persons, machines.
+- Conceptual entities: e.g., trajectories, seating assignments, payment schedules.
+ 2. Ignore Subclasses: When defining classes, do not consider any subclasses. Focus on the "nouns or compound nouns" themselves.
+3. Exclude Overly Generic Terms: Remove terms like "thing", "item ", or similarly vague words.
+Only output classes and separated by , do not include any other words or symbols in your generated text.
