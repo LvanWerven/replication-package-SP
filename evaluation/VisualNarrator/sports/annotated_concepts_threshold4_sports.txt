@@ -1,0 +1,19 @@
+{'Predicted': 'customer', 'Status': 'TP - concept is Must-have'}
+{'Predicted': 'information', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'system', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'lesson', 'Status': 'TP - concept is Must-have'}
+{'Predicted': 'gym', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'trainer', 'Status': 'TP - concept is Must-have'}
+{'Predicted': 'admin', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'notification', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'user', 'Status': 'FP - Not in ground truth'}
+{'GroundTruth': 'booking', 'Status': 'FN - concept is ground truth but not detected, type is must-have'}
+{'GroundTruth': 'family membership', 'Status': 'FN - concept is ground truth but not detected, type is must-have'}
+{'GroundTruth': 'Payment information', 'Status': 'FN - concept is ground truth but not detected, type is must-have'}
+{'GroundTruth': 'person', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'rooms', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'schedule', 'Status': 'FN - concept is ground truth but not detected, type is must-have'}
+{'GroundTruth': 'spot', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'subscription', 'Status': 'FN - concept is ground truth but not detected, type is must-have'}
+{'GroundTruth': 'timeslot', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'training sessions', 'Status': 'FN - concept is ground truth but not detected, type is must-have'}

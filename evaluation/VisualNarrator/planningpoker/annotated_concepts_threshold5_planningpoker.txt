@@ -2,9 +2,9 @@
 {'Predicted': 'game', 'Status': 'TP - concept is Must-have'}
 {'Predicted': 'estimator', 'Status': 'TP - concept is Should-have'}
 {'Predicted': 'item', 'Status': 'TP - concept is Must-have'}
-{'Predicted': 'estimate', 'Status': 'TP - concept is Should-have'}
+{'Predicted': 'estimate', 'Status': 'TP - synonym for concept estimate, which is Should-have'}
 {'Predicted': 'system', 'Status': 'FP - Not in ground truth'}
-{'Predicted': 'participant', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'participant', 'Status': 'TP - synonym for concept estimators, which is Should-have'}
 {'Predicted': 'developer', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'user', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'researcher', 'Status': 'FP - Not in ground truth'}

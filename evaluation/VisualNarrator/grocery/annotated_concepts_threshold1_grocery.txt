@@ -1,9 +1,9 @@
-{'Predicted': 'salarystatement', 'Status': 'FP - Not in ground truth'}
-{'Predicted': 'statement', 'Status': 'FP - Not in ground truth'}
-{'Predicted': 'salary', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'salarystatement', 'Status': 'TP - synonym for concept salary statement, which is Should-have'}
+{'Predicted': 'statement', 'Status': 'FP - a synonym for concept salary statement, which is already used'}
+{'Predicted': 'salary', 'Status': 'FP - a synonym for concept salary statement, which is already used'}
 {'Predicted': 'employee', 'Status': 'TP - concept is Must-have'}
 {'Predicted': 'overview', 'Status': 'FP - Not in ground truth'}
-{'Predicted': 'manager', 'Status': 'TP - concept is Should-have'}
+{'Predicted': 'manager', 'Status': 'TP - synonym for concept manager, which is Should-have'}
 {'Predicted': 'option', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'paymentsystem', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'system', 'Status': 'FP - Not in ground truth'}
@@ -13,7 +13,7 @@
 {'Predicted': 'date', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'ability', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'operation', 'Status': 'FP - Not in ground truth'}
-{'Predicted': 'schedule', 'Status': 'TP - concept is Must-have'}
+{'Predicted': 'schedule', 'Status': 'TP - synonym for concept schedule, which is Must-have'}
 {'Predicted': 'hour', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'track', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'complaint', 'Status': 'TP - concept is Must-have'}
@@ -21,8 +21,8 @@
 {'Predicted': 'office', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'applicant', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'account', 'Status': 'FP - Not in ground truth'}
-{'Predicted': 'contract', 'Status': 'FP - Not in ground truth'}
-{'Predicted': 'certificate', 'Status': 'TP - concept is Should-have'}
+{'Predicted': 'contract', 'Status': 'FP - synonym for concept contract, which is Not in ground truth'}
+{'Predicted': 'certificate', 'Status': 'TP - synonym for concept certificate, which is Should-have'}
 {'Predicted': 'management', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'message', 'Status': 'TP - concept is Must-have'}
 {'Predicted': 'inbox', 'Status': 'FP - Not in ground truth'}

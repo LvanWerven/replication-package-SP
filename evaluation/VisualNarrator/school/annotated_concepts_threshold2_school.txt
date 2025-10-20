@@ -1,21 +1,21 @@
 {'Predicted': 'guardian', 'Status': 'TP - concept is Must-have'}
 {'Predicted': 'teacher', 'Status': 'TP - concept is Must-have'}
-{'Predicted': 'absence', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'absence', 'Status': 'TP - synonym for concept attendance, which is Should-have'}
 {'Predicted': 'notification', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'message', 'Status': 'TP - concept is Must-have'}
 {'Predicted': 'information', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'insight', 'Status': 'FP - Not in ground truth'}
-{'Predicted': 'student', 'Status': 'TP - concept is Must-have'}
+{'Predicted': 'student', 'Status': 'TP - synonym for concept student, which is Must-have'}
 {'Predicted': 'file', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'access', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'date', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'change', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'page', 'Status': 'FP - Not in ground truth'}
-{'Predicted': 'dlm', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'dlm', 'Status': 'TP - synonym for concept digital learning module, which is Must-have'}
 {'Predicted': 'answer', 'Status': 'TP - concept is Should-have'}
-{'Predicted': 'grade', 'Status': 'TP - concept is Should-have'}
-{'Predicted': 'administrator', 'Status': 'TP - concept is Must-have'}
-{'Predicted': 'schedule', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'grade', 'Status': 'TP - synonym for concept grade, which is Should-have'}
+{'Predicted': 'administrator', 'Status': 'TP - synonym for concept administrator, which is Must-have'}
+{'Predicted': 'schedule', 'Status': 'TP - synonym for concept timetable, which is Must-have'}
 {'Predicted': 'studentguardian', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'user', 'Status': 'FP - Not in ground truth'}
 {'GroundTruth': 'assignment', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}

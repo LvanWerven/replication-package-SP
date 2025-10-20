@@ -1,11 +1,11 @@
 {'Predicted': 'customer', 'Status': 'TP - concept is Must-have'}
-{'Predicted': 'newsletter', 'Status': 'TP - concept is Should-have'}
-{'Predicted': 'discount', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'newsletter', 'Status': 'TP - synonym for concept newsletter, which is Should-have'}
+{'Predicted': 'discount', 'Status': 'TP - synonym for concept personal discount, which is Should-have'}
 {'Predicted': 'product', 'Status': 'TP - concept is Must-have'}
-{'Predicted': 'deliveryservice', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'deliveryservice', 'Status': 'TP - synonym for concept delivery, which is Must-have'}
 {'Predicted': 'service', 'Status': 'FP - Not in ground truth'}
-{'Predicted': 'delivery', 'Status': 'TP - concept is Must-have'}
-{'Predicted': 'recipe', 'Status': 'TP - concept is Should-have'}
+{'Predicted': 'delivery', 'Status': 'FP - a synonym for concept delivery, which is already used'}
+{'Predicted': 'recipe', 'Status': 'TP - synonym for concept recipe, which is Should-have'}
 {'Predicted': 'customerservice', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'stock', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'store', 'Status': 'TP - concept is Should-have'}

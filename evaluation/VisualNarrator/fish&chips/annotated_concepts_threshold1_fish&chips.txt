@@ -27,7 +27,7 @@
 {'Predicted': 'phonenumber', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'phone', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'name', 'Status': 'FP - Not in ground truth'}
-{'Predicted': 'request', 'Status': 'TP - concept is Should-have'}
+{'Predicted': 'request', 'Status': 'TP - synonym for concept request, which is Should-have'}
 {'Predicted': 'tip', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'coupon', 'Status': 'TP - concept is Should-have'}
 {'Predicted': 'restaurantowner', 'Status': 'FP - Not in ground truth'}
@@ -38,7 +38,7 @@
 {'Predicted': 'amount', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'cashieraccount', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'account', 'Status': 'FP - Not in ground truth'}
-{'Predicted': 'deliveryperson', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'deliveryperson', 'Status': 'TP - synonym for concept delivery person, which is Should-have'}
 {'Predicted': 'person', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'orderprice', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'price', 'Status': 'FP - Not in ground truth'}

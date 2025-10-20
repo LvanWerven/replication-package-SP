@@ -1,21 +1,21 @@
 {'Predicted': 'campadministrator', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'administrator', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'camp', 'Status': 'TP - concept is Should-have'}
-{'Predicted': 'camper', 'Status': 'TP - concept is Must-have'}
+{'Predicted': 'camper', 'Status': 'TP - synonym for concept camper, which is Must-have'}
 {'Predicted': 'track', 'Status': 'FP - Not in ground truth'}
-{'Predicted': 'form', 'Status': 'TP - concept is Must-have'}
-{'Predicted': 'activity', 'Status': 'TP - concept is Must-have'}
+{'Predicted': 'form', 'Status': 'TP - synonym for concept form, which is Must-have'}
+{'Predicted': 'activity', 'Status': 'TP - synonym for concept activity, which is Must-have'}
 {'Predicted': 'nametag', 'Status': 'FP - Not in ground truth'}
-{'Predicted': 'campworker', 'Status': 'FP - Not in ground truth'}
-{'Predicted': 'worker', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'campworker', 'Status': 'TP - synonym for concept camp worker, which is Should-have'}
+{'Predicted': 'worker', 'Status': 'FP - a synonym for concept camp worker, which is already used'}
 {'Predicted': 'schedule', 'Status': 'TP - concept is Should-have'}
 {'Predicted': 'information', 'Status': 'FP - Not in ground truth'}
-{'Predicted': 'parent', 'Status': 'FP - Not in ground truth'}
-{'Predicted': 'attendance', 'Status': 'TP - concept is Should-have'}
-{'Predicted': 'group', 'Status': 'TP - concept is Must-have'}
-{'Predicted': 'campgroup', 'Status': 'FP - Not in ground truth'}
-{'Predicted': 'counselor', 'Status': 'TP - concept is Should-have'}
-{'Predicted': 'task', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'parent', 'Status': 'TP - synonym for concept guardian, which is Must-have'}
+{'Predicted': 'attendance', 'Status': 'TP - synonym for concept attendance, which is Should-have'}
+{'Predicted': 'group', 'Status': 'TP - synonym for concept group, which is Must-have'}
+{'Predicted': 'campgroup', 'Status': 'FP - a synonym for concept group, which is already used'}
+{'Predicted': 'counselor', 'Status': 'TP - synonym for concept counselor, which is Should-have'}
+{'Predicted': 'task', 'Status': 'FP - a synonym for concept activity, which is already used'}
 {'Predicted': 'camperinformation', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'camperactivity', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'campercounselor', 'Status': 'FP - Not in ground truth'}

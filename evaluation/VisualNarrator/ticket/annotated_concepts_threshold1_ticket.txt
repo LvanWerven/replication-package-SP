@@ -1,4 +1,4 @@
-{'Predicted': 'user', 'Status': 'TP - concept is Must-have'}
+{'Predicted': 'user', 'Status': 'TP - synonym for concept user, which is Must-have'}
 {'Predicted': 'information', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'process', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'detail', 'Status': 'FP - Not in ground truth'}
@@ -13,13 +13,13 @@
 {'Predicted': 'overview', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'list', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'visitor', 'Status': 'FP - Not in ground truth'}
-{'Predicted': 'event', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'event', 'Status': 'FP - synonym for concept event, which is Not in ground truth'}
 {'Predicted': 'reseller', 'Status': 'TP - concept is Must-have'}
 {'Predicted': 'account', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'guest', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'platform', 'Status': 'FP - Not in ground truth'}
-{'Predicted': 'seat', 'Status': 'FP - Not in ground truth'}
-{'Predicted': 'type', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'seat', 'Status': 'FP - synonym for concept seat, which is Not in ground truth'}
+{'Predicted': 'type', 'Status': 'TP - synonym for concept event type, which is Should-have'}
 {'Predicted': 'system', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'eventpage', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'page', 'Status': 'FP - Not in ground truth'}
@@ -35,7 +35,7 @@
 {'Predicted': 'service', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'behavior', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'description', 'Status': 'FP - Not in ground truth'}
-{'Predicted': 'artist', 'Status': 'TP - concept is Must-have'}
+{'Predicted': 'artist', 'Status': 'TP - synonym for concept artist, which is Must-have'}
 {'Predicted': 'link', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'name', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'timeuser', 'Status': 'FP - Not in ground truth'}

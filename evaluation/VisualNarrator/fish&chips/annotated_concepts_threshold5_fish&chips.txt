@@ -12,7 +12,7 @@
 {'Predicted': 'owner', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'restaurant', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'customer', 'Status': 'TP - concept is Should-have'}
-{'Predicted': 'deliveryperson', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'deliveryperson', 'Status': 'TP - synonym for concept delivery person, which is Should-have'}
 {'GroundTruth': 'cash', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
 {'GroundTruth': 'coupons', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
 {'GroundTruth': 'delivery person', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}

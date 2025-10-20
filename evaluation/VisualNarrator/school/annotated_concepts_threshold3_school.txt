@@ -1,0 +1,27 @@
+{'Predicted': 'guardian', 'Status': 'TP - concept is Must-have'}
+{'Predicted': 'teacher', 'Status': 'TP - concept is Must-have'}
+{'Predicted': 'absence', 'Status': 'TP - synonym for concept attendance, which is Should-have'}
+{'Predicted': 'notification', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'message', 'Status': 'TP - concept is Must-have'}
+{'Predicted': 'information', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'insight', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'student', 'Status': 'TP - synonym for concept student, which is Must-have'}
+{'Predicted': 'date', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'page', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'dlm', 'Status': 'TP - synonym for concept digital learning module, which is Must-have'}
+{'Predicted': 'administrator', 'Status': 'TP - synonym for concept administrator, which is Must-have'}
+{'Predicted': 'studentguardian', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'user', 'Status': 'FP - Not in ground truth'}
+{'GroundTruth': 'answer', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'assignment', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'attendance', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'behavior', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'class', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'digital learning modules', 'Status': 'FN - concept is ground truth but not detected, type is must-have'}
+{'GroundTruth': 'disciplinary actions', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'grades', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'material', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'mentor', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'question', 'Status': 'FN - concept is ground truth but not detected, type is must-have'}
+{'GroundTruth': 'submission', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'timetable', 'Status': 'FN - concept is ground truth but not detected, type is must-have'}

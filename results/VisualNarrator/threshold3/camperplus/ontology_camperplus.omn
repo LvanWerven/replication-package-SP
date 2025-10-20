@@ -1,0 +1,217 @@
+# Generated with Visual Narrator
+Prefix: : <http://fakesite.org/system.owl#>
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+Prefix: dc: <http://purl.org/dc/elements/1.1/>
+Prefix: onto: <http://fakesite.org/system.owl#>
+
+Ontology: <:>
+
+Annotations:
+	dc:title "System",
+	dc:creator "Visual Narrator",
+	rdfs:comment "Generated with Visual Narrator"
+
+AnnotationProperty: dc:creator
+
+AnnotationProperty: dc:title
+
+
+# Relationships
+ObjectProperty: :canCreate
+	Domain: :CampAdministrator
+	Range: :Group
+
+ObjectProperty: :canDelete1
+	Domain: :CampAdministrator
+	Range: :Camper
+
+ObjectProperty: :canDelete2
+	Domain: :CampAdministrator
+	Range: :Parent
+
+ObjectProperty: :canReport
+	Domain: :CampWorker
+	Range: :Camper
+
+ObjectProperty: :canStore
+	Domain: :CampAdministrator
+	Range: :Information
+
+ObjectProperty: :canSuspend
+	Domain: :CampAdministrator
+	Range: :Camper
+
+ObjectProperty: :canModify
+	Domain: :CampAdministrator
+	Range: :Information
+
+ObjectProperty: :canKnow
+	Domain: :Parent
+	Range: :Camp
+
+ObjectProperty: :canEnroll
+	Domain: :Parent
+	Range: :Camper
+
+ObjectProperty: :canWarn
+	Domain: :CampAdministrator
+	Range: :CampWorker
+
+ObjectProperty: :canAdd1
+	Domain: :CampAdministrator
+	Range: :Camper
+
+ObjectProperty: :canAdd2
+	Domain: :CampAdministrator
+	Range: :Parent
+
+ObjectProperty: :hasAdministrator
+	Domain: :Camp
+	Range: :CampAdministrator
+
+ObjectProperty: :hasActivity
+	Domain: :Camper
+	Range: :CamperActivity
+
+ObjectProperty: :canNotify
+	Domain: :CampAdministrator
+	Range: :Parent
+
+ObjectProperty: :canSee1
+	Domain: :CampAdministrator
+	Range: :Form
+
+ObjectProperty: :canSee2
+	Domain: :CampAdministrator
+	Range: :CampGroup
+
+ObjectProperty: :canSee3
+	Domain: :Parent
+	Range: :Form
+
+ObjectProperty: :canSee4
+	Domain: :Parent
+	Range: :Camper
+
+ObjectProperty: :canSee5
+	Domain: :CampWorker
+	Range: :Camper
+
+ObjectProperty: :canTrack1
+	Domain: :CampAdministrator
+	Range: :Group
+
+ObjectProperty: :canTrack2
+	Domain: :Parent
+	Range: :CamperActivity
+
+ObjectProperty: :canOrganize
+	Domain: :CampAdministrator
+	Range: :Camper
+
+ObjectProperty: :canSchedule
+	Domain: :CampAdministrator
+	Range: :Activity
+
+ObjectProperty: :canRemove
+	Domain: :CampAdministrator
+	Range: :Camper
+
+ObjectProperty: :hasGroup
+	Domain: :Camp
+	Range: :CampGroup
+
+ObjectProperty: :hasWorker
+	Domain: :Camp
+	Range: :CampWorker
+
+ObjectProperty: :canKeep1
+	Domain: :CampAdministrator
+	Range: :Track
+
+ObjectProperty: :canKeep2
+	Domain: :CampWorker
+	Range: :Track
+
+ObjectProperty: :canKeep3
+	Domain: :CampAdministrator
+	Range: :Information
+
+ObjectProperty: :canKeep4
+	Domain: :CampAdministrator
+	Range: :CamperInformation
+
+ObjectProperty: :canKeep5
+	Domain: :CampAdministrator
+	Range: :Group
+
+ObjectProperty: :canAccess
+	Domain: :Camper
+	Range: :Form
+
+# Classes
+Class: :CampAdministrator
+	SubClassOf: :Administrator
+	Annotations:
+		rdfs:label "Camp Administrator",
+		rdfs:comment "Functional Role"
+
+Class: :Administrator
+
+
+Class: :Camp
+
+
+Class: :Camper
+
+
+Class: :Track
+
+
+Class: :Form
+
+
+Class: :Activity
+
+
+Class: :CampWorker
+	SubClassOf: :Worker
+	Annotations:
+		rdfs:label "Camp Worker",
+		rdfs:comment "Functional Role"
+
+Class: :Worker
+
+
+Class: :Information
+
+
+Class: :Parent
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Group
+
+
+Class: :CampGroup
+	SubClassOf: :Group
+	Annotations:
+		rdfs:label "Camp Group"
+
+Class: :CamperInformation
+	Annotations:
+		rdfs:label "Camper Information"
+
+Class: :CamperActivity
+	SubClassOf: :Activity
+	Annotations:
+		rdfs:label "Camper Activity"
+
+Class: :CampCounselor
+	Annotations:
+		rdfs:label "Camp Counselor",
+		rdfs:comment "Functional Role"
+

@@ -12,16 +12,30 @@ import os
 from tabulate import tabulate
 
 # === USER SETTINGS ===
-domains = ["camperplus", "supermarket", "fish&chips", "planningpoker", "grocery", "school", "sports", "ticket"]  # update this list with your actual domains
-base_predictions_VN_pattern = "../../results/VisualNarrator/{}/{}/predictions_{}.txt"    # naming pattern for predictions files
-thresholds = [1,2,5] # thresholds for VisualNarrator
-best_score_based_on_metric = 'F1_Score'  # Metric to determine the best score per domain
+DOMAINS = ["camperplus", "supermarket", "fish&chips", "planningpoker", "grocery", "school", "sports", "ticket"]  # update this list with your actual domains
+THRESHOLDS = [1,2,3,4,5] # thresholds for VisualNarrator
 
+base_predictions_VN_pattern = "../../results/VisualNarrator/{}/{}/predictions_{}.txt"    # naming pattern for predictions files
+
+SUMMARIZE_RESULTS = True
+BEST_SCORE_PER_DOMAIN = 'F1_Score'  # Metric to determine the best score per domain
+
+CREATE_LATEX_TABLE = True 
 OUTPUT_FILENAME = "main_table_results_VN.tex"  # Output LaTeX file name
-create_latex_table = True  # Whether to create a LaTeX table
+
+TEST_SETTINGS = False  # Whether to run in test mode with limited domains
+
+if TEST_SETTINGS:
+    DOMAINS = ["camperplus"]
+    THRESHOLDS = [1, 2]
+    SUMMARIZE_RESULTS = False
+    CREATE_LATEX_TABLE = False
 
 ground_truth_all = pd.read_csv("../ground_truth.csv")  # columns: domain, Class, Singular, Type
 print("Ground truth data loaded.", ground_truth_all.shape[0], "rows.")
+
+synonyms_all = pd.read_csv("../synonyms.csv")  # columns: Class, Synonym
+notpunish_all = pd.read_csv("../notpunish.csv")  # columns: domain, Class
 
 def convert_to_latex_table(df: pd.DataFrame) -> None:
     """
@@ -36,7 +50,6 @@ def convert_to_latex_table(df: pd.DataFrame) -> None:
     # ------------------------------------------------------------------
     
     ALL_HEADERS = df_copy.columns.to_list()
-    print(f"All DataFrame Headers: {ALL_HEADERS}")
     
     try:
         r_s_index = ALL_HEADERS.index('Recall_Should_Have')
@@ -109,7 +122,7 @@ def convert_to_latex_table(df: pd.DataFrame) -> None:
     # === Table A Structure (Counts, Precision, Recall) ===
     header_structure_A = f"""
 \\hline
-\\multicolumn{{2}}{{|c|}}{{\\raisebox{{1ex}}[0pt][0pt]{{Domain $|$ Threshold}}}} & \\multicolumn{{5}}{{|c|}}{{\\textbf{{Counts}}}} & \\multicolumn{{3}}{{|c|}}{{\\textbf{{Precision}}}} & \\multicolumn{{3}}{{|c|}}{{\\textbf{{Recall}}}} \\\\
+\\multicolumn{{2}}{{|c|}}{{\\raisebox{{-1.5ex}}[0pt][0pt]{{Domain $|$ Threshold}}}} & \\multicolumn{{5}}{{|c|}}{{\\textbf{{Counts}}}} & \\multicolumn{{3}}{{|c|}}{{\\textbf{{Precision}}}} & \\multicolumn{{3}}{{|c|}}{{\\textbf{{Recall}}}} \\\\
 \\cline{{3-13}}
 \\multicolumn{{2}}{{|c|}}{{}} & {ALL_HEADERS[2]} & {ALL_HEADERS[3]} & {ALL_HEADERS[4]} & {ALL_HEADERS[5]} & {ALL_HEADERS[6]} & {ALL_HEADERS[7]} & {ALL_HEADERS[8]} & {ALL_HEADERS[9]} & {ALL_HEADERS[10]} & {ALL_HEADERS[11]} & {ALL_HEADERS[12]} \\\\
 \\hline
@@ -119,12 +132,13 @@ def convert_to_latex_table(df: pd.DataFrame) -> None:
     # Note: If you still need a super-wide table, you can replace \textwidth with 1.25\textwidth 
     # and re-introduce the \makebox and minipage, but keep it self-contained.
     final_latex_table_A = f"""
-\\begin{{table}}[H]
-\\centering
+\\begin{{table}}[h!]
+\\noindent
 \\caption{{Performance Metrics by Domain: Counts, Precision, and Recall}}
-\\label{{tab:metrics_a}}
+\\label{{tab:metrics_VN}}
 \\fontsize{{6.5pt}}{{7.5pt}}\\selectfont 
-\\resizebox{{\\textwidth}}{{!}}{{ 
+\\makebox[\\linewidth][c]{{%
+\\resizebox{{1.3\\textwidth}}{{!}}{{ 
     \\begin{{tabular}}{{{col_format_A}}}
     {header_structure_A}
     {'\\n'.join(content_lines_A)} 
@@ -138,17 +152,17 @@ def convert_to_latex_table(df: pd.DataFrame) -> None:
     # === Table B Structure (F-Scores) ===
     header_structure_B = f"""
 \\hline
-\\multicolumn{{2}}{{|c|}}{{\\raisebox{{1ex}}[0pt][0pt]{{Domain $|$ Threshold}}}} & \\multicolumn{{3}}{{|c|}}{{\\textbf{{F$_{{0.5}}$ Score}}}} & \\multicolumn{{3}}{{|c|}}{{\\textbf{{F$_1$ Score}}}} & \\multicolumn{{3}}{{|c|}}{{\\textbf{{F$_2$ Score}}}} \\\\
+\\multicolumn{{2}}{{|c|}}{{\\raisebox{{-1.5ex}}[0pt][0pt]{{Domain $|$ Threshold}}}} & \\multicolumn{{3}}{{|c|}}{{\\textbf{{F$_{{0.5}}$ Score}}}} & \\multicolumn{{3}}{{|c|}}{{\\textbf{{F$_1$ Score}}}} & \\multicolumn{{3}}{{|c|}}{{\\textbf{{F$_2$ Score}}}} \\\\
 \\cline{{3-11}}
 \\multicolumn{{2}}{{|c|}}{{}} & F$_{{0.5}}$ & F$_{{0.5}}$(M) & F$_{{0.5}}$(S) & F$_1$ & F$_1$(M) & F$_1$(S) & F$_2$ & F$_2$(M) & F$_2$(S) \\\\
 \\hline
     """
     
     final_latex_table_B = f"""
-\\begin{{table}}[H]
+\\begin{{table}}[h!]
 \\centering
 \\caption{{Performance Metrics by Domain: F-Scores}}
-\\label{{tab:metrics_b}}
+\\label{{tab:metrics_VN_Fscores}}
 \\fontsize{{6.5pt}}{{7.5pt}}\\selectfont 
 \\resizebox{{\\textwidth}}{{!}}{{ 
     \\begin{{tabular}}{{{col_format_B}}}
@@ -156,7 +170,7 @@ def convert_to_latex_table(df: pd.DataFrame) -> None:
     {'\\n'.join(content_lines_B)} 
     \\hline
     \\end{{tabular}}
-}}
+}}}}
 \\caption*{{(M): Must Have; (S): Should Have. All values are shown rounded to 3 decimal places.}}
 \\end{{table}}
 """
@@ -230,19 +244,66 @@ def txt_file_to_list(file_path: str) -> List[str]:
         print(f"❌ An error occurred while reading the file: {e}")
         return []
 
+def check_term_inclusion(df, search_term):
+    """
+    Checks if a given term is included in the 'concept' or any 'synonym' column
+    of the DataFrame using vectorized pandas operations (case-insensitive, partial match).
+
+    Args:
+        df (pd.DataFrame): The DataFrame containing the concept and synonym columns.
+        search_term (str): The term to search for.
+
+    Returns:
+        pd.DataFrame: A DataFrame containing only the rows that match the search_term.
+    """
+    if not search_term:
+        print("Please provide a search term.")
+        return pd.DataFrame()
+
+    # 2. Identify the columns to search
+    search_cols = [col for col in df.columns if col == 'concept' or col.startswith('synonym')]
+
+    # 3. Create a boolean mask using .stack() and .isin()
+    # a. Select and stack: Convert the selected columns into a single long Series.
+    # b. Normalize: Convert all values to lowercase.
+    # c. Check membership: Use isin() for an exact match check.
+    # d. Get the index: Since stack creates a MultiIndex (row_index, col_name), we need to check if
+    #    the *row index* (level 0) is present in the matching items.
+    matching_indices = df[search_cols].stack(future_stack=True).str.lower()
+    
+    mask_indices = matching_indices[matching_indices.isin([lower_term])].index.get_level_values(0).unique()
+    
+    # 4. Filter and return the matching rows
+    matching_rows = df.loc[mask_indices].copy()
+
+    if matching_rows['concept'].unique().size > 1:
+        return Warning(f"Multiple matches found for term '{search_term}' in synonyms.")
+
+    return matching_rows['concept'].unique()[0] if not matching_rows.empty else None
+
 def fscore(beta, precision, recall):
     return (1 + beta**2) * (precision * recall) / ((beta**2 * precision) + recall) if (precision + recall) > 0 else 0
 
+def get_ground_truth_of_concept(ground_truth_df, term):
+    if term not in ground_truth['Class'].values and term not in ground_truth['Singular'].values:
+        return None
+    row = ground_truth_df[ground_truth_df['Class'] == term]
+    if row.empty:
+        row = ground_truth_df[ground_truth_df['Singular'] == term]
+    return row.iloc[0]
+
 best_score_per_domain = []
 
-for domain in domains:
+for domain in DOMAINS:
     print(f"\n=== Evaluating domain: {domain} ===")
 
     ground_truth = ground_truth_all[ground_truth_all['domain'] == domain]
+    synonyms_domain = synonyms_all[synonyms_all['domain'] == domain]
+    notpunish_domain = notpunish_all[notpunish_all['domain'] == domain]
 
     results_per_threshold = []
 
-    for threshold in thresholds:
+    for threshold in THRESHOLDS:
         print(f"\n--- Threshold: {threshold} ---")
 
         threshold_str = f"threshold{threshold}"
@@ -261,25 +322,59 @@ for domain in domains:
         fp = 0
 
         annotated_rows = []
+        used_synonym_concepts_set = set()
 
         for term in pred_list:
             lower_term = term.lower()
-            if lower_term not in ground_truth['Class'].values and lower_term not in ground_truth['Singular'].values:
+
+            synonym_concept = check_term_inclusion(synonyms_domain, lower_term)
+            notpunish_concept = check_term_inclusion(notpunish_domain, lower_term)
+
+            # A synonym was found, however the same concept has been used before
+            if synonym_concept and synonym_concept in used_synonym_concepts_set:
+                if notpunish_concept is not None:
+                    annotated_rows.append({'Predicted': lower_term, 'Status': f'Not punished - a synonym for concept {synonym_concept}, which is in not punished list'})
+                    continue
                 fp += 1
-                annotated_rows.append({'Predicted': term, 'Status': 'FP - Not in ground truth'})
-            elif lower_term in ground_truth['Class'].values or lower_term in ground_truth['Singular'].values:
-                row = ground_truth[ground_truth['Class'] == lower_term]
-                if row.empty:
-                    row = ground_truth[ground_truth['Singular'] == lower_term]
-                row = row.iloc[0]
-                if row['Type'] == 'Must-have':
-                    tp_must_have += 1
-                    annotated_rows.append({'Predicted': lower_term, 'Status': 'TP - concept is Must-have'})
+                annotated_rows.append({'Predicted': lower_term, 'Status': f'FP - a synonym for concept {synonym_concept}, which is already used'})
+                continue
+            
+            # A synonym was found, and the concept has not been used before
+            elif synonym_concept:
+                used_synonym_concepts_set.add(synonym_concept)
+                ground_truth_row = get_ground_truth_of_concept(ground_truth, synonym_concept)
+                if ground_truth_row is not None:
+                    if ground_truth_row['Type'] == 'Must-have':
+                      tp_must_have += 1
+                      annotated_rows.append({'Predicted': lower_term, 'Status': f'TP - synonym for concept {synonym_concept}, which is Must-have'})
+                    else:
+                      tp_should_have += 1
+                      annotated_rows.append({'Predicted': lower_term, 'Status': f'TP - synonym for concept {synonym_concept}, which is Should-have'})
+                elif notpunish_concept is not None:
+                    annotated_rows.append({'Predicted': lower_term, 'Status': f'Not punished - synonym for concept {synonym_concept}, which is in not punished list'})
                 else:
-                    tp_should_have += 1
-                    annotated_rows.append({'Predicted': lower_term, 'Status': 'TP - concept is Should-have'})
-            else : 
-                print(f"term '{term}' not found.")
+                    fp += 1
+                    annotated_rows.append({'Predicted': lower_term, 'Status': f'FP - synonym for concept {synonym_concept}, which is Not in ground truth'})
+            
+            # A synonym was not found, test for lower_term
+            else:
+                ground_truth_row = get_ground_truth_of_concept(ground_truth, lower_term)
+                # The term is found directly in ground truth
+                if ground_truth_row is not None:
+                    if ground_truth_row['Type'] == 'Must-have':
+                      tp_must_have += 1
+                      annotated_rows.append({'Predicted': lower_term, 'Status': 'TP - concept is Must-have'})
+                    else:
+                      tp_should_have += 1
+                      annotated_rows.append({'Predicted': lower_term, 'Status': 'TP - concept is Should-have'})
+                    continue
+                elif notpunish_concept is not None:
+                    annotated_rows.append({'Predicted': lower_term, 'Status': f'Not punished - synonym for concept {synonym_concept}, which is in not punished list'})
+                else:
+                    fp += 1
+                    annotated_rows.append({'Predicted': lower_term, 'Status': 'FP - Not in ground truth'})
+
+
         
         for _, row in ground_truth.iterrows():
             if row['Type'] == 'Must-have':
@@ -330,7 +425,7 @@ for domain in domains:
             'F2_Score_Should_Have': fscore(2, precision_should_have, recall_should_have),
         })
 
-    highestThreshold = max(results_per_threshold, key=lambda x: x[best_score_based_on_metric])
+    highestThreshold = max(results_per_threshold, key=lambda x: x[BEST_SCORE_PER_DOMAIN])
 
     results_per_threshold.append({
         'Threshold': 'Best F1 Score at threshold ' + str(highestThreshold['Threshold'])
@@ -343,46 +438,48 @@ for domain in domains:
         **highestThreshold
     })
 
-best_scores_df = pd.DataFrame(best_score_per_domain)
 
-precision_mean = best_scores_df['Precision'].mean()
-precision_must_have = best_scores_df['Precision_Must_Have'].mean()
-precision_should_have = best_scores_df['Precision_Should_Have'].mean()
-recall_mean = best_scores_df['Recall'].mean()
-recall_must_have = best_scores_df['Recall_Must_Have'].mean()
-recall_should_have = best_scores_df['Recall_Should_Have'].mean()
+if SUMMARIZE_RESULTS:
+    best_scores_df = pd.DataFrame(best_score_per_domain)
+
+    precision_mean = best_scores_df['Precision'].mean()
+    precision_must_have = best_scores_df['Precision_Must_Have'].mean()
+    precision_should_have = best_scores_df['Precision_Should_Have'].mean()
+    recall_mean = best_scores_df['Recall'].mean()
+    recall_must_have = best_scores_df['Recall_Must_Have'].mean()
+    recall_should_have = best_scores_df['Recall_Should_Have'].mean()
 
 
-summary = {
-    "Domain": "Mean of all the domains best runs based on " + best_score_based_on_metric,
-    'TP_Must_Have': best_scores_df['TP_Must_Have'].mean(),
-    'TP_Should_Have': best_scores_df['TP_Should_Have'].mean(),
-    'FN_Must_Have': best_scores_df['FN_Must_Have'].mean(),
-    'FN_Should_Have': best_scores_df['FN_Should_Have'].mean(),
-    'FP': best_scores_df['FP'].mean(),
-    'Precision': precision_mean,
-    'Precision_Must_Have': precision_must_have,
-    'Precision_Should_Have': precision_should_have,
-    'Recall': recall_mean,
-    'Recall_Must_Have': recall_must_have,
-    'Recall_Should_Have': recall_should_have,
-    'F0.5_Score': fscore(0.5, precision_mean, recall_mean),
-    'F0.5_Score_Must_Have': fscore(0.5, precision_must_have, recall_must_have),
-    'F0.5_Score_Should_Have': fscore(0.5, precision_should_have, recall_should_have),
-    'F1_Score': fscore(1, precision, recall),
-    'F1_Score_Must_Have': fscore(1, precision_must_have, recall_must_have),
-    'F1_Score_Should_Have': fscore(1, precision_should_have, recall_should_have),
-    'F2_Score': fscore(2, precision, recall),
-    'F2_Score_Must_Have': fscore(2, precision_must_have, recall_must_have),
-    'F2_Score_Should_Have': fscore(2, precision_should_have, recall_should_have),
-}
+    summary = {
+        "Domain": "Mean of all the domains best runs based on " + BEST_SCORE_PER_DOMAIN,
+        'TP_Must_Have': best_scores_df['TP_Must_Have'].mean(),
+        'TP_Should_Have': best_scores_df['TP_Should_Have'].mean(),
+        'FN_Must_Have': best_scores_df['FN_Must_Have'].mean(),
+        'FN_Should_Have': best_scores_df['FN_Should_Have'].mean(),
+        'FP': best_scores_df['FP'].mean(),
+        'Precision': precision_mean,
+        'Precision_Must_Have': precision_must_have,
+        'Precision_Should_Have': precision_should_have,
+        'Recall': recall_mean,
+        'Recall_Must_Have': recall_must_have,
+        'Recall_Should_Have': recall_should_have,
+        'F0.5_Score': fscore(0.5, precision_mean, recall_mean),
+        'F0.5_Score_Must_Have': fscore(0.5, precision_must_have, recall_must_have),
+        'F0.5_Score_Should_Have': fscore(0.5, precision_should_have, recall_should_have),
+        'F1_Score': fscore(1, precision, recall),
+        'F1_Score_Must_Have': fscore(1, precision_must_have, recall_must_have),
+        'F1_Score_Should_Have': fscore(1, precision_should_have, recall_should_have),
+        'F2_Score': fscore(2, precision, recall),
+        'F2_Score_Must_Have': fscore(2, precision_must_have, recall_must_have),
+        'F2_Score_Should_Have': fscore(2, precision_should_have, recall_should_have),
+    }
 
-summary_df = pd.DataFrame([summary])
+    summary_df = pd.DataFrame([summary])
 
-best_scores_df = pd.concat([best_scores_df, summary_df], ignore_index=True)
-best_scores_df.to_csv("best_scores_per_domain.csv", index=False)
+    best_scores_df = pd.concat([best_scores_df, summary_df], ignore_index=True)
+    best_scores_df.to_csv("best_scores_per_domain.csv", index=False)
 
-if create_latex_table:
+if CREATE_LATEX_TABLE:
     convert_to_latex_table(best_scores_df)
 
         

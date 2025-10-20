@@ -1,0 +1,142 @@
+# Generated with Visual Narrator
+Prefix: : <http://fakesite.org/system.owl#>
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+Prefix: dc: <http://purl.org/dc/elements/1.1/>
+Prefix: onto: <http://fakesite.org/system.owl#>
+
+Ontology: <:>
+
+Annotations:
+	dc:title "System",
+	dc:creator "Visual Narrator",
+	rdfs:comment "Generated with Visual Narrator"
+
+AnnotationProperty: dc:creator
+
+AnnotationProperty: dc:title
+
+
+# Relationships
+ObjectProperty: :canSee1
+	Domain: :Customer
+	Range: :Lesson
+
+ObjectProperty: :canSee2
+	Domain: :Trainer
+	Range: :System
+
+ObjectProperty: :canSee3
+	Domain: :Customer
+	Range: :Information
+
+ObjectProperty: :canSee4
+	Domain: :Trainer
+	Range: :Information
+
+ObjectProperty: :canUse
+	Domain: :Customer
+	Range: :Information
+
+ObjectProperty: :canUnsubscribe
+	Domain: :Customer
+	Range: :System
+
+ObjectProperty: :canOrganize
+	Domain: :Trainer
+	Range: :Lesson
+
+ObjectProperty: :canCall
+	Domain: :Customer
+	Range: :Gym
+
+ObjectProperty: :canRemove
+	Domain: :Admin
+	Range: :Trainer
+
+ObjectProperty: :canReceive
+	Domain: :Customer
+	Range: :Notification
+
+ObjectProperty: :canConfirm
+	Domain: :Customer
+	Range: :System
+
+ObjectProperty: :canAdd1
+	Domain: :Customer
+	Range: :Information
+
+ObjectProperty: :canAdd2
+	Domain: :Trainer
+	Range: :Lesson
+
+ObjectProperty: :canAdd3
+	Domain: :Admin
+	Range: :Trainer
+
+ObjectProperty: :canAdd4
+	Domain: :Admin
+	Range: :Admin
+
+ObjectProperty: :canKnow
+	Domain: :Customer
+	Range: :System
+
+ObjectProperty: :canEdit1
+	Domain: :Trainer
+	Range: :Lesson
+
+ObjectProperty: :canEdit2
+	Domain: :Admin
+	Range: :Lesson
+
+ObjectProperty: :canCancel1
+	Domain: :Trainer
+	Range: :Lesson
+
+ObjectProperty: :canCancel2
+	Domain: :Admin
+	Range: :Lesson
+
+ObjectProperty: :canMove
+	Domain: :Trainer
+	Range: :Lesson
+
+ObjectProperty: :canHave
+	Domain: :Admin
+	Range: :System
+
+# Classes
+Class: :Customer
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Information
+
+
+Class: :System
+
+
+Class: :Lesson
+
+
+Class: :Gym
+
+
+Class: :Trainer
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Admin
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Notification
+
+
+Class: :User
+	Annotations:
+		rdfs:comment "Functional Role"
+

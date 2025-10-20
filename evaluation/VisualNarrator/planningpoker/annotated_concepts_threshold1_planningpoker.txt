@@ -1,10 +1,10 @@
 {'Predicted': 'moderator', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'game', 'Status': 'TP - concept is Must-have'}
 {'Predicted': 'estimator', 'Status': 'TP - concept is Should-have'}
-{'Predicted': 'round', 'Status': 'TP - concept is Should-have'}
+{'Predicted': 'round', 'Status': 'TP - synonym for concept round, which is Should-have'}
 {'Predicted': 'item', 'Status': 'TP - concept is Must-have'}
 {'Predicted': 'question', 'Status': 'FP - Not in ground truth'}
-{'Predicted': 'estimate', 'Status': 'TP - concept is Should-have'}
+{'Predicted': 'estimate', 'Status': 'TP - synonym for concept estimate, which is Should-have'}
 {'Predicted': 'average', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'field', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'it', 'Status': 'FP - Not in ground truth'}
@@ -17,7 +17,7 @@
 {'Predicted': 'detail', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'date', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'system', 'Status': 'FP - Not in ground truth'}
-{'Predicted': 'participant', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'participant', 'Status': 'TP - synonym for concept estimators, which is Should-have'}
 {'Predicted': 'mind', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'itself', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'card', 'Status': 'TP - concept is Should-have'}

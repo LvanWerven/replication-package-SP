@@ -1,0 +1,200 @@
+# Generated with Visual Narrator
+Prefix: : <http://fakesite.org/system.owl#>
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+Prefix: dc: <http://purl.org/dc/elements/1.1/>
+Prefix: onto: <http://fakesite.org/system.owl#>
+
+Ontology: <:>
+
+Annotations:
+	dc:title "System",
+	dc:creator "Visual Narrator",
+	rdfs:comment "Generated with Visual Narrator"
+
+AnnotationProperty: dc:creator
+
+AnnotationProperty: dc:title
+
+
+# Relationships
+ObjectProperty: :canView1
+	Domain: :Guardian
+	Range: :Information
+
+ObjectProperty: :canView2
+	Domain: :Student
+	Range: :Information
+
+ObjectProperty: :canCangain1
+	Domain: :Teacher
+	Range: :Insight
+
+ObjectProperty: :canCangain2
+	Domain: :Administrator
+	Range: :Insight
+
+ObjectProperty: :hasGuardian
+	Domain: :Student
+	Range: :StudentGuardian
+
+ObjectProperty: :canSet
+	Domain: :Teacher
+	Range: :Date
+
+ObjectProperty: :canAlways
+	Domain: :Student
+	Range: :Date
+
+ObjectProperty: :canAssign1
+	Domain: :Teacher
+	Range: :DLM
+
+ObjectProperty: :canAssign2
+	Domain: :Teacher
+	Range: :Date
+
+ObjectProperty: :canGain1
+	Domain: :Guardian
+	Range: :Insight
+
+ObjectProperty: :canGain2
+	Domain: :Student
+	Range: :Insight
+
+ObjectProperty: :canGain3
+	Domain: :Teacher
+	Range: :Insight
+
+ObjectProperty: :canGain4
+	Domain: :Administrator
+	Range: :Insight
+
+ObjectProperty: :canMessage1
+	Domain: :Guardian
+	Range: :Teacher
+
+ObjectProperty: :canMessage2
+	Domain: :Teacher
+	Range: :Student
+
+ObjectProperty: :canEdit
+	Domain: :Teacher
+	Range: :Page
+
+ObjectProperty: :canInform
+	Domain: :Student
+	Range: :DLM
+
+ObjectProperty: :canTeacher
+	Domain: :Student
+	Range: :Insight
+
+ObjectProperty: :canGather
+	Domain: :Administrator
+	Range: :Insight
+
+ObjectProperty: :canFill
+	Domain: :Guardian
+	Range: :Absence
+
+ObjectProperty: :canHave1
+	Domain: :Guardian
+	Range: :Message
+
+ObjectProperty: :canHave2
+	Domain: :Student
+	Range: :Message
+
+ObjectProperty: :canHave3
+	Domain: :Teacher
+	Range: :DLM
+
+ObjectProperty: :canHave4
+	Domain: :Teacher
+	Range: :Message
+
+ObjectProperty: :canHave5
+	Domain: :Administrator
+	Range: :Message
+
+ObjectProperty: :canSend
+	Domain: :Administrator
+	Range: :Message
+
+ObjectProperty: :canRegister
+	Domain: :Administrator
+	Range: :Absence
+
+ObjectProperty: :canAdd
+	Domain: :Teacher
+	Range: :Page
+
+ObjectProperty: :canReceive1
+	Domain: :Guardian
+	Range: :Notification
+
+ObjectProperty: :canReceive2
+	Domain: :Student
+	Range: :Notification
+
+ObjectProperty: :canReceive3
+	Domain: :Teacher
+	Range: :Notification
+
+ObjectProperty: :canReceive4
+	Domain: :Administrator
+	Range: :Notification
+
+# Classes
+Class: :Guardian
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Teacher
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Absence
+
+
+Class: :Notification
+
+
+Class: :Message
+
+
+Class: :Information
+
+
+Class: :Insight
+
+
+Class: :Student
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Date
+
+
+Class: :Page
+
+
+Class: :DLM
+
+
+Class: :Administrator
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :StudentGuardian
+	SubClassOf: :Guardian
+	Annotations:
+		rdfs:label "Student Guardian"
+
+Class: :User
+	Annotations:
+		rdfs:comment "Functional Role"
+

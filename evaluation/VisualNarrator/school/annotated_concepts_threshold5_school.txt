@@ -1,8 +1,8 @@
-{'Predicted': 'student', 'Status': 'TP - concept is Must-have'}
+{'Predicted': 'student', 'Status': 'TP - synonym for concept student, which is Must-have'}
 {'Predicted': 'notification', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'insight', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'teacher', 'Status': 'TP - concept is Must-have'}
-{'Predicted': 'administrator', 'Status': 'TP - concept is Must-have'}
+{'Predicted': 'administrator', 'Status': 'TP - synonym for concept administrator, which is Must-have'}
 {'Predicted': 'guardian', 'Status': 'TP - concept is Must-have'}
 {'Predicted': 'user', 'Status': 'FP - Not in ground truth'}
 {'GroundTruth': 'answer', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}

@@ -1,0 +1,24 @@
+KitchenEmployee
+Employee
+Kitchen
+Order
+Overview
+Product
+OrderNumber
+Number
+TicketMaster
+Master
+Ticket
+Change
+Customer
+Cashier
+DeliveryAddress
+Address
+Delivery
+RestaurantOwner
+Owner
+Restaurant
+DeliveryPerson
+Person
+
+Total classes: 22

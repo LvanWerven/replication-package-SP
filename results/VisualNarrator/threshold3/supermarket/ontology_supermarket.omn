@@ -1,0 +1,128 @@
+# Generated with Visual Narrator
+Prefix: : <http://fakesite.org/system.owl#>
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+Prefix: dc: <http://purl.org/dc/elements/1.1/>
+Prefix: onto: <http://fakesite.org/system.owl#>
+
+Ontology: <:>
+
+Annotations:
+	dc:title "System",
+	dc:creator "Visual Narrator",
+	rdfs:comment "Generated with Visual Narrator"
+
+AnnotationProperty: dc:creator
+
+AnnotationProperty: dc:title
+
+
+# Relationships
+ObjectProperty: :canAwareOf
+	Domain: :Customer
+	Range: :Discount
+
+ObjectProperty: :canSeeOut
+	Domain: :Customer
+	Range: :System
+
+ObjectProperty: :canPurchase
+	Domain: :Customer
+	Range: :Product
+
+ObjectProperty: :canNotifyOf
+	Domain: :Customer
+	Range: :Discount
+
+ObjectProperty: :canEdit
+	Domain: :Employee
+	Range: :Discount
+
+ObjectProperty: :hasService
+	Domain: :Customer
+	Range: :CustomerService
+
+ObjectProperty: :canSearchFor
+	Domain: :Customer
+	Range: :Product
+
+ObjectProperty: :canOrder
+	Domain: :Customer
+	Range: :Product
+
+ObjectProperty: :canKnow
+	Domain: :Customer
+	Range: :Product
+
+ObjectProperty: :canContact1
+	Domain: :Customer
+	Range: :CustomerService
+
+ObjectProperty: :canContact2
+	Domain: :Employee
+	Range: :Customer
+
+ObjectProperty: :canGain
+	Domain: :Customer
+	Range: :Discount
+
+ObjectProperty: :canFind
+	Domain: :Customer
+	Range: :Product
+
+ObjectProperty: :canScan
+	Domain: :Customer
+	Range: :Product
+
+ObjectProperty: :canHave
+	Domain: :Customer
+	Range: :Product
+
+ObjectProperty: :canAdd
+	Domain: :Customer
+	Range: :Product
+
+ObjectProperty: :canFilter
+	Domain: :Customer
+	Range: :Product
+
+ObjectProperty: :canProvide
+	Domain: :Employee
+	Range: :Customer
+
+ObjectProperty: :canReceive
+	Domain: :Customer
+	Range: :Discount
+
+ObjectProperty: :canNotify
+	Domain: :Employee
+	Range: :Customer
+
+# Classes
+Class: :Customer
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Discount
+
+
+Class: :Product
+
+
+Class: :CustomerService
+	SubClassOf: :Service
+	Annotations:
+		rdfs:label "Customer Service"
+
+Class: :Service
+
+
+Class: :System
+
+
+Class: :Employee
+	Annotations:
+		rdfs:comment "Functional Role"
+

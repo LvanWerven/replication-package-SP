@@ -1,0 +1,287 @@
+# Generated with Visual Narrator
+Prefix: : <http://fakesite.org/system.owl#>
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+Prefix: dc: <http://purl.org/dc/elements/1.1/>
+Prefix: onto: <http://fakesite.org/system.owl#>
+
+Ontology: <:>
+
+Annotations:
+	dc:title "System",
+	dc:creator "Visual Narrator",
+	rdfs:comment "Generated with Visual Narrator"
+
+AnnotationProperty: dc:creator
+
+AnnotationProperty: dc:title
+
+
+# Relationships
+ObjectProperty: :canPrint
+	Domain: :Cashier
+	Range: :Ticket
+
+ObjectProperty: :canCustomize
+	Domain: :Cashier
+	Range: :Order
+
+ObjectProperty: :canSelect
+	Domain: :TicketMaster
+	Range: :Order
+
+ObjectProperty: :hasNumber
+	Domain: :Order
+	Range: :OrderNumber
+
+ObjectProperty: :canKnow1
+	Domain: :KitchenEmployee
+	Range: :Product
+
+ObjectProperty: :canKnow2
+	Domain: :KitchenEmployee
+	Range: :Order
+
+ObjectProperty: :canKnow3
+	Domain: :TicketMaster
+	Range: :Order
+
+ObjectProperty: :canKnow4
+	Domain: :Kitchen
+	Range: :Order
+
+ObjectProperty: :canKnow5
+	Domain: :DeliveryPerson
+	Range: :Order
+
+ObjectProperty: :canKnow6
+	Domain: :RestaurantOwner
+	Range: :Product
+
+ObjectProperty: :hasPerson
+	Domain: :Delivery
+	Range: :DeliveryPerson
+
+ObjectProperty: :hasOwner
+	Domain: :Restaurant
+	Range: :RestaurantOwner
+
+ObjectProperty: :canLabel1
+	Domain: :TicketMaster
+	Range: :Order
+
+ObjectProperty: :canLabel2
+	Domain: :TicketMaster
+	Range: :Product
+
+ObjectProperty: :canAwareOf
+	Domain: :KitchenEmployee
+	Range: :Order
+
+ObjectProperty: :canType
+	Domain: :DeliveryPerson
+	Range: :Address
+
+ObjectProperty: :hasMaster
+	Domain: :Ticket
+	Range: :TicketMaster
+
+ObjectProperty: :canSeparate
+	Domain: :TicketMaster
+	Range: :Order
+
+ObjectProperty: :canMake1
+	Domain: :TicketMaster
+	Range: :Change
+
+ObjectProperty: :canMake2
+	Domain: :Cashier
+	Range: :Change
+
+ObjectProperty: :canReach
+	Domain: :Customer
+	Range: :Order
+
+ObjectProperty: :canGet
+	Domain: :KitchenEmployee
+	Range: :Product
+
+ObjectProperty: :canReceive
+	Domain: :KitchenEmployee
+	Range: :Product
+
+ObjectProperty: :canCall
+	Domain: :DeliveryPerson
+	Range: :Customer
+
+ObjectProperty: :hasEmployee
+	Domain: :Kitchen
+	Range: :KitchenEmployee
+
+ObjectProperty: :canReview
+	Domain: :Customer
+	Range: :Order
+
+ObjectProperty: :canMiss
+	Domain: :KitchenEmployee
+	Range: :Order
+
+ObjectProperty: :canSeparateFrom
+	Domain: :Order
+	Range: :Order
+
+ObjectProperty: :canAdd
+	Domain: :Cashier
+	Range: :DeliveryAddress
+
+ObjectProperty: :canShow
+	Domain: :Order
+	Range: :Overview
+
+ObjectProperty: :canFill
+	Domain: :RestaurantOwner
+	Range: :Number
+
+ObjectProperty: :hasAddress
+	Domain: :Delivery
+	Range: :DeliveryAddress
+
+ObjectProperty: :canDelete
+	Domain: :TicketMaster
+	Range: :Order
+
+ObjectProperty: :canCombine
+	Domain: :DeliveryPerson
+	Range: :Order
+
+ObjectProperty: :canHave1
+	Domain: :KitchenEmployee
+	Range: :Overview
+
+ObjectProperty: :canHave2
+	Domain: :KitchenEmployee
+	Range: :OrderNumber
+
+ObjectProperty: :canHave3
+	Domain: :TicketMaster
+	Range: :Overview
+
+ObjectProperty: :canHave4
+	Domain: :Cashier
+	Range: :Ticket
+
+ObjectProperty: :canHave5
+	Domain: :Cashier
+	Range: :Kitchen
+
+ObjectProperty: :canHave6
+	Domain: :RestaurantOwner
+	Range: :Overview
+
+ObjectProperty: :canHave7
+	Domain: :DeliveryPerson
+	Range: :Address
+
+ObjectProperty: :canHave8
+	Domain: :DeliveryPerson
+	Range: :DeliveryAddress
+
+ObjectProperty: :canSee1
+	Domain: :KitchenEmployee
+	Range: :Order
+
+ObjectProperty: :canSee2
+	Domain: :KitchenEmployee
+	Range: :Product
+
+ObjectProperty: :canSee3
+	Domain: :RestaurantOwner
+	Range: :Product
+
+# Classes
+Class: :KitchenEmployee
+	SubClassOf: :Employee
+	Annotations:
+		rdfs:label "Kitchen Employee",
+		rdfs:comment "Functional Role"
+
+Class: :Employee
+
+
+Class: :Kitchen
+
+
+Class: :Order
+
+
+Class: :Overview
+
+
+Class: :Product
+
+
+Class: :OrderNumber
+	SubClassOf: :Number
+	Annotations:
+		rdfs:label "Order Number"
+
+Class: :Number
+
+
+Class: :TicketMaster
+	SubClassOf: :Master
+	Annotations:
+		rdfs:label "Ticket Master",
+		rdfs:comment "Functional Role"
+
+Class: :Master
+
+
+Class: :Ticket
+
+
+Class: :Change
+
+
+Class: :Customer
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Cashier
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :DeliveryAddress
+	SubClassOf: :Address
+	Annotations:
+		rdfs:label "Delivery Address"
+
+Class: :Address
+
+
+Class: :Delivery
+
+
+Class: :RestaurantOwner
+	SubClassOf: :Owner
+	Annotations:
+		rdfs:label "Restaurant Owner",
+		rdfs:comment "Functional Role"
+
+Class: :Owner
+
+
+Class: :Restaurant
+
+
+Class: :DeliveryPerson
+	SubClassOf: :Person
+	Annotations:
+		rdfs:label "Delivery Person",
+		rdfs:comment "Functional Role"
+
+Class: :Person
+
+

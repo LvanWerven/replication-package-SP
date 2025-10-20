@@ -1,0 +1,108 @@
+# Generated with Visual Narrator
+Prefix: : <http://fakesite.org/system.owl#>
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+Prefix: dc: <http://purl.org/dc/elements/1.1/>
+Prefix: onto: <http://fakesite.org/system.owl#>
+
+Ontology: <:>
+
+Annotations:
+	dc:title "System",
+	dc:creator "Visual Narrator",
+	rdfs:comment "Generated with Visual Narrator"
+
+AnnotationProperty: dc:creator
+
+AnnotationProperty: dc:title
+
+
+# Relationships
+ObjectProperty: :canEvaluate
+	Domain: :Manager
+	Range: :Employee
+
+ObjectProperty: :canContact
+	Domain: :Manager
+	Range: :Employee
+
+ObjectProperty: :canNotify1
+	Domain: :Manager
+	Range: :System
+
+ObjectProperty: :canNotify2
+	Domain: :Manager
+	Range: :Employee
+
+ObjectProperty: :canHave1
+	Domain: :Employee
+	Range: :Overview
+
+ObjectProperty: :canHave2
+	Domain: :Manager
+	Range: :Overview
+
+ObjectProperty: :canHave3
+	Domain: :Manager
+	Range: :System
+
+ObjectProperty: :canReceive
+	Domain: :Employee
+	Range: :Notification
+
+ObjectProperty: :canChooseBetween
+	Domain: :Employee
+	Range: :Notification
+
+ObjectProperty: :canFile1
+	Domain: :Employee
+	Range: :Complaint
+
+ObjectProperty: :canFile2
+	Domain: :Manager
+	Range: :Complaint
+
+ObjectProperty: :canHire
+	Domain: :Manager
+	Range: :Employee
+
+ObjectProperty: :canView
+	Domain: :Manager
+	Range: :Complaint
+
+ObjectProperty: :canUse
+	Domain: :Employee
+	Range: :System
+
+# Classes
+Class: :Employee
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Overview
+
+
+Class: :Notification
+
+
+Class: :Manager
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :System
+
+
+Class: :Complaint
+
+
+Class: :OfficeEmployee
+	Annotations:
+		rdfs:label "Office Employee",
+		rdfs:comment "Functional Role"
+
+Class: :Applicant
+	Annotations:
+		rdfs:comment "Functional Role"
+

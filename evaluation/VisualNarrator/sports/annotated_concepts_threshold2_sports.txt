@@ -10,15 +10,15 @@
 {'Predicted': 'time', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'gym', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'application', 'Status': 'FP - Not in ground truth'}
-{'Predicted': 'timeslot', 'Status': 'TP - concept is Should-have'}
+{'Predicted': 'timeslot', 'Status': 'TP - synonym for concept timeslot, which is Should-have'}
 {'Predicted': 'trainer', 'Status': 'TP - concept is Must-have'}
 {'Predicted': 'description', 'Status': 'FP - Not in ground truth'}
-{'Predicted': 'room', 'Status': 'TP - concept is Should-have'}
+{'Predicted': 'room', 'Status': 'TP - synonym for concept room, which is Should-have'}
 {'Predicted': 'type', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'number', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'admin', 'Status': 'FP - Not in ground truth'}
 {'Predicted': 'notification', 'Status': 'FP - Not in ground truth'}
-{'Predicted': 'session', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'session', 'Status': 'TP - synonym for concept training sessions, which is Must-have'}
 {'Predicted': 'user', 'Status': 'FP - Not in ground truth'}
 {'GroundTruth': 'booking', 'Status': 'FN - concept is ground truth but not detected, type is must-have'}
 {'GroundTruth': 'family membership', 'Status': 'FN - concept is ground truth but not detected, type is must-have'}

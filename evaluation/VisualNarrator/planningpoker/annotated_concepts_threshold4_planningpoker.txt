@@ -1,0 +1,13 @@
+{'Predicted': 'moderator', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'game', 'Status': 'TP - concept is Must-have'}
+{'Predicted': 'estimator', 'Status': 'TP - concept is Should-have'}
+{'Predicted': 'item', 'Status': 'TP - concept is Must-have'}
+{'Predicted': 'estimate', 'Status': 'TP - synonym for concept estimate, which is Should-have'}
+{'Predicted': 'system', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'participant', 'Status': 'TP - synonym for concept estimators, which is Should-have'}
+{'Predicted': 'user', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'developer', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'researcher', 'Status': 'FP - Not in ground truth'}
+{'Predicted': 'mike', 'Status': 'FP - Not in ground truth'}
+{'GroundTruth': 'card', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}
+{'GroundTruth': 'round', 'Status': 'FN - concept is ground truth but not detected, type is should-have'}

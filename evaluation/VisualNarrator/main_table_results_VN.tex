@@ -13,21 +13,22 @@
 \section{Results} 
 
 
-\begin{table}[H]
-\centering
+\begin{table}[h!]
+\noindent
 \caption{Performance Metrics by Domain: Counts, Precision, and Recall}
-\label{tab:metrics_a}
+\label{tab:metrics_VN}
 \fontsize{6.5pt}{7.5pt}\selectfont 
-\resizebox{\textwidth}{!}{ 
+\makebox[\linewidth][c]{%
+\resizebox{1.3\textwidth}{!}{ 
     \begin{tabular}{|l|c|r|r|r|r|r|r|r|r|r|r|r|}
     
 \hline
-\multicolumn{2}{|c|}{\raisebox{1ex}[0pt][0pt]{Domain $|$ Threshold}} & \multicolumn{5}{|c|}{\textbf{Counts}} & \multicolumn{3}{|c|}{\textbf{Precision}} & \multicolumn{3}{|c|}{\textbf{Recall}} \\
+\multicolumn{2}{|c|}{\raisebox{-1.5ex}[0pt][0pt]{Domain $|$ Threshold}} & \multicolumn{5}{|c|}{\textbf{Counts}} & \multicolumn{3}{|c|}{\textbf{Precision}} & \multicolumn{3}{|c|}{\textbf{Recall}} \\
 \cline{3-13}
 \multicolumn{2}{|c|}{} & TP_Must_Have & TP_Should_Have & FN_Must_Have & FN_Should_Have & FP & Precision & Precision_Must_Have & Precision_Should_Have & Recall & Recall_Must_Have & Recall_Should_Have \\
 \hline
     
-     camperplus    & 1.0         & 7              & 7                & 1              & 4                & 32     & 0.304       & 0.179                 & 0.179                   & 0.737    & 0.875              & 0.636                \\\n supermarket   & 2.0         & 3              & 3                & 3              & 3                & 10     & 0.375       & 0.231                 & 0.231                   & 0.5      & 0.5                & 0.5                  \\\n fish\&chips    & 5.0         & 3              & 1                & 0              & 5                & 11     & 0.267       & 0.214                 & 0.083                   & 0.444    & 1                  & 0.167                \\\n planningpoker & 5.0         & 2              & 2                & 0              & 2                & 7      & 0.364       & 0.222                 & 0.222                   & 0.667    & 1                  & 0.5                  \\\n grocery       & 2.0         & 3              & 2                & 1              & 4                & 11     & 0.312       & 0.214                 & 0.154                   & 0.5      & 0.75               & 0.333                \\\n school        & 1.0         & 5              & 8                & 3              & 2                & 36     & 0.265       & 0.122                 & 0.182                   & 0.722    & 0.625              & 0.8                  \\\n sports        & 2.0         & 4              & 3                & 5              & 1                & 15     & 0.318       & 0.211                 & 0.167                   & 0.538    & 0.444              & 0.75                 \\\n ticket        & 5.0         & 4              & 0                & 1              & 5                & 7      & 0.364       & 0.364                 & 0                       & 0.4      & 0.8                & 0                    \\\n \textbf{Mean}          &             & \textbf{3.875}          & \textbf{3.25}             & \textbf{1.75}           & \textbf{3.25}             & \textbf{16.125} & \textbf{0.321}       & \textbf{0.22}                  & \textbf{0.152}                   & \textbf{0.564}    & \textbf{0.749}              & \textbf{0.461}                \\\n\hline 
+     camperplus    & 1.0         & 8              & 8                & 1              & 4                & 29    & 0.356       & 0.216                 & 0.216                   & 0.762    & 0.889              & 0.667                \\\n supermarket   & 2.0         & 3              & 4                & 3              & 3                & 9     & 0.438       & 0.25                  & 0.308                   & 0.538    & 0.5                & 0.571                \\\n fish\&chips    & 5.0         & 3              & 2                & 0              & 5                & 10    & 0.333       & 0.231                 & 0.167                   & 0.5      & 1                  & \textbf{0.286}                \\\n planningpoker & 4.0         & 2              & 3                & 0              & 2                & 6     & 0.455       & 0.25                  & 0.333                   & 0.714    & 1                  & 0.6                  \\\n grocery       & 3.0         & 3              & 2                & 1              & 5                & 5     & 0.5         & 0.375                 & \textbf{0.286}                   & 0.455    & 0.75               & \textbf{0.286}                \\\n school        & 2.0         & 7              & 3                & 3              & 8                & 10    & 0.5         & 0.412                 & 0.231                   & 0.476    & 0.7                & 0.273                \\\n sports        & 2.0         & 5              & 3                & 5              & 1                & 14    & 0.364       & 0.263                 & 0.176                   & 0.571    & 0.5                & 0.75                 \\\n ticket        & 5.0         & 4              & 0                & 1              & 5                & 7     & 0.364       & 0.364                 & 0                       & 0.4      & 0.8                & 0                    \\\n \textbf{Mean}          &             & \textbf{4.375}          & \textbf{3.125}            & \textbf{1.75}           & \textbf{4.125}            & \textbf{11.25} & \textbf{0.414}       & \textbf{0.295}                 & \textbf{0.215}                   & \textbf{0.552}    & \textbf{0.767}              & \textbf{0.429}                \\\n\hline 
     \hline
     \end{tabular}
 }
@@ -36,24 +37,24 @@
 
 
 
-\begin{table}[H]
+\begin{table}[h!]
 \centering
 \caption{Performance Metrics by Domain: F-Scores}
-\label{tab:metrics_b}
+\label{tab:metrics_VN_Fscores}
 \fontsize{6.5pt}{7.5pt}\selectfont 
 \resizebox{\textwidth}{!}{ 
     \begin{tabular}{|l|c|r|r|r|r|r|r|r|r|r|}
     
 \hline
-\multicolumn{2}{|c|}{\raisebox{1ex}[0pt][0pt]{Domain $|$ Threshold}} & \multicolumn{3}{|c|}{\textbf{F$_{0.5}$ Score}} & \multicolumn{3}{|c|}{\textbf{F$_1$ Score}} & \multicolumn{3}{|c|}{\textbf{F$_2$ Score}} \\
+\multicolumn{2}{|c|}{\raisebox{-1.5ex}[0pt][0pt]{Domain $|$ Threshold}} & \multicolumn{3}{|c|}{\textbf{F$_{0.5}$ Score}} & \multicolumn{3}{|c|}{\textbf{F$_1$ Score}} & \multicolumn{3}{|c|}{\textbf{F$_2$ Score}} \\
 \cline{3-11}
 \multicolumn{2}{|c|}{} & F$_{0.5}$ & F$_{0.5}$(M) & F$_{0.5}$(S) & F$_1$ & F$_1$(M) & F$_1$(S) & F$_2$ & F$_2$(M) & F$_2$(S) \\
 \hline
     
-     camperplus    & 1.0         & 0.345        & 0.213                  & 0.21                     & 0.431      & 0.298                & 0.28                   & 0.574      & 0.493                & 0.422                  \\\n supermarket   & 2.0         & 0.395        & 0.259                  & 0.259                    & 0.429      & 0.316                & 0.316                  & 0.469      & 0.405                & 0.405                  \\\n fish\&chips    & 5.0         & 0.29         & 0.254                  & 0.093                    & 0.333      & 0.353                & 0.111                  & \textbf{0.392}      & 0.577                & 0.139                  \\\n planningpoker & 5.0         & 0.4          & 0.263                  & 0.25                     & 0.471      & 0.364                & 0.308                  & 0.571      & 0.588                & 0.4                    \\\n grocery       & 2.0         & 0.338        & 0.25                   & 0.172                    & 0.385      & 0.333                & 0.211                  & 0.446      & 0.5                  & 0.27                   \\\n school        & 1.0         & 0.304        & 0.145                  & 0.215                    & 0.388      & 0.204                & 0.296                  & 0.537      & 0.342                & 0.476                  \\\n sports        & 2.0         & 0.347        & 0.235                  & 0.197                    & 0.4        & 0.286                & 0.273                  & 0.473      & 0.364                & 0.441                  \\\n ticket        & 5.0         & 0.37         & 0.408                  & 0                        & \textbf{0.381}      & 0.5                  & 0                      & \textbf{0.392}      & 0.645                & 0                      \\\n \textbf{Mean}          &             & \textbf{0.351}        & \textbf{0.256}                  & \textbf{0.176}                    & \textbf{0.381}      & \textbf{0.34}                 & \textbf{0.229}                  & \textbf{0.392}      & \textbf{0.506}                & \textbf{0.328}                  \\\n\hline 
+     camperplus    & 1.0         & 0.398        & 0.255                  & 0.25                     & 0.485      & 0.348                & 0.327                  & 0.62       & 0.548                & 0.471                  \\\n supermarket   & 2.0         & 0.455        & 0.278                  & 0.339                    & 0.483      & 0.333                & 0.4                    & 0.515      & 0.417                & 0.488                  \\\n fish\&chips    & 5.0         & 0.357        & 0.273                  & 0.182                    & 0.4        & 0.375                & 0.211                  & 0.455      & 0.6                  & 0.25                   \\\n planningpoker & 4.0         & 0.49         & 0.294                  & 0.366                    & 0.556      & 0.4                  & \textbf{0.429}                  & 0.641      & 0.625                & 0.517                  \\\n grocery       & 3.0         & 0.49         & 0.417                  & \textbf{0.286}                    & 0.476      & 0.5                  & \textbf{0.286}                  & 0.463      & 0.625                & \textbf{0.286}                  \\\n school        & 2.0         & 0.495        & 0.449                  & \textbf{0.238}                    & 0.488      & 0.519                & 0.25                   & 0.481      & 0.614                & 0.263                  \\\n sports        & 2.0         & \textbf{0.392}        & 0.291                  & 0.208                    & 0.444      & 0.345                & \textbf{0.286}                  & 0.513      & 0.424                & 0.455                  \\\n ticket        & 5.0         & 0.37         & 0.408                  & 0                        & \textbf{0.381}      & 0.5                  & 0                      & \textbf{0.392}      & 0.645                & 0                      \\\n \textbf{Mean}          &             & \textbf{0.435}        & \textbf{0.336}                  & \textbf{0.238}                    & \textbf{0.381}      & \textbf{0.426}                & \textbf{0.286}                  & \textbf{0.392}      & \textbf{0.581}                & \textbf{0.358}                  \\\n\hline 
     \hline
     \end{tabular}
-}
+}}
 \caption*{(M): Must Have; (S): Should Have. All values are shown rounded to 3 decimal places.}
 \end{table}
 
