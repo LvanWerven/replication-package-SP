@@ -1,0 +1,98 @@
+﻿domain,Class,Singular,Type
+camperplus,activities,activity,Must-have
+camperplus,attendance,attendance,Should-have
+camperplus,behavior,behavior,Should-have
+camperplus,camp,camp,Should-have
+camperplus,camp worker,camp worker,Should-have
+camperplus,camper,camper,Must-have
+camperplus,counselor,counselor,Should-have
+camperplus,facilities,facility,Should-have
+camperplus,feedback,feedback,Must-have
+camperplus,forms,form,Must-have
+camperplus,groups,group,Must-have
+camperplus,guardians,guardian,Must-have
+camperplus,payments,payment,Should-have
+camperplus,photos,photo,Should-have
+camperplus,positions,position,Should-have
+camperplus,repair,repair,Must-have
+camperplus,rules,rule,Must-have
+camperplus,schedules,schedule,Should-have
+camperplus,supplies,supply,Should-have
+supermarket,customer,customer,Must-have
+supermarket,delivery,delivery,Must-have
+supermarket,loyalty card,loyalty card,Should-have
+supermarket,newsletter,newsletter,Should-have
+supermarket,order,order,Must-have
+supermarket,payment,payment,Should-have
+supermarket,personal discount,personal discount,Should-have
+supermarket,products,product,Must-have
+supermarket,recipes,recipe,Should-have
+supermarket,shopping list,shopping list,Must-have
+supermarket,store,store,Should-have
+supermarket,wishlist,wishlist,Must-have
+fish&chips,cash,cash,Should-have
+fish&chips,cashier,cashier,Must-have
+fish&chips,coupons,coupon,Should-have
+fish&chips,customer,customer,Should-have
+fish&chips,delivery person,delivery person,Should-have
+fish&chips,orders,order,Must-have
+fish&chips,payment,payment,Should-have
+fish&chips,products,product,Must-have
+fish&chips,requests,request,Should-have
+planningpoker,card,card,Should-have
+planningpoker,estimate,estimate,Should-have
+planningpoker,estimators,estimator,Should-have
+planningpoker,game,game,Must-have
+planningpoker,item,item,Must-have
+planningpoker,round,round,Should-have
+grocery,certificates,certificate,Should-have
+grocery,complaint,complaint,Must-have
+grocery,contracts,contract ,Should-have
+grocery,employee,employee,Must-have
+grocery,manager,manager,Should-have
+grocery,message,message,Must-have
+grocery,payments,payment,Should-have
+grocery,salary statement,salary statement,Should-have
+grocery,schedule,schedule,Must-have
+grocery,working hours,working hour,Should-have
+school,administrator,administrator,Must-have
+school,answer,answer,Should-have
+school,assignment,assignment,Should-have
+school,attendance,attendance,Should-have
+school,behavior,behavior,Should-have
+school,class,class,Should-have
+school,digital learning modules,digital learning module,Must-have
+school,disciplinary actions,disciplinary action,Should-have
+school,grades,grade,Should-have
+school,guardian,guardian,Must-have
+school,material,material,Should-have
+school,mentor,mentor,Should-have
+school,message,message,Must-have
+school,question,question,Must-have
+school,student,student,Must-have
+school,submission,submission,Should-have
+school,teacher,teacher,Must-have
+school,timetable,timetable,Must-have
+sports,booking,booking,Must-have
+sports,customer,customer,Must-have
+sports,family membership,family membership,Must-have
+sports,lessons,lesson,Must-have
+sports,Payment information,Payment information,Must-have
+sports,person,person,Should-have
+sports,rooms,room,Should-have
+sports,schedule,schedule,Must-have
+sports,spot,spot,Should-have
+sports,subscription,subscription,Must-have
+sports,timeslot,timeslot,Should-have
+sports,trainer,trainer,Must-have
+sports,training sessions,training session,Must-have
+ticket,artists,artist,Must-have
+ticket,event types,event type,Should-have
+ticket,events,event  ,Should-have
+ticket,genre,genre,Should-have
+ticket,order,order,Must-have
+ticket,payment,payment,Should-have
+ticket,reseller,reseller,Must-have
+ticket,ticket,ticket,Must-have
+ticket,user,user,Must-have
+ticket,venue,venue,Should-have

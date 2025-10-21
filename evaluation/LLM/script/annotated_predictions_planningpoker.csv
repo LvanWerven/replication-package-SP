@@ -1,25 +1,25 @@
 Round 1,Round 1_status,Round 2,Round 2_status,Round 3,Round 3_status,Round 4,Round 4_status,Round 5,Round 5_status,Round 6,Round 6_status,Round 7,Round 7_status,Round 8,Round 8_status,Round 9,Round 9_status,Round 10,Round 10_status
-game,TP (concept: game),game,TP (concept: game),game,TP (concept: game),user,FP (not in synonyms or GT),game,TP (concept: game),game,TP (concept: game),game,TP (concept: game),game,TP (concept: game),game,TP (concept: game),game,TP (concept: game)
-round,TP (concept: round),item,TP (concept: item),round,TP (concept: round),game,TP (concept: game),round,TP (concept: round),item,TP (concept: item),item,TP (concept: item),item,TP (concept: item),round,TP (concept: round),item,TP (concept: item)
-team,FP (not in synonyms or GT),estimate,TP (concept: estimate),estimate,TP (concept: estimate),item,TP (concept: item),backlog item,FP (not in synonyms or GT),estimate,TP (concept: estimate),round,TP (concept: round),estimate,TP (concept: estimate),estimate,TP (concept: estimate),round,TP (concept: round)
-card,TP (concept: card),round,TP (concept: round),card,TP (concept: card),round,TP (concept: round),estimate,TP (concept: estimate),round,TP (concept: round),estimate,TP (concept: estimate),round,TP (concept: round),card,TP (concept: card),estimate,TP (concept: estimate)
-estimate,TP (concept: estimate),card,TP (concept: card),estimationsequence,FP (not in synonyms or GT),estimate,TP (concept: estimate),card,TP (concept: card),useraccount,FP (not in synonyms or GT),card,TP (concept: card),card,TP (concept: card),timer,FP (not in synonyms or GT),participant,TP (concept: estimators)
-spreadsheet,FP (not in synonyms or GT),estimationscale,FP (not in synonyms or GT),transcript,FP (not in synonyms or GT),transcript,FP (not in synonyms or GT),team,FP (not in synonyms or GT),transcript,FP (not in synonyms or GT),team,FP (not in synonyms or GT),deck,FP (not in synonyms or GT),transcript,FP (not in synonyms or GT),account,FP (not in synonyms or GT)
-transcript,FP (not in synonyms or GT),account,FP (not in synonyms or GT),account,FP (not in synonyms or GT),spreadsheet,FP (not in synonyms or GT),transcript,FP (not in synonyms or GT),card,TP (concept: card),user,FP (not in synonyms or GT),user,FP (not in synonyms or GT),account,FP (not in synonyms or GT),estimation scale,FP (not in synonyms or GT)
-account,FP (not in synonyms or GT),transcript,FP (not in synonyms or GT),passwordreminder,FP (not in synonyms or GT),timer,FP (not in synonyms or GT),estimation scale,FP (not in synonyms or GT),estimationscale,FP (not in synonyms or GT),account,FP (not in synonyms or GT),account,FP (not in synonyms or GT),sequence,FP (not in synonyms or GT),transcript,FP (not in synonyms or GT)
-countdown timer,FP (not in synonyms or GT),metric,FP (not in synonyms or GT),timezone,FP (not in synonyms or GT),card,TP (concept: card),countdown timer,FP (not in synonyms or GT),timer,FP (not in synonyms or GT),transcript,FP (not in synonyms or GT),transcript,FP (not in synonyms or GT),spreadsheet,FP (not in synonyms or GT),timer,FP (not in synonyms or GT)
-photo,FP (not in synonyms or GT),timer,FP (not in synonyms or GT),email,FP (not in synonyms or GT),estimationscale,FP (not in synonyms or GT),metric,FP (not in synonyms or GT),invitation,FP (not in synonyms or GT),spreadsheet,FP (not in synonyms or GT),timer,FP (not in synonyms or GT),metric,FP (not in synonyms or GT),metric,FP (not in synonyms or GT)
-result,FP (not in synonyms or GT),photo,FP (not in synonyms or GT),name,FP (not in synonyms or GT),metric,FP (not in synonyms or GT),,empty/na,,empty/na,timer,FP (not in synonyms or GT),,empty/na,team,FP (not in synonyms or GT),result,FP (not in synonyms or GT)
-,empty/na,,empty/na,username,FP (not in synonyms or GT),result,FP (not in synonyms or GT),,empty/na,,empty/na,scale,FP (not in synonyms or GT),,empty/na,,empty/na,,empty/na
-,empty/na,,empty/na,url,FP (not in synonyms or GT),photo,FP (not in synonyms or GT),,empty/na,,empty/na,metric,FP (not in synonyms or GT),,empty/na,,empty/na,,empty/na
-,empty/na,,empty/na,spreadsheet,FP (not in synonyms or GT),,empty/na,,empty/na,,empty/na,,empty/na,,empty/na,,empty/na,,empty/na
-,empty/na,,empty/na,csvfile,FP (not in synonyms or GT),,empty/na,,empty/na,,empty/na,,empty/na,,empty/na,,empty/na,,empty/na
-,empty/na,,empty/na,htmlfile,FP (not in synonyms or GT),,empty/na,,empty/na,,empty/na,,empty/na,,empty/na,,empty/na,,empty/na
-,empty/na,,empty/na,result,FP (not in synonyms or GT),,empty/na,,empty/na,,empty/na,,empty/na,,empty/na,,empty/na,,empty/na
-,empty/na,,empty/na,data,FP (not in synonyms or GT),,empty/na,,empty/na,,empty/na,,empty/na,,empty/na,,empty/na,,empty/na
-,empty/na,,empty/na,metric,FP (not in synonyms or GT),,empty/na,,empty/na,,empty/na,,empty/na,,empty/na,,empty/na,,empty/na
-,empty/na,,empty/na,average,FP (not in synonyms or GT),,empty/na,,empty/na,,empty/na,,empty/na,,empty/na,,empty/na,,empty/na
-,empty/na,,empty/na,list,FP (not in synonyms or GT),,empty/na,,empty/na,,empty/na,,empty/na,,empty/na,,empty/na,,empty/na
-,empty/na,,empty/na,question,FP (not in synonyms or GT),,empty/na,,empty/na,,empty/na,,empty/na,,empty/na,,empty/na,,empty/na
-,empty/na,,empty/na,countdowntimer,FP (not in synonyms or GT),,empty/na,,empty/na,,empty/na,,empty/na,,empty/na,,empty/na,,empty/na
-,empty/na,,empty/na,information,FP (not in synonyms or GT),,empty/na,,empty/na,,empty/na,,empty/na,,empty/na,,empty/na,,empty/na
+game,TP (M: game),game,TP (M: game),game,TP (M: game),user,FP (unknown term),game,TP (M: game),game,TP (M: game),game,TP (M: game),game,TP (M: game),game,TP (M: game),game,TP (M: game)
+round,TP (S: round),item,TP (M: item),round,TP (S: round),game,TP (M: game),round,TP (S: round),item,TP (M: item),item,TP (M: item),item,TP (M: item),round,TP (S: round),item,TP (M: item)
+team,FP (unknown term),estimate,TP (S: estimate),estimate,TP (S: estimate),item,TP (M: item),backlog item,FP (unknown term),estimate,TP (S: estimate),round,TP (S: round),estimate,TP (S: estimate),estimate,TP (S: estimate),round,TP (S: round)
+card,TP (S: card),round,TP (S: round),card,TP (S: card),round,TP (S: round),estimate,TP (S: estimate),round,TP (S: round),estimate,TP (S: estimate),round,TP (S: round),card,TP (S: card),estimate,TP (S: estimate)
+estimate,TP (S: estimate),card,TP (S: card),estimationsequence,FP (unknown term),estimate,TP (S: estimate),card,TP (S: card),useraccount,FP (unknown term),card,TP (S: card),card,TP (S: card),timer,FP (unknown term),participant,TP (S: estimators)
+spreadsheet,FP (unknown term),estimationscale,FP (unknown term),transcript,FP (unknown term),transcript,FP (unknown term),team,FP (unknown term),transcript,FP (unknown term),team,FP (unknown term),deck,FP (unknown term),transcript,FP (unknown term),account,FP (unknown term)
+transcript,FP (unknown term),account,FP (unknown term),account,FP (unknown term),spreadsheet,FP (unknown term),transcript,FP (unknown term),card,TP (S: card),user,FP (unknown term),user,FP (unknown term),account,FP (unknown term),estimation scale,FP (unknown term)
+account,FP (unknown term),transcript,FP (unknown term),passwordreminder,FP (unknown term),timer,FP (unknown term),estimation scale,FP (unknown term),estimationscale,FP (unknown term),account,FP (unknown term),account,FP (unknown term),sequence,FP (unknown term),transcript,FP (unknown term)
+countdown timer,FP (unknown term),metric,FP (unknown term),timezone,FP (unknown term),card,TP (S: card),countdown timer,FP (unknown term),timer,FP (unknown term),transcript,FP (unknown term),transcript,FP (unknown term),spreadsheet,FP (unknown term),timer,FP (unknown term)
+photo,FP (unknown term),timer,FP (unknown term),email,FP (unknown term),estimationscale,FP (unknown term),metric,FP (unknown term),invitation,FP (unknown term),spreadsheet,FP (unknown term),timer,FP (unknown term),metric,FP (unknown term),metric,FP (unknown term)
+result,FP (unknown term),photo,FP (unknown term),name,FP (unknown term),metric,FP (unknown term),,empty/na,,empty/na,timer,FP (unknown term),,empty/na,team,FP (unknown term),result,FP (unknown term)
+,empty/na,,empty/na,username,FP (unknown term),result,FP (unknown term),,empty/na,,empty/na,scale,FP (unknown term),,empty/na,,empty/na,,empty/na
+,empty/na,,empty/na,url,FP (unknown term),photo,FP (unknown term),,empty/na,,empty/na,metric,FP (unknown term),,empty/na,,empty/na,,empty/na
+,empty/na,,empty/na,spreadsheet,FP (unknown term),,empty/na,,empty/na,,empty/na,,empty/na,,empty/na,,empty/na,,empty/na
+,empty/na,,empty/na,csvfile,FP (unknown term),,empty/na,,empty/na,,empty/na,,empty/na,,empty/na,,empty/na,,empty/na
+,empty/na,,empty/na,htmlfile,FP (unknown term),,empty/na,,empty/na,,empty/na,,empty/na,,empty/na,,empty/na,,empty/na
+,empty/na,,empty/na,result,FP (unknown term),,empty/na,,empty/na,,empty/na,,empty/na,,empty/na,,empty/na,,empty/na
+,empty/na,,empty/na,data,FP (unknown term),,empty/na,,empty/na,,empty/na,,empty/na,,empty/na,,empty/na,,empty/na
+,empty/na,,empty/na,metric,FP (unknown term),,empty/na,,empty/na,,empty/na,,empty/na,,empty/na,,empty/na,,empty/na
+,empty/na,,empty/na,average,FP (unknown term),,empty/na,,empty/na,,empty/na,,empty/na,,empty/na,,empty/na,,empty/na
+,empty/na,,empty/na,list,FP (unknown term),,empty/na,,empty/na,,empty/na,,empty/na,,empty/na,,empty/na,,empty/na
+,empty/na,,empty/na,question,FP (unknown term),,empty/na,,empty/na,,empty/na,,empty/na,,empty/na,,empty/na,,empty/na
+,empty/na,,empty/na,countdowntimer,FP (unknown term),,empty/na,,empty/na,,empty/na,,empty/na,,empty/na,,empty/na,,empty/na
+,empty/na,,empty/na,information,FP (unknown term),,empty/na,,empty/na,,empty/na,,empty/na,,empty/na,,empty/na,,empty/na
