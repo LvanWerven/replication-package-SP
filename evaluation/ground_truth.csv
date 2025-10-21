@@ -31,7 +31,7 @@ supermarket,shopping list,shopping list,Must-have
 supermarket,store,store,Should-have
 supermarket,wishlist,wishlist,Must-have
 fish&chips,cash,cash,Should-have
-fish&chips,cashier,cash,Must-have
+fish&chips,cashier,cashier,Must-have
 fish&chips,coupons,coupon,Should-have
 fish&chips,customer,customer,Should-have
 fish&chips,delivery person,delivery person,Should-have
@@ -91,7 +91,7 @@ ticket,event types,event type,Should-have
 ticket,events,event  ,Should-have
 ticket,genre,genre,Should-have
 ticket,order,order,Must-have
-ticket,payment,paymen,Should-have
+ticket,payment,payment,Should-have
 ticket,reseller,reseller,Must-have
 ticket,ticket,ticket,Must-have
 ticket,user,user,Must-have

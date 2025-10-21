@@ -1,0 +1,27 @@
+
+*** Applying Wilcoxon Signed-Rank Test (Alpha = 0.05) ***
+Data used: Paired domain scores.
+
+--- Main RQ: Overall Performance ---
+H0: No significant difference between techniques for F1_Score.
+Test Metric: F1-Score (Technique A vs Technique B)
+Wilcoxon W Statistic: 2.0000
+P-value (Exact): 0.0234
+Conclusion: REJECT H0: There IS a statistically significant difference (p < 0.05).
+--------------------------------------------------
+
+--- RQ1: Must-Have Classes Performance ---
+H0: No significant difference between techniques for F1_Score_Must_Have.
+Test Metric: F1-Score (Technique A vs Technique B)
+Wilcoxon W Statistic: 16.0000
+P-value (Exact): 0.8438
+Conclusion: FAIL TO REJECT H0: There is NO statistically significant difference (p >= 0.05).
+--------------------------------------------------
+
+--- RQ2: Should-Have Classes Performance ---
+H0: No significant difference between techniques for F1_Score_Should_Have.
+Test Metric: F1-Score (Technique A vs Technique B)
+Wilcoxon W Statistic: 1.0000
+P-value (Exact): 0.0156
+Conclusion: REJECT H0: There IS a statistically significant difference (p < 0.05).
+--------------------------------------------------

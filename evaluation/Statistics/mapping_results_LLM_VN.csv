@@ -1,0 +1,21 @@
+name,LLM_name,VN_name
+TP_Must_Have,TP (M),TP_Must_Have
+TP_Should_Have,TP (S),TP_Should_Have
+FN_Must_Have,FN (M),FN_Must_Have
+FN_Should_Have,FN (S),FN_Should_Have
+FP,FP,FP
+Precision,PRECISION (overall),Precision
+Precision_Must_Have,PRECISION (M),Precision_Must_Have
+Precision_Should_Have,PRECISION (S),Precision_Should_Have
+Recall,RECALL (overall),Recall
+Recall_Must_Have,RECALL (M),Recall_Must_Have
+Recall_Should_Have,RECALL (S),Recall_Should_Have
+F0.5_Score,F0.5 (overall),F0.5_Score
+F0.5_Score_Must_Have,F0.5 (M),F0.5_Score_Must_Have
+F0.5_Score_Should_Have,F0.5 (S),F0.5_Score_Should_Have
+F1_Score,F1 (overall),F1_Score
+F1_Score_Must_Have,F1 (M),F1_Score_Must_Have
+F1_Score_Should_Have,F1 (S),F1_Score_Should_Have
+F2_Score,F2 (overall),F2_Score
+F2_Score_Must_Have,F2 (M),F2_Score_Must_Have
+F2_Score_Should_Have,F2 (S),F2_Score_Should_Have
