@@ -104,4 +104,125 @@ with open(OUTPUT_FILENAME, 'w') as file_out:
         rq_description='RQ2: Should-Have Classes Performance'
     )
 
+
+    # --------------------------------------------------
+    # RQMain: Overall Performance F0.5
+    # --------------------------------------------------
+    run_wilcoxon_test(
+        results_LLM, 
+        results_VN, 
+        metric_name='F0.5_Score', 
+        rq_description='Main RQ: Overall Performance F0.5'
+    )
+
+    # --------------------------------------------------
+    # RQ1: Must-Have Classes Performance F0.5
+    # --------------------------------------------------
+    run_wilcoxon_test(
+        results_LLM, 
+        results_VN, 
+        metric_name='F0.5_Score_Must_Have', 
+        rq_description='RQ1: Must-Have Classes Performance F0.5'
+    )
+
+    # --------------------------------------------------
+    # RQ2: Should-Have Classes Performance F0.5
+    # --------------------------------------------------
+    run_wilcoxon_test(
+        results_LLM, 
+        results_VN, 
+        metric_name='F0.5_Score_Should_Have', 
+        rq_description='RQ2: Should-Have Classes Performance F0.5'
+    )
+    
+    # --------------------------------------------------
+    # RQMain: Overall Performance F2
+    # --------------------------------------------------
+    run_wilcoxon_test(
+        results_LLM, 
+        results_VN, 
+        metric_name='F0.5_Score', 
+        rq_description='Main RQ: Overall Performance F2'
+    )
+
+    # --------------------------------------------------
+    # RQ1: Must-Have Classes Performance F2
+    # --------------------------------------------------
+    run_wilcoxon_test(
+        results_LLM, 
+        results_VN, 
+        metric_name='F0.5_Score_Must_Have', 
+        rq_description='RQ1: Must-Have Classes Performance F2'
+    )
+
+    # --------------------------------------------------
+    # RQ2: Should-Have Classes Performance F2
+    # --------------------------------------------------
+    run_wilcoxon_test(
+        results_LLM, 
+        results_VN, 
+        metric_name='F0.5_Score_Should_Have', 
+        rq_description='RQ2: Should-Have Classes Performance F2'
+    )
+
+    # --------------------------------------------------
+    # RQMain: Overall Performance Precision
+    # --------------------------------------------------
+    run_wilcoxon_test(
+        results_LLM, 
+        results_VN, 
+        metric_name='Precision', 
+        rq_description='Main RQ: Overall Performance Precision'
+    )
+
+    # --------------------------------------------------
+    # RQ1: Must-Have Classes Performance Precision
+    # --------------------------------------------------
+    run_wilcoxon_test(
+        results_LLM, 
+        results_VN, 
+        metric_name='Precision_Must_Have', 
+        rq_description='RQ1: Must-Have Classes Performance Precision'
+    )
+
+    # --------------------------------------------------
+    # RQ2: Should-Have Classes Performance Precision
+    # --------------------------------------------------
+    run_wilcoxon_test(
+        results_LLM, 
+        results_VN, 
+        metric_name='Precision_Should_Have', 
+        rq_description='RQ2: Should-Have Classes Performance Precision'
+    )
+
+    # --------------------------------------------------
+    # RQMain: Overall Performance Recall
+    # --------------------------------------------------
+    run_wilcoxon_test(
+        results_LLM, 
+        results_VN, 
+        metric_name='Recall', 
+        rq_description='Main RQ: Overall Performance Recall'
+    )
+
+    # --------------------------------------------------
+    # RQ1: Must-Have Classes Performance Recall
+    # --------------------------------------------------
+    run_wilcoxon_test(
+        results_LLM, 
+        results_VN, 
+        metric_name='Recall_Must_Have', 
+        rq_description='RQ1: Must-Have Classes Performance Recall'
+    )
+
+    # --------------------------------------------------
+    # RQ2: Should-Have Classes Performance Recall
+    # --------------------------------------------------
+    run_wilcoxon_test(
+        results_LLM, 
+        results_VN, 
+        metric_name='Recall_Should_Have', 
+        rq_description='RQ2: Should-Have Classes Performance Recall'
+    )
+
 print(f"\n✅ Script finished. All output has been saved to: {OUTPUT_FILENAME}")

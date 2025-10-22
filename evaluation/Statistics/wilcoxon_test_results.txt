@@ -25,3 +25,99 @@ Wilcoxon W Statistic: 1.0000
 P-value (Exact): 0.0156
 Conclusion: REJECT H0: There IS a statistically significant difference (p < 0.05).
 --------------------------------------------------
+
+--- Main RQ: Overall Performance F0.5 ---
+H0: No significant difference between techniques for F0.5_Score.
+Test Metric: F1-Score (Technique A vs Technique B)
+Wilcoxon W Statistic: 6.0000
+P-value (Exact): 0.1094
+Conclusion: FAIL TO REJECT H0: There is NO statistically significant difference (p >= 0.05).
+--------------------------------------------------
+
+--- RQ1: Must-Have Classes Performance F0.5 ---
+H0: No significant difference between techniques for F0.5_Score_Must_Have.
+Test Metric: F1-Score (Technique A vs Technique B)
+Wilcoxon W Statistic: 18.0000
+P-value (Exact): 1.0000
+Conclusion: FAIL TO REJECT H0: There is NO statistically significant difference (p >= 0.05).
+--------------------------------------------------
+
+--- RQ2: Should-Have Classes Performance F0.5 ---
+H0: No significant difference between techniques for F0.5_Score_Should_Have.
+Test Metric: F1-Score (Technique A vs Technique B)
+Wilcoxon W Statistic: 1.0000
+P-value (Exact): 0.0156
+Conclusion: REJECT H0: There IS a statistically significant difference (p < 0.05).
+--------------------------------------------------
+
+--- Main RQ: Overall Performance F2 ---
+H0: No significant difference between techniques for F0.5_Score.
+Test Metric: F1-Score (Technique A vs Technique B)
+Wilcoxon W Statistic: 6.0000
+P-value (Exact): 0.1094
+Conclusion: FAIL TO REJECT H0: There is NO statistically significant difference (p >= 0.05).
+--------------------------------------------------
+
+--- RQ1: Must-Have Classes Performance F2 ---
+H0: No significant difference between techniques for F0.5_Score_Must_Have.
+Test Metric: F1-Score (Technique A vs Technique B)
+Wilcoxon W Statistic: 18.0000
+P-value (Exact): 1.0000
+Conclusion: FAIL TO REJECT H0: There is NO statistically significant difference (p >= 0.05).
+--------------------------------------------------
+
+--- RQ2: Should-Have Classes Performance F2 ---
+H0: No significant difference between techniques for F0.5_Score_Should_Have.
+Test Metric: F1-Score (Technique A vs Technique B)
+Wilcoxon W Statistic: 1.0000
+P-value (Exact): 0.0156
+Conclusion: REJECT H0: There IS a statistically significant difference (p < 0.05).
+--------------------------------------------------
+
+--- Main RQ: Overall Performance Precision ---
+H0: No significant difference between techniques for Precision.
+Test Metric: F1-Score (Technique A vs Technique B)
+Wilcoxon W Statistic: 8.0000
+P-value (Exact): 0.1953
+Conclusion: FAIL TO REJECT H0: There is NO statistically significant difference (p >= 0.05).
+--------------------------------------------------
+
+--- RQ1: Must-Have Classes Performance Precision ---
+H0: No significant difference between techniques for Precision_Must_Have.
+Test Metric: F1-Score (Technique A vs Technique B)
+Wilcoxon W Statistic: 18.0000
+P-value (Exact): 1.0000
+Conclusion: FAIL TO REJECT H0: There is NO statistically significant difference (p >= 0.05).
+--------------------------------------------------
+
+--- RQ2: Should-Have Classes Performance Precision ---
+H0: No significant difference between techniques for Precision_Should_Have.
+Test Metric: F1-Score (Technique A vs Technique B)
+Wilcoxon W Statistic: 2.0000
+P-value (Exact): 0.0234
+Conclusion: REJECT H0: There IS a statistically significant difference (p < 0.05).
+--------------------------------------------------
+
+--- Main RQ: Overall Performance Recall ---
+H0: No significant difference between techniques for Recall.
+Test Metric: F1-Score (Technique A vs Technique B)
+Wilcoxon W Statistic: 1.0000
+P-value (Exact): 0.0156
+Conclusion: REJECT H0: There IS a statistically significant difference (p < 0.05).
+--------------------------------------------------
+
+--- RQ1: Must-Have Classes Performance Recall ---
+H0: No significant difference between techniques for Recall_Must_Have.
+Test Metric: F1-Score (Technique A vs Technique B)
+Wilcoxon W Statistic: 15.0000
+P-value (Exact): 0.7422
+Conclusion: FAIL TO REJECT H0: There is NO statistically significant difference (p >= 0.05).
+--------------------------------------------------
+
+--- RQ2: Should-Have Classes Performance Recall ---
+H0: No significant difference between techniques for Recall_Should_Have.
+Test Metric: F1-Score (Technique A vs Technique B)
+Wilcoxon W Statistic: 3.0000
+P-value (Exact): 0.0391
+Conclusion: REJECT H0: There IS a statistically significant difference (p < 0.05).
+--------------------------------------------------
