@@ -141,7 +141,7 @@ with open(OUTPUT_FILENAME, 'w') as file_out:
     run_wilcoxon_test(
         results_LLM, 
         results_VN, 
-        metric_name='F0.5_Score', 
+        metric_name='F2_Score', 
         rq_description='Main RQ: Overall Performance F2'
     )
 
@@ -151,7 +151,7 @@ with open(OUTPUT_FILENAME, 'w') as file_out:
     run_wilcoxon_test(
         results_LLM, 
         results_VN, 
-        metric_name='F0.5_Score_Must_Have', 
+        metric_name='F2_Score_Must_Have', 
         rq_description='RQ1: Must-Have Classes Performance F2'
     )
 
@@ -161,7 +161,7 @@ with open(OUTPUT_FILENAME, 'w') as file_out:
     run_wilcoxon_test(
         results_LLM, 
         results_VN, 
-        metric_name='F0.5_Score_Should_Have', 
+        metric_name='F2_Score_Should_Have', 
         rq_description='RQ2: Should-Have Classes Performance F2'
     )
 

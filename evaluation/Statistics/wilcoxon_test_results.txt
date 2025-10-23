@@ -51,26 +51,26 @@ Conclusion: REJECT H0: There IS a statistically significant difference (p < 0.05
 --------------------------------------------------
 
 --- Main RQ: Overall Performance F2 ---
-H0: No significant difference between techniques for F0.5_Score.
+H0: No significant difference between techniques for F2_Score.
 Test Metric: F1-Score (Technique A vs Technique B)
-Wilcoxon W Statistic: 6.0000
-P-value (Exact): 0.1094
-Conclusion: FAIL TO REJECT H0: There is NO statistically significant difference (p >= 0.05).
+Wilcoxon W Statistic: 1.0000
+P-value (Exact): 0.0156
+Conclusion: REJECT H0: There IS a statistically significant difference (p < 0.05).
 --------------------------------------------------
 
 --- RQ1: Must-Have Classes Performance F2 ---
-H0: No significant difference between techniques for F0.5_Score_Must_Have.
+H0: No significant difference between techniques for F2_Score_Must_Have.
 Test Metric: F1-Score (Technique A vs Technique B)
-Wilcoxon W Statistic: 18.0000
-P-value (Exact): 1.0000
+Wilcoxon W Statistic: 17.0000
+P-value (Exact): 0.9453
 Conclusion: FAIL TO REJECT H0: There is NO statistically significant difference (p >= 0.05).
 --------------------------------------------------
 
 --- RQ2: Should-Have Classes Performance F2 ---
-H0: No significant difference between techniques for F0.5_Score_Should_Have.
+H0: No significant difference between techniques for F2_Score_Should_Have.
 Test Metric: F1-Score (Technique A vs Technique B)
-Wilcoxon W Statistic: 1.0000
-P-value (Exact): 0.0156
+Wilcoxon W Statistic: 0.0000
+P-value (Exact): 0.0078
 Conclusion: REJECT H0: There IS a statistically significant difference (p < 0.05).
 --------------------------------------------------
 
